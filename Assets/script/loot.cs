@@ -5,6 +5,7 @@ public class loot : MonoBehaviour
 {
     [SerializeField] float speed;
     Rigidbody2D rb;
+ 
 
     void Start()
     {
@@ -25,7 +26,7 @@ public class loot : MonoBehaviour
 
 
             Destroy(gameObject);
-            this.GetComponent<arme>().enabled = false;
+            
         }
         
     }
