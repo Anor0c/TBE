@@ -153,8 +153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   health: 100
-  enemyPrefab: {fileID: 1586354674147695026}
-  point: {fileID: 8265491612580211850, guid: 6686298c6b468d14f9dcf6e569053cd8, type: 3}
+  enemyPrefab: {fileID: 0}
+  point: {fileID: 0}
   enemyhealthbar: {fileID: 7835334103229808191, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
 --- !u!95 &1586354674147695035
 Animator:
