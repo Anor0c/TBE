@@ -178,9 +178,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e832c2fba7c51d489096d1742dca76e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 40
-  enemyPrefab: {fileID: 0}
-  point: {fileID: 0}
+  maxHealth: 100
+  health: 100
+  enemyPrefab: {fileID: 2203037021788318508}
+  point: {fileID: 5940462054036900975, guid: d28e243f0b6b4c74394ccd56c9a6cf3b, type: 3}
+  enemyhealthbar: {fileID: 1562877425393341587, guid: b16b27db10476a943aa5d9d87bbc30dd, type: 3}
 --- !u!114 &2203037021788318514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,7 +214,6 @@ MonoBehaviour:
   startTime: 0.5
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
   point: {fileID: 2203037021045188666}
-  speed: 5
   damage: 2
 --- !u!95 &2203037021788318516
 Animator:

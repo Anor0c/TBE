@@ -321,7 +321,7 @@ MonoBehaviour:
   health: 150
   enemyPrefab: {fileID: 1975192375905824163}
   point: {fileID: 5940462054036900975, guid: d28e243f0b6b4c74394ccd56c9a6cf3b, type: 3}
-  enemyhealthbar: {fileID: 1975192375887603453}
+  enemyhealthbar: {fileID: 0}
 --- !u!95 &1975192375905824165
 Animator:
   serializedVersion: 3

@@ -7,7 +7,7 @@ public class continu : MonoBehaviour
     public GameObject bullet;
     public Transform point;
     //Rigidbody2D rb;
-    //[SerializeField] float speed;
+    [SerializeField] float speed;
     public int damage = 40;
     
 
@@ -30,6 +30,8 @@ public class continu : MonoBehaviour
         {
             time -= Time.deltaTime;
         }
+
+
 
         
     }
