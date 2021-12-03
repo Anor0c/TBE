@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 279507525011159316}
   - component: {fileID: 81911270808747634}
   m_Layer: 8
-  m_Name: 9-Sliced
+  m_Name: carre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
