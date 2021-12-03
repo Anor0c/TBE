@@ -13,8 +13,8 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        //eneemies = FindGameObjectWithTag("Enemy");
-        //eneemies = FindGameObjectsWithTag("Enemy"); enemies[0],enemies[1]
+        //enemies = FindGameObjectWithTag("Enemy");
+        //enemies = FindGameObjectsWithTag("Enemy"); enemies[0],enemies[1]
         getItem = GetComponent<ItemDrop>();
 
     }
