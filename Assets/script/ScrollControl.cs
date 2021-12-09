@@ -11,7 +11,7 @@ public class ScrollControl : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        rb.velocity = transform.up * speed;
+        rb.velocity = transform.up * -speed;
     }
     void Update()
     {
