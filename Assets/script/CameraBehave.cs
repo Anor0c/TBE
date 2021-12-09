@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraBehave : MonoBehaviour
 {
-    public Transform target, bg1, bg2;
+    public Transform bg1, bg2;
     private float size;
     void Start()
     {
@@ -11,8 +11,6 @@ public class CameraBehave : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 TargetPos = new Vector3(transform.position.x, target.position.y, -10);
-        transform.position = TargetPos;
         if (transform.position.y>=bg2.position.y)
         {
             bg1.position = new Vector3(bg1.position.x, bg2.position.y+size , bg1.position.z);
