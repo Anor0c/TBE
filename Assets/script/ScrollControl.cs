@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ScrollControl : MonoBehaviour
 {
-    public float speed;
-    private Rigidbody2D rb;
-    private Enemy enemy;
+    [SerializeField] float speed;
+    Rigidbody2D rb;
+    GameObject enemy;
 
     void Start()
     {
@@ -15,6 +15,6 @@ public class ScrollControl : MonoBehaviour
     }
     void Update()
     {
-        
+
     }
 }
