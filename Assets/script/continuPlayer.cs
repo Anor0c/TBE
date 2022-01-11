@@ -9,11 +9,8 @@ public class continuPlayer : MonoBehaviour
     Rigidbody2D rb;
     [SerializeField] float speed;
     public int damage = 40;
-    //public GameObject bulletg;
-    //public Transform pointg;
-    //public GameObject bulletd;
-    //public Transform pointd;
-
+    public int GunLevel;
+    public bool isActive = false;
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
@@ -23,6 +20,10 @@ public class continuPlayer : MonoBehaviour
 
     void Update()
     {
+        if(!isActive)
+        {
+            return;
+        }
         if (time <= 0)
         {
             Instantiate(bullet, point.position, Quaternion.identity);

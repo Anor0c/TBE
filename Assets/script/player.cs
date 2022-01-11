@@ -9,7 +9,22 @@ public class player : MonoBehaviour
     public float maxHealth = 500;
     public float health;
     public HealthBar healthBar;
+    public int GunLevelRequirement;
+    continuPlayer[] Cplayer;
 
+    private void Start()
+    {
+        Cplayer = transform.GetComponentsInChildren<continuPlayer>();
+        foreach (continuPlayer point in Cplayer)
+        {
+            point.isActive = true;
+            if(GunLevelRequirement > point.GunLevel)
+            {
+                point.isActive = false;
+            }
+
+        }
+    }
     public void TakeDamage(int damage)
     {
       health-=damage;
@@ -20,7 +35,19 @@ public class player : MonoBehaviour
         }
         healthBar.UpdateHealthBar();
     }
+    void GunLevelUp()
+    {
 
+        GunLevelRequirement++;
+        foreach(continuPlayer point in Cplayer)
+        {
+            if (GunLevelRequirement > point.GunLevel)
+            {
+                point.isActive = true;
+            }
+        }
+        
+    }
     void OnTriggerEnter2D(Collider2D hitInfo) //pour activer l'upgrade
     {
         loot gain = hitInfo.GetComponent<loot>();
