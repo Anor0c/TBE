@@ -1,65 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2131876503696437714
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2131876503696437713}
-  m_Layer: 0
-  m_Name: pointgauche
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2131876503696437713
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131876503696437714}
-  m_LocalRotation: {x: -0, y: -0, z: -0.8820215, w: -0.4712093}
-  m_LocalPosition: {x: -1.03, y: 0.07, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2131876504964094928}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 483.774}
---- !u!1 &2131876504043108008
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2131876504043108015}
-  m_Layer: 0
-  m_Name: pointdroit
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2131876504043108015
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131876504043108008}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7105147, w: -0.70368236}
-  m_LocalPosition: {x: 1, y: 0.11, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2131876504964094928}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 269.44598}
 --- !u!1 &2131876504964094916
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,13 +12,9 @@ GameObject:
   - component: {fileID: 2131876504964094929}
   - component: {fileID: 2131876504964094930}
   - component: {fileID: 2131876504964094931}
-  - component: {fileID: 2131876504964094940}
-  - component: {fileID: 2131876504964094941}
-  - component: {fileID: 2131876504964094942}
   - component: {fileID: 2131876504964094943}
   - component: {fileID: 2131876503984226351}
   - component: {fileID: 2131876504964094936}
-  - component: {fileID: 2131876504964094937}
   - component: {fileID: 2131876504964094938}
   - component: {fileID: 455419657891168401}
   - component: {fileID: 2131876504964094939}
@@ -101,8 +37,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2131876505190970588}
-  - {fileID: 2131876504043108015}
-  - {fileID: 2131876503696437713}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -200,7 +134,7 @@ MonoBehaviour:
     m_ActionName: player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2131876504964094940}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: arme, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -212,7 +146,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
-      - m_Target: {fileID: 2131876504964094941}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: armeg, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -224,7 +158,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
-      - m_Target: {fileID: 2131876504964094942}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: armed, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -238,6 +172,14 @@ MonoBehaviour:
         m_CallState: 0
     m_ActionId: 9d3ff345-3f0d-49fb-8338-cab3662c7b7f
     m_ActionName: player/shoot[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b9effabf-65ec-4e72-bfb2-3ab6484cbee0
+    m_ActionName: player/PAUSE[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1ccfc8d6-dfce-44eb-9de2-b66585064075
+    m_ActionName: player/START[/Keyboard/o]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: player
@@ -255,51 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 794b587704d896d4da6d0338da1a9daf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
---- !u!114 &2131876504964094940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131876504964094916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f2ea472d506c714698fc726d9caeb88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 2131876505190970588}
-  bulletPrefab: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
-  speed: 5
---- !u!114 &2131876504964094941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131876504964094916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42565d0dcd8d9894d9ff299335b47e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 2131876503696437713}
-  bulletPrefabGauche: {fileID: 4290071516424980101, guid: b860d3b8527c30545b9987354da06e21, type: 3}
-  speed: 5
---- !u!114 &2131876504964094942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131876504964094916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ef459976d2bdbe4c9a2e0f11c575850, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 2131876504043108015}
-  bulletPrefabDroite: {fileID: 4281648675456156573, guid: 63abca03b8dfba4468705dd865c3a9a4, type: 3}
   speed: 5
 --- !u!50 &2131876504964094943
 Rigidbody2D:
@@ -338,6 +235,7 @@ MonoBehaviour:
   maxHealth: 500
   health: 500
   healthBar: {fileID: 0}
+  GunLevelRequirement: 0
 --- !u!61 &2131876504964094936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -364,23 +262,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2131876504964094937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131876504964094916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e947a5dfd24283479b4226f028d3e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
-  point: {fileID: 2131876505190970588}
-  speed: 2
-  damage: 40
 --- !u!114 &2131876504964094938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,7 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startTime: 0.1
   bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
-  point: {fileID: 2131876503696437713}
+  point: {fileID: 0}
   speed: 2
   damage: 40
 --- !u!1 &2131876505190970589

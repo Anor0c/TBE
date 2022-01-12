@@ -5,8 +5,9 @@ public class bullet : MonoBehaviour
     [SerializeField] float speed;
     Rigidbody2D rb;
     public int damage = 40;
+    [HideInInspector] public Vector2 direction;
 
-    void Start()
+    private void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
         rb.velocity = transform.up * speed;

@@ -17,12 +17,11 @@ public class player : MonoBehaviour
         Cplayer = transform.GetComponentsInChildren<continuPlayer>();
         foreach (continuPlayer point in Cplayer)
         {
-            point.isActive = true;
-            if(GunLevelRequirement > point.GunLevel)
+            //point.isActive = true;
+            if (point.GunLevel != 0)
             {
-                point.isActive = false;
+                point.gameObject.SetActive(false);
             }
-
         }
     }
     public void TakeDamage(int damage)
@@ -35,30 +34,16 @@ public class player : MonoBehaviour
         }
         healthBar.UpdateHealthBar();
     }
-    void GunLevelUp()
+    public void GunLevelUp()
     {
 
         GunLevelRequirement++;
         foreach(continuPlayer point in Cplayer)
         {
-            if (GunLevelRequirement > point.GunLevel)
+            if (GunLevelRequirement >= point.GunLevel)
             {
-                point.isActive = true;
+                point.gameObject.SetActive(true);
             }
         }
-        
     }
-    void OnTriggerEnter2D(Collider2D hitInfo) //pour activer l'upgrade
-    {
-        loot gain = hitInfo.GetComponent<loot>();
-        if (gain != null)
-        {
-
-
-            gauche.SetActive(true);
-
-        }
-
-    }
-
-}
+ }
