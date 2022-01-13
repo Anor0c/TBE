@@ -1,22 +1,25 @@
 using UnityEngine;
-
+using System.Collections;
 public class continu : MonoBehaviour
 {
     public float startTime; //temps entre chaque tir
     private float time; //début du compte a rebourmkfrsjg
+    private Coroutine rafaleCoroutine;
     public GameObject bullet;
     public Transform point;
-    //Rigidbody2D rb;
-    [SerializeField] float speed;
     public int damage = 40;
-    
+    public float waitRafale;
 
 
     void Start()
     {
-        //rb = this.GetComponent<Rigidbody2D>();
         time = startTime;
-        //rb.velocity = transform.up * speed;
+        var rafale = GetComponent<RafaleEnemy>();
+        if (rafale !=null)
+        {
+            rafaleCoroutine=StartCoroutine(RafaleCoroutine());
+            
+        }
     }
 
     void Update()
@@ -30,25 +33,16 @@ public class continu : MonoBehaviour
         {
             time -= Time.deltaTime;
         }
-
-
-
-        
     }
-
-    //void OnTriggerEnter2D(Collider2D hitInfo)
-    //{
-
-
-       // player enemi = hitInfo.GetComponent<player>();
-        //if (enemi != null)
-        //{
-          //  enemi.TakeDamage(damage);
-       // }
-        //Destroy(gameObject);
-    //}
-    
-
-
+    IEnumerator RafaleCoroutine()
+    {
+        while (time>0)
+        {
+            Instantiate(bullet, point.position, Quaternion.identity);
+            time -= Time.deltaTime;
+            // Rajouter le Cooldown pour la rafale+dédoublerla raffale
+        }
+        yield return null;
+    }
 }
 
