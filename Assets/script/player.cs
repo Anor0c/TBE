@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    public GameObject gauche;
-    Rigidbody2D rb;
     public float maxHealth = 500;
     public float health;
     public HealthBar healthBar;
