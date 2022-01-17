@@ -10,12 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 8535191707811876063}
   - component: {fileID: 6034524020866219314}
-  - component: {fileID: 4184176113587263211}
   - component: {fileID: 3945487762263530240}
   - component: {fileID: 7428864181073695321}
   - component: {fileID: 7936319379103361722}
   - component: {fileID: 3968772648093469274}
   - component: {fileID: 8612463761855151095}
+  - component: {fileID: 2124140893526105058}
+  - component: {fileID: 4429003147091129387}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player
@@ -35,6 +36,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 140644821721454198}
+  - {fileID: 77833855245799647}
   - {fileID: 1311006426930346696}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -90,22 +92,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4184176113587263211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203332083037871365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 698b01df336fe124dbee6da1f32c8abb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gauche: {fileID: 0}
-  maxHealth: 500
-  health: 500
-  healthBar: {fileID: 1311006427454662756}
 --- !u!114 &3945487762263530240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,13 +224,94 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 6b358ec7-9e71-4321-bbb0-ee3283553992
-    m_ActionName: player2/New action
+    m_ActionId: d428aad3-c43f-45c1-bba8-5d0fdc05af8e
+    m_ActionName: Player2/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6f5218ab-d2c1-49c8-94a0-321441674c9d
+    m_ActionName: Player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/right]
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: xbox
-  m_DefaultActionMap: player2
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2124140893526105058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203332083037871365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e13c1558299f24a9386dc238916b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gauche: {fileID: 1917667182916641621}
+  maxHealth: 500
+  health: 500
+  healthBar: {fileID: 1311006427454662756}
+--- !u!114 &4429003147091129387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203332083037871365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 794b587704d896d4da6d0338da1a9daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!1 &1917667182916641621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77833855245799647}
+  - component: {fileID: 6948195071561024713}
+  m_Layer: 0
+  m_Name: pointgauche
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &77833855245799647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917667182916641621}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8820215, w: -0.4712093}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8535191707811876063}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 483.774}
+--- !u!114 &6948195071561024713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917667182916641621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950623ebbf4d18c4ca92e21e8754bdde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTime: 0.1
+  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  point: {fileID: 77833855245799647}
+  speed: 2
+  damage: 40
 --- !u!1 &4647368732648735159
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5724478067849010458, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5724478067849010458, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_AnchorMax.x
@@ -373,7 +440,7 @@ PrefabInstance:
     - target: {fileID: 5724478069473284022, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 4184176113587263211}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
 --- !u!224 &1311006426930346696 stripped

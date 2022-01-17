@@ -4,23 +4,22 @@ using UnityEngine.InputSystem;
 
 public class PlayerScriptPicker : MonoBehaviour
 {
-    public GameObject PlayerSpawn, player1, player2;
+    public GameObject playerSolo, player1, player2;
 
     private void Start()
     {
         if (PlayerInputManager.instance.playerCount == 1)
         {
-            Instantiate(PlayerSpawn, transform);
+            Instantiate(playerSolo, transform);
         }
         else
         {
-            var spawn = FindObjectOfType<player>().transform;
-            var spawnPosition = spawn.position;
-            var spawnParent = spawn.parent;
-            Destroy(spawn.gameObject);
-            Instantiate(player1, spawnPosition, quaternion.identity, spawnParent);
+            var solo = FindObjectOfType<PlayerSolo>().transform;
+            var soloPosition = solo.position;
+            var soloParent = solo.parent;
+            Destroy(solo.gameObject);
+            Instantiate(player1, soloPosition, quaternion.identity, soloParent);
             Instantiate(player2, transform);
         }
     }
 }
-

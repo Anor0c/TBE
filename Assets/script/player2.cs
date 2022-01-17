@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class player : MonoBehaviour
+public class player2 : MonoBehaviour
 {
     public GameObject gauche;
     Rigidbody2D rb;
@@ -14,7 +14,7 @@ public class player : MonoBehaviour
 
     private void Start()
     {
-        GetComponentInParent<PlayerInput>().SwitchCurrentActionMap("Player1");
+        GetComponentInParent<PlayerInput>().SwitchCurrentActionMap("Player2");
     }
 
     public void TakeDamage(int damage)
