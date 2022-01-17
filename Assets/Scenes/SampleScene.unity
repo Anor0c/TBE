@@ -6191,7 +6191,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824163, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824169, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824170, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: enemyhealthbar
@@ -6282,9 +6286,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2131876504964094929, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2131876504964094930, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: player1
+      objectReference: {fileID: 0}
     - target: {fileID: 2131876504964094930, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
       propertyPath: m_ActionEvents.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2131876504964094930, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_ActionId
@@ -6295,12 +6307,20 @@ PrefabInstance:
       value: 1ccfc8d6-dfce-44eb-9de2-b66585064075
       objectReference: {fileID: 0}
     - target: {fileID: 2131876504964094930, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionId
+      value: 6b358ec7-9e71-4321-bbb0-ee3283553992
+      objectReference: {fileID: 0}
+    - target: {fileID: 2131876504964094930, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_ActionName
       value: player/PAUSE[/Keyboard/p]
       objectReference: {fileID: 0}
     - target: {fileID: 2131876504964094930, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
       propertyPath: m_ActionEvents.Array.data[3].m_ActionName
       value: player/START[/Keyboard/o]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2131876504964094930, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionName
+      value: player2/move
       objectReference: {fileID: 0}
     - target: {fileID: 2131876504964094930, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
@@ -6390,7 +6410,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1590200419699603007, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2416415561842848230, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3835649912927169859, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
       propertyPath: m_RootOrder
