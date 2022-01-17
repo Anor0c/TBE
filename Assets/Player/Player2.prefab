@@ -36,6 +36,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 140644821721454198}
+  - {fileID: 77833855245799647}
   - {fileID: 1311006426930346696}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -246,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e13c1558299f24a9386dc238916b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gauche: {fileID: 0}
+  gauche: {fileID: 1917667182916641621}
   maxHealth: 500
   health: 500
   healthBar: {fileID: 1311006427454662756}
@@ -263,6 +264,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!1 &1917667182916641621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77833855245799647}
+  - component: {fileID: 6948195071561024713}
+  m_Layer: 0
+  m_Name: pointgauche
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &77833855245799647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917667182916641621}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8820215, w: -0.4712093}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8535191707811876063}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 483.774}
+--- !u!114 &6948195071561024713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917667182916641621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950623ebbf4d18c4ca92e21e8754bdde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTime: 0.1
+  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  point: {fileID: 77833855245799647}
+  speed: 2
+  damage: 40
 --- !u!1 &4647368732648735159
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5724478067849010458, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5724478067849010458, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_AnchorMax.x
