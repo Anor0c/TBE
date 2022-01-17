@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8198151189003383181}
   - component: {fileID: 7744528261417050212}
   - component: {fileID: 4205586476706398721}
+  - component: {fileID: -6023565586737228854}
   - component: {fileID: 7763931074698359998}
   - component: {fileID: 4321589694938777114}
   m_Layer: 6
@@ -169,7 +170,7 @@ MonoBehaviour:
   - {fileID: 294015414234576749, guid: c8910fe312b2f03439aee6e57027986c, type: 3}
   - {fileID: 4645432740843085455, guid: 721ce2861a29a9145aaf3a726b926a03, type: 3}
   - {fileID: 279507525011159321, guid: 09327de531241244a80d8de46dca8287, type: 3}
---- !u!114 &7763931074698359998
+--- !u!114 &-6023565586737228854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,14 +179,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 1590200419699603007}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84495ace82d94545949b3cf5a36e98b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  startTime: 0
+  decalX: 0
+  decalY: 0
+  bullet: {fileID: 0}
+  point: {fileID: 0}
+  rafaleInterval: 0
+--- !u!114 &7763931074698359998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590200419699603007}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c66ea0dd8b293b43af391bbe9c53cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0.5
   bullet: {fileID: 6542384564453565610, guid: 7cf6df5205fd3c74c8d7e22b91258734, type: 3}
   point: {fileID: 6117333205118263027}
-  speed: 0
   damage: 2
+  waitRafale: 0
 --- !u!95 &4321589694938777114
 Animator:
   serializedVersion: 3

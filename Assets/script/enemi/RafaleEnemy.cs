@@ -4,27 +4,37 @@ using UnityEngine;
 
 public class RafaleEnemy : MonoBehaviour
 {
-    [SerializeField] float speed;
-    Rigidbody2D rb;
-    public int damage = 40;
     public player player;
-    Vector2 moveDirection;
+    public float startTime;
+    private float time;
+    [HideInInspector]public Vector2 moveDirection;
     public float decalX, decalY;
+    public GameObject bullet;
+    public Transform point;
+    public float rafaleInterval;
+    private IEnumerator rafaleCoroutine;
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();
         player = GameObject.FindObjectOfType<player>();
-        moveDirection = (player.transform.position - transform.position).normalized * speed;
-        rb.velocity = new Vector2(moveDirection.x=decalX , moveDirection.y+decalY);
+        startTime = time;
+        StartCoroutine(RafaleCoroutine());
+    }
+    private void Update()
+    {
+        moveDirection = transform.localRotation * transform.up;
+        
+    }
+    public IEnumerator RafaleCoroutine()
+    {
+        while (time >0)
+        {
+            Instantiate(bullet, point.transform.position, point.rotation);
+            Debug.Log("bullet!");
+            
+        }
+        time -= Time.deltaTime;
+
+        yield return new WaitForSeconds(rafaleInterval);
     }
 
-    void OnTriggerEnter2D(Collider2D hitInfo)
-    {
-        player enemi = hitInfo.GetComponent<player>();
-        if (enemi != null)
-        {
-            enemi.TakeDamage(damage);
-        }
-        Destroy(gameObject);
-    }
 }
