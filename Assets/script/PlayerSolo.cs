@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class player : MonoBehaviour
+public class PlayerSolo : MonoBehaviour
 {
     public GameObject gauche;
     Rigidbody2D rb;
@@ -11,15 +10,9 @@ public class player : MonoBehaviour
     public float health;
     public HealthBar healthBar;
 
-
-    private void Start()
-    {
-        GetComponentInParent<PlayerInput>().SwitchCurrentActionMap("Player1");
-    }
-
     public void TakeDamage(int damage)
     {
-      health-=damage;
+        health -= damage;
 
         if (health <= 0)
         {

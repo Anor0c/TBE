@@ -14,15 +14,15 @@ public class mouvement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
   
-    void Update()
+    void FixedUpdate()
     {
-        var stick2d = new Vector2(stickdirection.x, stickdirection.y);
-        rb.velocity = stick2d * speed;
+        rb.velocity = stickdirection * speed;
     }
 
-    public void OnStickMove(InputAction.CallbackContext context)
+    public void OnMove(InputValue context)
     {
-        stickdirection = context.ReadValue<Vector2>();
+        stickdirection = context.Get<Vector2>();
+        Debug.Log("hehe");
     }
 }
 
