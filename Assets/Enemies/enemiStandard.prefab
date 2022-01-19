@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 1975192375905824161}
   - component: {fileID: 1975192375905824160}
   m_Layer: 6
-  m_Name: enemi
+  m_Name: enemiStandard
   m_TagString: enemi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235,6 +235,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 9d3ff345-3f0d-49fb-8338-cab3662c7b7f
     m_ActionName: player/shoot[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b9effabf-65ec-4e72-bfb2-3ab6484cbee0
+    m_ActionName: player/PAUSE[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1ccfc8d6-dfce-44eb-9de2-b66585064075
+    m_ActionName: player/START[/Keyboard/o]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: player
@@ -271,8 +279,8 @@ MonoBehaviour:
   startTime: 2
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
   point: {fileID: 1975192376043653014}
-  speed: 0
   damage: 1
+  waitRafale: 0
 --- !u!114 &1975192375905824160
 MonoBehaviour:
   m_ObjectHideFlags: 0

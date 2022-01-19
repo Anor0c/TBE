@@ -14,8 +14,8 @@ public class continu : MonoBehaviour
     void Start()
     {
         time = startTime;
-        var rafale = GetComponent<RafaleEnemy>();
-        if (rafale !=null)
+        var rafale = waitRafale ;
+        if (rafale !=0)
         {
             rafaleCoroutine=StartCoroutine(RafaleCoroutine());
             
@@ -24,14 +24,17 @@ public class continu : MonoBehaviour
 
     void Update()
     {
-        if (time <= 0)
+        if (rafaleCoroutine == null)
         {
-            Instantiate(bullet, point.position, Quaternion.identity);
-            time = startTime;
-        }
-        else
-        {
-            time -= Time.deltaTime;
+            if (time <= 0)
+            {
+                Instantiate(bullet, point.position, Quaternion.identity);
+                time = startTime;
+            }
+            else
+            {
+                time -= Time.deltaTime;
+            }
         }
     }
     IEnumerator RafaleCoroutine()
@@ -40,9 +43,12 @@ public class continu : MonoBehaviour
         {
             Instantiate(bullet, point.position, Quaternion.identity);
             time -= Time.deltaTime;
-            // Rajouter le Cooldown pour la rafale+dédoublerla raffale
+            Debug.Log("Bullet!"); 
         }
+        new WaitForSeconds(waitRafale);
+        time = startTime;
         yield return null;
+
     }
 }
 
