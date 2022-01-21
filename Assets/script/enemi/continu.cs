@@ -9,10 +9,12 @@ public class continu : MonoBehaviour
     public Transform point;
     public int damage = 40;
     public float waitRafale;
+    private player playervar;
 
 
-    void Start()
+    public void Start()
     {
+        playervar = GameObject.FindObjectOfType<player>();
         time = startTime;
         var rafale = waitRafale ;
         if (rafale !=0)
@@ -24,16 +26,19 @@ public class continu : MonoBehaviour
 
     void Update()
     {
-        if (rafaleCoroutine == null)
+        if (playervar != null)
         {
-            if (time <= 0)
+            if (rafaleCoroutine == null)
             {
-                Instantiate(bullet, point.position, Quaternion.identity);
-                time = startTime;
-            }
-            else
-            {
-                time -= Time.deltaTime;
+                if (time <= 0)
+                {
+                    Instantiate(bullet, point.position, Quaternion.identity);
+                    time = startTime;
+                }
+                else
+                {
+                    time -= Time.deltaTime;
+                }
             }
         }
     }
