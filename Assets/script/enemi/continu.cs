@@ -2,58 +2,87 @@ using UnityEngine;
 using System.Collections;
 public class continu : MonoBehaviour
 {
-    public float startTime; //temps entre chaque tir
-    private float time; //début du compte a rebourmkfrsjg
-    private Coroutine rafaleCoroutine;
+    public enum FireTempo
+    {
+        Auto,
+        Burst
+    }
+    [SerializeField] private FireTempo CurrentEnemyTempo;
+    public float firerate; 
+    private float timeBeforeShoot;
+    public int timesToShoot;
+    public float burstpause;
     public GameObject bullet;
     public Transform point;
     public int damage = 40;
-    public float waitRafale;
     private player playervar;
+    private bool shooting;
 
 
     public void Start()
     {
         playervar = GameObject.FindObjectOfType<player>();
-        time = startTime;
-        var rafale = waitRafale ;
-        if (rafale !=0)
-        {
-            rafaleCoroutine=StartCoroutine(RafaleCoroutine());
-            
-        }
+        timeBeforeShoot = 1 / firerate; 
+       
     }
-
     void Update()
     {
         if (playervar != null)
         {
-            if (rafaleCoroutine == null)
+            switch (CurrentEnemyTempo)
             {
-                if (time <= 0)
-                {
-                    Instantiate(bullet, point.position, Quaternion.identity);
-                    time = startTime;
-                }
-                else
-                {
-                    time -= Time.deltaTime;
-                }
+                case FireTempo.Auto:
+                    if (playervar != null)
+                        Auto();
+                    break;
+
+                case FireTempo.Burst:
+                    if (playervar != null)
+                        Rafale();
+                    break;
+            }
+        }
+        else { return; }
+    }
+    void Rafale()
+    {
+        StartCoroutine(RafaleCoroutine(timesToShoot));
+    }
+    /*IEnumerator BurstPause()
+    {
+        if (!shooting)
+        {
+            shooting = true;
+            new WaitForSeconds(burstpause);
+            StartCoroutine(RafaleCoroutine(timesToShoot));
+            yield return null;
+        }
+    }*/
+    void Auto()
+    {
+        
+        {
+            if (timeBeforeShoot  <= 0)
+            {
+                Instantiate(bullet, point.position, Quaternion.identity);
+                timeBeforeShoot=1/firerate;
+            }
+            else
+            {
+                timeBeforeShoot -= Time.deltaTime;
             }
         }
     }
-    IEnumerator RafaleCoroutine()
+    
+    IEnumerator RafaleCoroutine(int timesToShoot)
     {
-        while (time>0)
+        for (int timesShot = 1; timesShot <= timesToShoot; timesShot++) ; 
         {
-            Instantiate(bullet, point.position, Quaternion.identity);
-            time -= Time.deltaTime;
-            Debug.Log("Bullet!"); 
+                Instantiate(bullet, point.position, Quaternion.identity);
+                Debug.Log("Bullet!");
+            shooting = false;
+            yield return new WaitForSeconds(1 / firerate);
         }
-        new WaitForSeconds(waitRafale);
-        time = startTime;
-        yield return null;
-
     }
 }
 

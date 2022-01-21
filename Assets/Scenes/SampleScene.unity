@@ -393,7 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: {fileID: 370458402}
-  damage: 1
+  damage: 0.5
   lineRenderer: {fileID: 1406618982}
   critical: {fileID: 0}
 --- !u!1 &456200553
@@ -6045,7 +6045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: {fileID: 1646113414}
-  damage: 10
+  damage: 0.5
   lineRenderer: {fileID: 1998020192}
   critical: {fileID: 0}
 --- !u!1 &1884942619
@@ -6515,6 +6515,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: firerate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -6522,9 +6526,29 @@ PrefabInstance:
       propertyPath: startTime
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: burstpause
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: timesToShoot
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: CurrentEnemyTempo
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824163, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824170, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: health
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824170, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: maxHealth
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824170, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: enemyhealthbar
@@ -6549,7 +6573,7 @@ PrefabInstance:
       objectReference: {fileID: 84236703}
     - target: {fileID: 1904665580528778641, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1904665580528778654, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6593,7 +6617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1904665580791045563, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1904665580878587038, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
       propertyPath: bullet
@@ -6629,7 +6653,7 @@ PrefabInstance:
       objectReference: {fileID: 257798573}
     - target: {fileID: 1904665581165446877, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
       propertyPath: GunLevelRequirement
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1904665581616326970, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
       propertyPath: bullet
@@ -6661,7 +6685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1904665582301753205, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1904665582400052514, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
       propertyPath: m_RootOrder
@@ -6732,7 +6756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1590200419699603007, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3835649912927169859, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
       propertyPath: m_RootOrder
@@ -6783,9 +6807,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7744528261417050212, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
+      propertyPath: health
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744528261417050212, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
+      propertyPath: maxHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744528261417050212, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
       propertyPath: enemyhealthbar
       value: 
       objectReference: {fileID: 369481748}
+    - target: {fileID: 7763931074698359998, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
+    - target: {fileID: 7763931074698359998, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
+      propertyPath: firerate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763931074698359998, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
 --- !u!1001 &3782856589999958904
