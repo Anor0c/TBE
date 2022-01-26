@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2530944716017800695}
   - component: {fileID: 8453078835858707016}
   m_Layer: 3
-  m_Name: Circle1
+  m_Name: BulletBaseEnemy
   m_TagString: pro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
