@@ -32,12 +32,10 @@ public class continu : MonoBehaviour
             switch (CurrentEnemyTempo)
             {
                 case FireTempo.Auto:
-                    if (playervar != null)
                         Auto();
                     break;
 
                 case FireTempo.Burst:
-                    if (playervar != null)
                         Rafale();
                     break;
             }
@@ -66,6 +64,7 @@ public class continu : MonoBehaviour
             {
                 Instantiate(bullet, point.position, Quaternion.identity);
                 timeBeforeShoot=1/firerate;
+                Debug.Log("Auto Bullet!");
             }
             else
             {
@@ -79,7 +78,7 @@ public class continu : MonoBehaviour
         for (int timesShot = 1; timesShot <= timesToShoot; timesShot++) ; 
         {
                 Instantiate(bullet, point.position, Quaternion.identity);
-                Debug.Log("Bullet!");
+                Debug.Log("Burst Bullet!");
             shooting = false;
             yield return new WaitForSeconds(1 / firerate);
         }

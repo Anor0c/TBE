@@ -6162,6 +6162,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15.318554, y: 42.161377}
   m_EdgeRadius: 0
+--- !u!1 &1927668797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1927668798}
+  m_Layer: 6
+  m_Name: PointDown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1927668798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927668797}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 0, y: -1.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2087255673}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1937002692 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1904665581165446877, guid: 0f80ca0b4ed867846a43384f798e4382, type: 3}
@@ -6515,6 +6545,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: point
+      value: 
+      objectReference: {fileID: 1927668798}
+    - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 4281648675456156573, guid: 63abca03b8dfba4468705dd865c3a9a4, type: 3}
+    - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: firerate
       value: 2
       objectReference: {fileID: 0}
@@ -6756,7 +6794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1590200419699603007, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3835649912927169859, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
       propertyPath: m_RootOrder
