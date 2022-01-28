@@ -80,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
   m_Color: {r: 0.5776758, g: 0, b: 1, a: 1}
   m_FlipX: 0
@@ -276,11 +276,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c66ea0dd8b293b43af391bbe9c53cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 2
+  CurrentEnemyTempo: 0
+  firerate: 0
+  timesToShoot: 0
+  burstpause: 0
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
   point: {fileID: 1975192376043653014}
   damage: 1
-  waitRafale: 0
 --- !u!114 &1975192375905824160
 MonoBehaviour:
   m_ObjectHideFlags: 0
