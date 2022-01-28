@@ -15,14 +15,6 @@ public class EnemiLaser : MonoBehaviour
     }
     void Update()
     {
-        
-        /*if (laser !=null)
-        {
-         if (gunCrit.GunLevelUp>=5)
-         { 
-         Instantiate (critical, )
-         }
-        } */
 
     }
     IEnumerator LazerCoroutine()

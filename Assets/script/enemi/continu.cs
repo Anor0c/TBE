@@ -43,25 +43,29 @@ public class continu : MonoBehaviour
     }
     void Rafale()
     {
-        StartCoroutine(RafaleCoroutine(timesToShoot));
-    }
-    /*IEnumerator BurstPause()
-    {
-        if (!shooting)
+        Invoke("ShootingBool", burstpause);
+        if (shooting == true)
         {
-            shooting = true;
-            new WaitForSeconds(burstpause);
-            StartCoroutine(RafaleCoroutine(timesToShoot));
-            yield return null;
+        StartCoroutine(RafaleCoroutine(timesToShoot));
+            Debug.Log("ready");
         }
-    }*/
+        else
+        {
+            StopCoroutine(RafaleCoroutine(timesToShoot));
+        }
+
+    }
+    void ShootingBool()
+    {
+        shooting = true;
+    }
     void Auto()
     {
         
         {
             if (timeBeforeShoot  <= 0)
             {
-                Instantiate(bullet, point.position, point .rotation );
+                Instantiate(bullet, point.position, point.rotation);
                 timeBeforeShoot=1/firerate;
                 Debug.Log("Auto Bullet!");
             }
@@ -74,10 +78,10 @@ public class continu : MonoBehaviour
     
     IEnumerator RafaleCoroutine(int timesToShoot)
     {
-        for (int timesShot = 1; timesShot <= timesToShoot; timesShot++) ; 
+        for (int timesShot = 1; timesShot <= timesToShoot; timesShot++)
         {
             Instantiate(bullet, point.position, point.rotation);
-                Debug.Log("Burst Bullet!");
+            Debug.Log("Burst Bullet!");
             shooting = false;
             yield return new WaitForSeconds(1 / firerate);
         }

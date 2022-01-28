@@ -19,7 +19,7 @@ void Start()
         if (ProjLifeTime > 0f)
         {
             ProjLifeTime -= Time.deltaTime;
-            bullet.transform.localScale = new Vector3(bullet.transform.localScale.x + ProjEnlargeX, bullet.transform.localScale.y + ProjEnlargeY, bullet.transform.localScale.z);
+            //bullet.transform.localScale = new Vector3(bullet.transform.localScale.x + ProjEnlargeX, bullet.transform.localScale.y + ProjEnlargeY, bullet.transform.localScale.z);
         }
         else
         {
