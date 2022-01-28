@@ -6,21 +6,17 @@ public class BulletCloseEnemi : MonoBehaviour
 {
     [SerializeField] float speed;
     Rigidbody2D rb;
-    GameObject bullet;
     public float timeToDestroy;
     public float damage = 40;
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-
-        StartCoroutine(DestroyCorutine());
-    }
-    IEnumerator DestroyCorutine()
-    {
         rb.velocity = transform.up *speed;
-        new WaitForSeconds(timeToDestroy);
+        Invoke("DestroyBullet", timeToDestroy);
+    }
+    public void DestroyBullet()
+    {
         Destroy(gameObject);
-        yield return null;
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo)

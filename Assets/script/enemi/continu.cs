@@ -14,7 +14,6 @@ public class continu : MonoBehaviour
     public float burstpause;
     public GameObject bullet;
     public Transform point;
-    public int damage = 40;
     private player playervar;
     private bool shooting;
 
@@ -62,7 +61,7 @@ public class continu : MonoBehaviour
         {
             if (timeBeforeShoot  <= 0)
             {
-                Instantiate(bullet, point.position, Quaternion.identity);
+                Instantiate(bullet, point.position, point .rotation );
                 timeBeforeShoot=1/firerate;
                 Debug.Log("Auto Bullet!");
             }
@@ -77,7 +76,7 @@ public class continu : MonoBehaviour
     {
         for (int timesShot = 1; timesShot <= timesToShoot; timesShot++) ; 
         {
-                Instantiate(bullet, point.position, Quaternion.identity);
+            Instantiate(bullet, point.position, point.rotation);
                 Debug.Log("Burst Bullet!");
             shooting = false;
             yield return new WaitForSeconds(1 / firerate);
