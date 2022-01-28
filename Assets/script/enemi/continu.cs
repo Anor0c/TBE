@@ -10,7 +10,10 @@ public class continu : MonoBehaviour
     [SerializeField] private FireTempo CurrentEnemyTempo;
     public float firerate; 
     private float timeBeforeShoot;
-    public int timesToShoot;
+    private float lastShot;
+    private float timePause;
+    private int shotCount;
+    public int burstCount;
     public float burstpause;
     public GameObject bullet;
     public Transform point;
@@ -43,27 +46,32 @@ public class continu : MonoBehaviour
     }
     void Rafale()
     {
-        Invoke("ShootingBool", burstpause);
-        if (shooting == true)
+        var waitTime = lastShot + timePause;
+        if (Time.time > waitTime) 
         {
-        StartCoroutine(RafaleCoroutine(timesToShoot));
-            Debug.Log("ready");
-        }
-        else
-        {
-            StopCoroutine(RafaleCoroutine(timesToShoot));
-        }
 
+            lastShot = Time.time;
+            Instantiate(bullet, point.position, point.rotation);
+            Debug.Log("shotCount=" + shotCount);
+            shotCount++;
+
+        }
+        if (shotCount == burstCount+1)
+        {
+            timePause += burstpause;
+            shotCount = 0;
+        }
+        else if(shotCount ==1)
+        {
+            timePause = 1/firerate;
+        }
     }
-    void ShootingBool()
-    {
-        shooting = true;
-    }
+ 
     void Auto()
     {
         
         {
-            if (timeBeforeShoot  <= 0)
+            if (timeBeforeShoot  <= 0) 
             {
                 Instantiate(bullet, point.position, point.rotation);
                 timeBeforeShoot=1/firerate;
@@ -76,7 +84,7 @@ public class continu : MonoBehaviour
         }
     }
     
-    IEnumerator RafaleCoroutine(int timesToShoot)
+    /*IEnumerator RafaleCoroutine(int timesToShoot)
     {
         for (int timesShot = 1; timesShot <= timesToShoot; timesShot++)
         {
@@ -85,6 +93,6 @@ public class continu : MonoBehaviour
             shooting = false;
             yield return new WaitForSeconds(1 / firerate);
         }
-    }
+    }*/
 }
 
