@@ -11,11 +11,15 @@ public class continu : MonoBehaviour
     [SerializeField] private FireTempo CurrentEnemyTempo;
     public float firerate; 
     private float timeBeforeShoot;
+
+
     private float lastShot;
     private float timePause;
     private int shotCount;
     public int burstCount;
     public float burstpause;
+
+
     public GameObject bullet;
     public GameObject heal;
     public Transform point;

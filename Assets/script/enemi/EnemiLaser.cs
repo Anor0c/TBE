@@ -6,32 +6,44 @@ public class EnemiLaser : MonoBehaviour
 {
     public Transform point;
     public float damage;
-    public float EnemyLaserPause;
     public LineRenderer lineRenderer;
+
+    public float pauseTime;
+    public float pauseLimite;
+    private float currentLazerTime;
+    private float varCurrentLazer;
     void Start()
     {
-        var gunCrit = GetComponent<Enemy>();
-        StartCoroutine(LazerCoroutine());
     }
     void Update()
     {
+        var waitTime = currentLazerTime + pauseLimite;
+        if(waitTime <Time .time)
+        {
+            currentLazerTime = Time.time;
+            varCurrentLazer += currentLazerTime;
 
-    }
-    IEnumerator LazerCoroutine()
-    {
-        lineRenderer.SetPosition(0, point.position);
-        lineRenderer.SetPosition(1, point.position + point.TransformDirection(Vector2.up) * 20f);
-        RaycastHit2D hitInfo = Physics2D.Raycast(point.position, point.up, 100f);
-        player enemy = hitInfo.transform.GetComponent<player>();
-        if (enemy == null)
-        {
-            Debug.Log("No Ennemi");
+            lineRenderer.SetPosition(0, point.position);
+            lineRenderer.SetPosition(1, point.position + point.TransformDirection(Vector2.up) * 20f);
+            RaycastHit2D hitInfo = Physics2D.Raycast(point.position, point.up, 100f);
+            if (hitInfo.transform == null) 
+            {
+                return;
+            }
+            else
+            {
+                player enemy = hitInfo.transform.GetComponent<player>();
+
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(damage);
+                }
+            }
         }
-        else if (enemy != null)
+        if(currentLazerTime == pauseLimite) 
         {
-            enemy.TakeDamage(damage);
-            Debug.Log("Hit");
+            varCurrentLazer = 0f;
+            // il faudrait de  la logique pour mettre des pauses, utiliser Invoke?????
         }
-        yield return new WaitForSeconds(EnemyLaserPause);
     }
 }

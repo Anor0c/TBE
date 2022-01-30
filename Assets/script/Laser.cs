@@ -7,7 +7,6 @@ public class Laser : MonoBehaviour
     public Transform point;
     public float damage;
     public LineRenderer lineRenderer;
-    public GameObject critical;
     void Start()
     {
         var gunCrit = GetComponent<player>();
@@ -25,7 +24,6 @@ public class Laser : MonoBehaviour
         else
         {
             Enemy enemy = hitInfo.transform.GetComponent<Enemy>();
-            //Laser laser = hitInfo.transform.GetComponent<Laser>();
 
             if (enemy != null)
             {
@@ -33,14 +31,5 @@ public class Laser : MonoBehaviour
                 Debug.Log("Hit");
             }
         }
-        
-        /*if (laser !=null)
-        {
-         if (gunCrit.GunLevelUp>=5)
-         { 
-         Instantiate (critical, )
-         }
-        } */
-       
     }  
 }
