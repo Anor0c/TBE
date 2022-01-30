@@ -5,7 +5,8 @@ public class continu : MonoBehaviour
     public enum FireTempo
     {
         Auto,
-        Burst
+        Burst,
+        BurstHeal
     }
     [SerializeField] private FireTempo CurrentEnemyTempo;
     public float firerate; 
@@ -16,9 +17,9 @@ public class continu : MonoBehaviour
     public int burstCount;
     public float burstpause;
     public GameObject bullet;
+    public GameObject heal;
     public Transform point;
     private player playervar;
-    private bool shooting;
 
 
     public void Start()
@@ -39,6 +40,9 @@ public class continu : MonoBehaviour
 
                 case FireTempo.Burst:
                         Rafale();
+                    break;
+                case FireTempo.BurstHeal:
+                    BurstHeal();
                     break;
             }
         }
@@ -83,16 +87,28 @@ public class continu : MonoBehaviour
             }
         }
     }
-    
-    /*IEnumerator RafaleCoroutine(int timesToShoot)
+    void BurstHeal()
     {
-        for (int timesShot = 1; timesShot <= timesToShoot; timesShot++)
+        var waitTime = lastShot + timePause;
+        if (Time.time > waitTime)
         {
+
+            lastShot = Time.time;
             Instantiate(bullet, point.position, point.rotation);
-            Debug.Log("Burst Bullet!");
-            shooting = false;
-            yield return new WaitForSeconds(1 / firerate);
+            Debug.Log("shotCount=" + shotCount);
+            shotCount++;
+// il faudrait un moyen pour instanc un heal sur le 1er proj
         }
-    }*/
+        if (shotCount == burstCount + 1)
+        {
+            timePause += burstpause;
+            shotCount = 0;
+        }
+        else if (shotCount == 1)
+        {
+            timePause = 1 / firerate;
+        }
+    }
+    
 }
 
