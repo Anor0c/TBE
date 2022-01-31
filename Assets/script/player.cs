@@ -30,6 +30,7 @@ public class player : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else { return; }
         healthBar.UpdateHealthBar();
     }
     public void GunLevelUp()

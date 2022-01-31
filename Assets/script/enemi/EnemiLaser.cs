@@ -9,24 +9,49 @@ public class EnemiLaser : MonoBehaviour
     public LineRenderer lineRenderer;
 
     public float pauseTime;
-    public float pauseLimite;
+    public float lazerTime;
     private float currentLazerTime;
-    private float varCurrentLazer;
+    private float waitTime;
+    private bool isLazer=true; 
     void Start()
     {
+        currentLazerTime = lazerTime;
+
     }
     void Update()
     {
-        var waitTime = currentLazerTime + pauseLimite;
-        if(waitTime <Time .time)
-        {
-            currentLazerTime = Time.time;
-            varCurrentLazer += currentLazerTime;
 
+        currentLazerTime -= Time.deltaTime;
+        waitTime = currentLazerTime + pauseTime ;
+        if (currentLazerTime <= 0f) 
+        {
+            isLazer = false;
+            // il faudrait de  la logique pour mettre des pauses, utiliser booollean 
+        }
+        if(waitTime <= 0f)
+        {
+            currentLazerTime = lazerTime ;
+            isLazer = true;
+        }
+
+
+        if(isLazer == true)
+        {
+            Lazer();
+        }
+        else
+        {
+            lineRenderer.SetPosition(0, point.position);
+            lineRenderer.SetPosition(1, point.position);
+        }
+    }
+    private void Lazer()
+    {
+        {
             lineRenderer.SetPosition(0, point.position);
             lineRenderer.SetPosition(1, point.position + point.TransformDirection(Vector2.up) * 20f);
-            RaycastHit2D hitInfo = Physics2D.Raycast(point.position, point.up, 100f);
-            if (hitInfo.transform == null) 
+            RaycastHit2D hitInfo = Physics2D.Raycast(point.position, point.up, 100f, LayerMask.GetMask("Default"), 0);
+            if (hitInfo.transform == null)
             {
                 return;
             }
@@ -37,13 +62,11 @@ public class EnemiLaser : MonoBehaviour
                 if (enemy != null)
                 {
                     enemy.TakeDamage(damage);
+                    Debug.Log("Player hit!!");
                 }
             }
-        }
-        if(currentLazerTime == pauseLimite) 
-        {
-            varCurrentLazer = 0f;
-            // il faudrait de  la logique pour mettre des pauses, utiliser Invoke?????
+
+
         }
     }
 }
