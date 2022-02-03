@@ -6273,7 +6273,7 @@ PrefabInstance:
     - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: bullet
       value: 
-      objectReference: {fileID: 4281648675456156573, guid: 63abca03b8dfba4468705dd865c3a9a4, type: 3}
+      objectReference: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
     - target: {fileID: 1975192375905824161, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: firerate
       value: 10
@@ -6467,18 +6467,6 @@ PrefabInstance:
       propertyPath: enemyhealthbar
       value: 
       objectReference: {fileID: 369481748}
-    - target: {fileID: 0}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
-    - target: {fileID: 0}
-      propertyPath: firerate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -6023565586737228854, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
     - {fileID: 0}
