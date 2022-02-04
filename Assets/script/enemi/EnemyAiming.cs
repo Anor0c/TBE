@@ -24,11 +24,8 @@ public class EnemyAiming : MonoBehaviour
             return;
         }
         cannonAim = cannon.up;
-        playerPos = _player.transform.position;
-        var cannonAimCurrent = cannonAim - playerPos;
-
-        var percentage = (playerPos - cannonAimCurrent).magnitude-lazerTrack ; 
-        var aimLerp = Vector2.Lerp(cannonAim, playerPos, percentage);
+        var playerDir = _player.transform.position  - cannon .position ;
+        var aimLerp = Vector2.Lerp(cannonAim, playerDir, lazerTrack);
         cannon.up = aimLerp;
 
     }

@@ -9,20 +9,24 @@ public class PlayerTarget : MonoBehaviour
     private Transform enemy;
     private Vector2 cible;
     private Enemy _enemy;
-    //Rigidbody2D rb;
+    Rigidbody2D rb;
 
 
     void Start()
     {
         enemy = GameObject.FindGameObjectWithTag("enemi").transform;
 
-        //rb = this.GetComponent<Rigidbody2D>();
-        //rb.velocity = player.transform.position * speed;
+        rb = this.GetComponent<Rigidbody2D>();
+        //
 
     }
 
     void Update()
     {
+        if(enemy == null)
+        {
+            rb.velocity = transform.up * speed;
+        }
         cible = new Vector2(enemy.position.x, enemy.position.y);
         //transform.LookAt(player
         //rb.AddForce(cible * speed);
