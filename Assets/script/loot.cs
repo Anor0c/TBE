@@ -18,15 +18,8 @@ public class loot : MonoBehaviour
         player joueur = hitInfo.GetComponent<player>();
         if (joueur != null)
         {
-
-
-            //code pour ajouter leffet quand le drop rentre en contact avec le player
-
-            
-
-
+            joueur.GunLevelUp();
             Destroy(gameObject);
-            
         }
         
     }

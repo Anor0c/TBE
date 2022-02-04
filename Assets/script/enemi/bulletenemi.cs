@@ -4,7 +4,7 @@ public class bulletenemi : MonoBehaviour
 {
     [SerializeField] float speed;
     Rigidbody2D rb;
-    public int damage = 40;
+    public float damage = 40;
     public player player;
     Vector2 moveDirection;
     void Start()

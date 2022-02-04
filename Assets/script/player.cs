@@ -4,13 +4,25 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    public GameObject gauche;
-    Rigidbody2D rb;
     public float maxHealth = 500;
     public float health;
     public HealthBar healthBar;
+    public int GunLevelRequirement;
+    continuPlayer[] Cplayer;
 
-    public void TakeDamage(int damage)
+    private void Start()
+    {
+        Cplayer = transform.GetComponentsInChildren<continuPlayer>();
+        foreach (continuPlayer point in Cplayer)
+        {
+            //point.isActive = true;
+            if (point.GunLevel != 0)
+            {
+                point.gameObject.SetActive(false);
+            }
+        }
+    }
+    public void TakeDamage(float damage)
     {
       health-=damage;
 
@@ -18,20 +30,19 @@ public class player : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else { return; }
         healthBar.UpdateHealthBar();
     }
-
-    void OnTriggerEnter2D(Collider2D hitInfo) //pour activer l'upgrade
+    public void GunLevelUp()
     {
-        loot gain = hitInfo.GetComponent<loot>();
-        if (gain != null)
+
+        GunLevelRequirement++;
+        foreach(continuPlayer point in Cplayer)
         {
-
-
-            gauche.SetActive(true);
-
+            if (GunLevelRequirement >= point.GunLevel)
+            {
+                point.gameObject.SetActive(true);
+            }
         }
-
     }
-
-}
+ }
