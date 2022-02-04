@@ -52,8 +52,14 @@ public class continu : MonoBehaviour
         }
         else { return; }
     }
+    void Shoot(GameObject prefabToShoot)
+    {
+        Instantiate(prefabToShoot, point.position, point.rotation);
+        shotCount++;
+    }
     void Rafale()
     {
+        //Utiliser une Guarding case et revoir le code 
         var waitTime = lastShot + timePause;
         if (Time.time > waitTime) 
         {
@@ -81,7 +87,7 @@ public class continu : MonoBehaviour
         {
             if (timeBeforeShoot  <= 0) 
             {
-                Instantiate(bullet, point.position, point.rotation);
+                Shoot(bullet);
                 timeBeforeShoot=1/firerate;
                 Debug.Log("Auto Bullet!");
             }
@@ -93,6 +99,7 @@ public class continu : MonoBehaviour
     }
     void BurstHeal()
     {
+        //Utiliser une Guarding case et revoir le code 
         var waitTime = lastShot + timePause;
         if (Time.time > waitTime)
         {
