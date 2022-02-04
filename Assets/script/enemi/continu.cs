@@ -61,26 +61,32 @@ public class continu : MonoBehaviour
     {
         //Utiliser une Guarding case et revoir le code 
         var waitTime = lastShot + timePause;
-        if (Time.time > waitTime) 
+        if (Time.time < waitTime)
         {
-
-            lastShot = Time.time;
-            Instantiate(bullet, point.position, point.rotation);
-            Debug.Log("shotCount=" + shotCount);
-            shotCount++;
-
+            return;
         }
-        if (shotCount == burstCount+1)
+
+        // il faudrait un moyen pour instanc un heal sur le 1er proj
+        if (shotCount == burstCount + 1)
         {
             timePause += burstpause;
             shotCount = 0;
+            Shoot(bullet);
         }
-        else if(shotCount ==1)
+        else if (shotCount == 1)
         {
-            timePause = 1/firerate;
+            timePause = 1 / firerate;
+            Shoot(bullet);
+            lastShot = Time.time;
+        }
+        else
+        {
+            Shoot(bullet);
+            lastShot = Time.time;
+            Debug.Log("shotCount=" + shotCount);
         }
     }
- 
+
     void Auto()
     {
         
@@ -101,23 +107,29 @@ public class continu : MonoBehaviour
     {
         //Utiliser une Guarding case et revoir le code 
         var waitTime = lastShot + timePause;
-        if (Time.time > waitTime)
+        if (Time.time < waitTime)
         {
-
-            lastShot = Time.time;
-            Instantiate(bullet, point.position, point.rotation);
-            Debug.Log("shotCount=" + shotCount);
-            shotCount++;
-// il faudrait un moyen pour instanc un heal sur le 1er proj
+            return;
         }
+        
+// il faudrait un moyen pour instanc un heal sur le 1er proj
         if (shotCount == burstCount + 1)
         {
             timePause += burstpause;
             shotCount = 0;
+            Shoot(heal);
         }
         else if (shotCount == 1)
         {
             timePause = 1 / firerate;
+            Shoot(bullet);
+            lastShot = Time.time;
+        }
+        else
+        {
+            Shoot(bullet);
+            lastShot = Time.time;
+            Debug.Log("shotCount=" + shotCount);
         }
     }
     
