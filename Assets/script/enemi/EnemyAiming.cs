@@ -8,6 +8,7 @@ public class EnemyAiming : MonoBehaviour
     private Vector2 cannonAim;
     private Vector2 playerPos;
     private player _player;
+    public float lazerTrack;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class EnemyAiming : MonoBehaviour
         playerPos = _player.transform.position;
         var cannonAimCurrent = cannonAim - playerPos;
 
-        var percentage = (playerPos - cannonAimCurrent).magnitude; 
+        var percentage = (playerPos - cannonAimCurrent).magnitude-lazerTrack ; 
         var aimLerp = Vector2.Lerp(cannonAim, playerPos, percentage);
         cannon.up = aimLerp;
 

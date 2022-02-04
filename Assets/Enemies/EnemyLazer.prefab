@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7744528261417050212}
   - component: {fileID: 4205586476706398721}
   - component: {fileID: 6287648208468580143}
+  - component: {fileID: 1573743405831758150}
   - component: {fileID: 4321589694938777114}
   m_Layer: 6
   m_Name: EnemyLazer
@@ -187,6 +188,20 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   pauseTime: 0
   lazerTime: 0
+--- !u!114 &1573743405831758150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590200419699603007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a61b974fda52447b3d1de7bd0c535f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannon: {fileID: 0}
+  lazerTrack: 0
 --- !u!95 &4321589694938777114
 Animator:
   serializedVersion: 3
