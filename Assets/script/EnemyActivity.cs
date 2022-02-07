@@ -15,7 +15,7 @@ public class EnemyActivity : MonoBehaviour
     {
         _cam = GameObject.FindObjectOfType<ScrollControl>();
         rb = this.GetComponent<Rigidbody2D>();
-        scrollVelocity = _cam.scrollVelocity;
+       //scrollVelocity = _cam.scrollVelocity;
         Invoke("SwitchBool", timeToBool);
     }
     void EnemyActivate(GameObject enemyToActivate)
@@ -28,9 +28,9 @@ public class EnemyActivity : MonoBehaviour
         isActive = true;
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        rb.velocity = scrollVelocity;
+        rb.velocity = _cam.scrollVelocity;
         if(isActive)
         {
             EnemyActivate(enemy);
