@@ -1,7 +1,7 @@
 using UnityEngine.InputSystem;
 using UnityEngine;
 
-public class pause : MonoBehaviour
+public class Pause : MonoBehaviour
 {
     public GameObject stop;
     public void OnPause(InputAction.CallbackContext context)

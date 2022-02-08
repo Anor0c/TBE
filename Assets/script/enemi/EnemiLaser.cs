@@ -57,7 +57,7 @@ public class EnemiLaser : MonoBehaviour
             }
             else
             {
-                player enemy = hitInfo.transform.GetComponent<player>();
+                Player enemy = hitInfo.transform.GetComponent<Player>();
 
                 if (enemy != null)
                 {

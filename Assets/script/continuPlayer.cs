@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class continuPlayer : MonoBehaviour
+public class ContinuPlayer : MonoBehaviour
 {
     public float startTime; //temps entre chaque tir
     private float time; //début du compte a rebourmkfrsjg
