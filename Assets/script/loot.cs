@@ -1,7 +1,7 @@
 using UnityEngine.InputSystem;
 using UnityEngine;
 
-public class loot : MonoBehaviour
+public class Loot : MonoBehaviour
 {
     [SerializeField] float speed;
     Rigidbody2D rb;
@@ -15,7 +15,7 @@ public class loot : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        player joueur = hitInfo.GetComponent<player>();
+        Player joueur = hitInfo.GetComponent<Player>();
         if (joueur != null)
         {
             joueur.GunLevelUp();

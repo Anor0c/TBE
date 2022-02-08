@@ -6,13 +6,13 @@ public class EnemyDoT : MonoBehaviour
 {
     GameObject bullet;
     public float damage = 1;
-    private player player;
+    private Player player;
     public float ProjLifeTime;
     public float ProjEnlargeX;
     public float ProjEnlargeY;
 void Start()
 {
-    player = GameObject.FindObjectOfType<player>();
+    player = GameObject.FindObjectOfType<Player>();
 }
     private void Update()
     {
@@ -28,7 +28,7 @@ void Start()
     }
     void OnTriggerStay2D(Collider2D hitInfo)
     {
-        player enemi = hitInfo.GetComponent<player>();
+        Player enemi = hitInfo.GetComponent<Player>();
         if (enemi != null)
         {
             enemi.TakeDamage(damage);

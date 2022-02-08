@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-public class continu : MonoBehaviour
+public class Continu : MonoBehaviour
 {
     public enum FireTempo
     {
@@ -23,12 +23,12 @@ public class continu : MonoBehaviour
     public GameObject bullet;
     public GameObject heal;
     public Transform point;
-    private player playervar;
+    private Player playervar;
 
 
     public void Start()
     {
-        playervar = GameObject.FindObjectOfType<player>();
+        playervar = GameObject.FindObjectOfType<Player>();
         timeBeforeShoot = 1 / firerate; 
        
     }

@@ -6,10 +6,11 @@ using UnityEngine.UI;
 public class ScrollControl : MonoBehaviour
 {
     [SerializeField] float speed;
-    Rigidbody2D rb;
+    [HideInInspector] public Rigidbody2D rb;
     GameObject[] enemy;
     private int EnemyCount;
     public float SlowMultiplier;
+    [HideInInspector] public Vector2 scrollVelocity;
 
     void Start()
     {
@@ -29,5 +30,6 @@ public class ScrollControl : MonoBehaviour
         {
             rb.velocity = transform.up * (-speed+(SlowMultiplier*EnemyCount));
         }
+        scrollVelocity = rb.velocity;
     }
 }

@@ -9,7 +9,7 @@ public class Laser : MonoBehaviour
     public LineRenderer lineRenderer;
     void Start()
     {
-        var gunCrit = GetComponent<player>();
+        var gunCrit = GetComponent<Player>();
     }
     void Update()
     {

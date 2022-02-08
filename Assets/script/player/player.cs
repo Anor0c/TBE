@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public float maxHealth = 500;
     public float health;
     public HealthBar healthBar;
     public int GunLevelRequirement;
-    continuPlayer[] Cplayer;
+    ContinuPlayer[] Cplayer;
 
     private void Start()
     {
-        Cplayer = transform.GetComponentsInChildren<continuPlayer>();
-        foreach (continuPlayer point in Cplayer)
+        Cplayer = transform.GetComponentsInChildren<ContinuPlayer>();
+        foreach (ContinuPlayer point in Cplayer)
         {
             //point.isActive = true;
             if (point.GunLevel != 0)
@@ -37,7 +37,7 @@ public class player : MonoBehaviour
     {
 
         GunLevelRequirement++;
-        foreach(continuPlayer point in Cplayer)
+        foreach(ContinuPlayer point in Cplayer)
         {
             if (GunLevelRequirement >= point.GunLevel)
             {
