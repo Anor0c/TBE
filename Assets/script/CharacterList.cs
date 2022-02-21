@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterList : MonoBehaviour
 {
@@ -43,5 +44,9 @@ public class CharacterList : MonoBehaviour
             index = 0;
         }
         characterList[index].SetActive(true);
+    }
+    public void ConfirmButton()
+    {
+        SceneManager.LoadScene(2);
     }
 }
