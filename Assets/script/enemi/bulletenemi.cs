@@ -3,13 +3,13 @@ using UnityEngine;
 public class bulletenemi : MonoBehaviour
 {
     [SerializeField] float speed;
-    Rigidbody2D rb;
+    //Rigidbody2D rb;
     public int damage = 40;
     private Transform player;
     private Vector2 cible;
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();
+        //rb = this.GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         cible = new Vector2(player.position.x, player.position.y);
 

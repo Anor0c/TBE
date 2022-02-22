@@ -90,16 +90,11 @@ GameObject:
   - component: {fileID: 2045399990260035097}
   - component: {fileID: 2045399990260035098}
   - component: {fileID: 2045399990260035099}
-  - component: {fileID: 2045399990260035092}
-  - component: {fileID: 2045399990260035093}
-  - component: {fileID: 2045399990260035094}
   - component: {fileID: 2045399990260035095}
-  - component: {fileID: 2045399989279061479}
   - component: {fileID: 2045399990260035088}
+  - component: {fileID: 2045399989279061479}
   - component: {fileID: 2045399990260035089}
-  - component: {fileID: 2045399990260035090}
   - component: {fileID: 551325721075578201}
-  - component: {fileID: 2045399989744805998}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -219,7 +214,7 @@ MonoBehaviour:
     m_ActionName: player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2045399990260035092}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: arme, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -231,7 +226,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
-      - m_Target: {fileID: 2045399990260035093}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: armeg, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -243,7 +238,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
-      - m_Target: {fileID: 2045399990260035094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: armed, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -311,7 +306,7 @@ MonoBehaviour:
     m_ActionName: Player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/right]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: 43ca9ef1-5bf7-40f5-8da3-f52029f9622e
+  m_DefaultActionMap: Player1
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &2045399990260035099
@@ -326,51 +321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 794b587704d896d4da6d0338da1a9daf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
---- !u!114 &2045399990260035092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045399990260035084}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f2ea472d506c714698fc726d9caeb88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 2045399991022977300}
-  bulletPrefab: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
-  speed: 5
---- !u!114 &2045399990260035093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045399990260035084}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42565d0dcd8d9894d9ff299335b47e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 2045399989667513369}
-  bulletPrefabGauche: {fileID: 4290071516424980101, guid: b860d3b8527c30545b9987354da06e21, type: 3}
-  speed: 5
---- !u!114 &2045399990260035094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045399990260035084}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ef459976d2bdbe4c9a2e0f11c575850, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 2045399990009201511}
-  bulletPrefabDroite: {fileID: 4281648675456156573, guid: 63abca03b8dfba4468705dd865c3a9a4, type: 3}
   speed: 5
 --- !u!50 &2045399990260035095
 Rigidbody2D:
@@ -393,22 +343,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2045399989279061479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045399990260035084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 698b01df336fe124dbee6da1f32c8abb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gauche: {fileID: 2045399989667513370}
-  maxHealth: 500
-  health: 500
-  healthBar: {fileID: 2045399991093630094}
 --- !u!61 &2045399990260035088
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -435,6 +369,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2045399989279061479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045399990260035084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01df336fe124dbee6da1f32c8abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gauche: {fileID: 2045399989667513370}
+  maxHealth: 500
+  health: 500
+  healthBar: {fileID: 2045399991093630094}
 --- !u!114 &2045399990260035089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,19 +402,6 @@ MonoBehaviour:
   point: {fileID: 2045399991022977300}
   speed: 2
   damage: 40
---- !u!114 &2045399990260035090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045399990260035084}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af50d7a403a1ac1428eea5904de4c22d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textbox: {fileID: 0}
 --- !u!114 &551325721075578201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,22 +415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stop: {fileID: 0}
---- !u!114 &2045399989744805998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045399990260035084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 698b01df336fe124dbee6da1f32c8abb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gauche: {fileID: 2045399989667513370}
-  maxHealth: 500
-  health: 500
-  healthBar: {fileID: 2045399991093630094}
 --- !u!1 &2045399991022977301
 GameObject:
   m_ObjectHideFlags: 0

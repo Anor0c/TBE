@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -29,16 +27,13 @@ public class player : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo) //pour activer l'upgrade
-    {
+    {     
         loot gain = hitInfo.GetComponent<loot>();
         if (gain != null)
         {
-
-
             gauche.SetActive(true);
 
         }
-
     }
 
 }

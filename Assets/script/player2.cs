@@ -38,7 +38,7 @@ public class player2 : MonoBehaviour
             gauche.SetActive(true);
 
         }
-
+        TakeDamage(40);
     }
 
 }
