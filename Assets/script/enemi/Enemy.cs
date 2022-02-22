@@ -20,10 +20,10 @@ public class Enemy : MonoBehaviour
     }
 
 
-    public void spawn()
+    /*public void spawn()
     {
         Instantiate(enemyPrefab, point.position, Quaternion.identity);
-    }
+    }*/
 
 
     public void TakeDamage(float damage)
@@ -41,7 +41,7 @@ public class Enemy : MonoBehaviour
 
             
             Destroy(gameObject);
-            spawn();
+            //spawn();
         }
         enemyhealthbar.UpdateEnemyHealthBar();
     }
