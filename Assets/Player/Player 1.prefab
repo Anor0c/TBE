@@ -311,7 +311,7 @@ MonoBehaviour:
     m_ActionName: Player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/right]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: 43ca9ef1-5bf7-40f5-8da3-f52029f9622e
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &2045399990260035099

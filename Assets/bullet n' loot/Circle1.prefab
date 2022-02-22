@@ -147,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   damage: 40
-  player: {fileID: 2131876503984226351, guid: 46941cc5bcee9bc4f877f7504c726c09, type: 3}
+  player: {fileID: 0}
 --- !u!114 &8453078835858707016
 MonoBehaviour:
   m_ObjectHideFlags: 0
