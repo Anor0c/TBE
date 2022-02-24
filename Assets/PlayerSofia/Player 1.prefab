@@ -94,7 +94,6 @@ GameObject:
   - component: {fileID: 2045399990260035088}
   - component: {fileID: 2045399989279061479}
   - component: {fileID: 2045399990260035089}
-  - component: {fileID: 551325721075578201}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -254,7 +253,7 @@ MonoBehaviour:
     m_ActionName: player/shoot[/Keyboard/space]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551325721075578201}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: pause, Assembly-CSharp
         m_MethodName: OnPause
         m_Mode: 0
@@ -270,7 +269,7 @@ MonoBehaviour:
     m_ActionName: player/PAUSE[/Keyboard/p]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551325721075578201}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: pause, Assembly-CSharp
         m_MethodName: OnPlay
         m_Mode: 0
@@ -381,10 +380,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698b01df336fe124dbee6da1f32c8abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gauche: {fileID: 2045399989667513370}
   maxHealth: 500
   health: 500
   healthBar: {fileID: 2045399991093630094}
+  GunLevelRequirement: 0
 --- !u!114 &2045399990260035089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,21 +399,9 @@ MonoBehaviour:
   startTime: 0.1
   bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
   point: {fileID: 2045399991022977300}
-  speed: 2
   damage: 40
---- !u!114 &551325721075578201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045399990260035084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9907c265dfc813b448a35d4d561389f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stop: {fileID: 0}
+  GunLevel: 0
+  direction: {x: 0, y: 0}
 --- !u!1 &2045399991022977301
 GameObject:
   m_ObjectHideFlags: 0

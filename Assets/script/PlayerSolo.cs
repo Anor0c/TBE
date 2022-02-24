@@ -9,7 +9,20 @@ public class PlayerSolo : MonoBehaviour
     public float maxHealth = 500;
     public float health;
     public HealthBar healthBar;
-
+    public int GunLevelRequirement;
+    continuPlayer[] Cplayer;
+    private void Start()
+    {
+        Cplayer = transform.GetComponentsInChildren<continuPlayer>();
+        foreach (continuPlayer point in Cplayer)
+        {
+            //point.isActive = true;
+            if (point.GunLevel != 0)
+            {
+                point.gameObject.SetActive(false);
+            }
+        }
+    }
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -21,7 +34,7 @@ public class PlayerSolo : MonoBehaviour
         healthBar.UpdateHealthBar();
     }
 
-    void OnTriggerEnter2D(Collider2D hitInfo) //pour activer l'upgrade
+    /*void OnTriggerEnter2D(Collider2D hitInfo) //pour activer l'upgrade
     {
         loot gain = hitInfo.GetComponent<loot>();
         if (gain != null)
@@ -32,6 +45,17 @@ public class PlayerSolo : MonoBehaviour
 
         }
 
-    }
+    }*/
+    public void GunLevelUp()
+    {
 
+        GunLevelRequirement++;
+        foreach (continuPlayer point in Cplayer)
+        {
+            if (GunLevelRequirement >= point.GunLevel)
+            {
+                point.gameObject.SetActive(true);
+            }
+        }
+    }
 }

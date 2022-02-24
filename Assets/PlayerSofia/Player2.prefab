@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8535191707811876063}
   - component: {fileID: 6034524020866219314}
   - component: {fileID: 3945487762263530240}
-  - component: {fileID: 7428864181073695321}
   - component: {fileID: 7936319379103361722}
   - component: {fileID: 3968772648093469274}
   - component: {fileID: 8612463761855151095}
@@ -105,23 +104,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
---- !u!114 &7428864181073695321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203332083037871365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e947a5dfd24283479b4226f028d3e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startTime: 0.25
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
-  point: {fileID: 140644821721454198}
-  speed: 2
-  damage: 40
 --- !u!50 &7936319379103361722
 Rigidbody2D:
   serializedVersion: 4
@@ -251,6 +233,7 @@ MonoBehaviour:
   maxHealth: 500
   health: 500
   healthBar: {fileID: 1311006427454662756}
+  GunLevelRequirement: 0
 --- !u!114 &4429003147091129387
 MonoBehaviour:
   m_ObjectHideFlags: 0

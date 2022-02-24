@@ -119,14 +119,8 @@ GameObject:
   - component: {fileID: 4087825816285745097}
   - component: {fileID: 4087825816285745096}
   - component: {fileID: 4087825816285745098}
-  - component: {fileID: 4087825816285745093}
-  - component: {fileID: 4087825816285745092}
-  - component: {fileID: 4087825816285745095}
   - component: {fileID: 4087825816285745094}
   - component: {fileID: 4087825816285745089}
-  - component: {fileID: 4087825816285745088}
-  - component: {fileID: 4087825816285745091}
-  - component: {fileID: 2557715066381505672}
   - component: {fileID: 756994226640083945}
   m_Layer: 0
   m_Name: PlayerSolo
@@ -217,51 +211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!114 &4087825816285745093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4087825816285745117}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f2ea472d506c714698fc726d9caeb88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 4087825815438909637}
-  bulletPrefab: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
-  speed: 5
---- !u!114 &4087825816285745092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4087825816285745117}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42565d0dcd8d9894d9ff299335b47e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 4087825815152305608}
-  bulletPrefabGauche: {fileID: 4290071516424980101, guid: b860d3b8527c30545b9987354da06e21, type: 3}
-  speed: 5
---- !u!114 &4087825816285745095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4087825816285745117}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ef459976d2bdbe4c9a2e0f11c575850, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 4087825814425264822}
-  bulletPrefabDroite: {fileID: 4281648675456156573, guid: 63abca03b8dfba4468705dd865c3a9a4, type: 3}
-  speed: 5
 --- !u!50 &4087825816285745094
 Rigidbody2D:
   serializedVersion: 4
@@ -309,49 +258,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4087825816285745088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4087825816285745117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e947a5dfd24283479b4226f028d3e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
-  point: {fileID: 4087825815438909637}
-  speed: 2
-  damage: 40
---- !u!114 &4087825816285745091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4087825816285745117}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af50d7a403a1ac1428eea5904de4c22d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textbox: {fileID: 0}
---- !u!114 &2557715066381505672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4087825816285745117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9907c265dfc813b448a35d4d561389f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stop: {fileID: 0}
 --- !u!114 &756994226640083945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,6 +274,7 @@ MonoBehaviour:
   maxHealth: 500
   health: 500
   healthBar: {fileID: 4087825815504581983}
+  GunLevelRequirement: 0
 --- !u!1001 &5028983742796300191
 PrefabInstance:
   m_ObjectHideFlags: 0

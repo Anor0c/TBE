@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 6142883060104026721}
   - component: {fileID: 6142883059157582225}
   - component: {fileID: 6142883060104026726}
-  - component: {fileID: 6142883060104026724}
   - component: {fileID: 5691402305236386095}
   m_Layer: 0
   m_Name: PlayerHomingWIP
@@ -179,9 +178,17 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 1ccfc8d6-dfce-44eb-9de2-b66585064075
     m_ActionName: player/START[/Keyboard/o]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6f5218ab-d2c1-49c8-94a0-321441674c9d
+    m_ActionName: Player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d428aad3-c43f-45c1-bba8-5d0fdc05af8e
+    m_ActionName: Player2/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: player
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &6142883060104026733
@@ -260,19 +267,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6142883060104026724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6142883060104026746}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af50d7a403a1ac1428eea5904de4c22d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textbox: {fileID: 0}
 --- !u!114 &5691402305236386095
 MonoBehaviour:
   m_ObjectHideFlags: 0
