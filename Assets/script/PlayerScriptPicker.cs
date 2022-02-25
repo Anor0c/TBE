@@ -5,9 +5,11 @@ using UnityEngine.InputSystem;
 public class PlayerScriptPicker : MonoBehaviour
 {
     public GameObject playerSolo, player1, player2;
+    public Vector3 P2pos;
 
     private void Start()
     {
+        P2pos = new Vector3(100,0,0);
         if (PlayerInputManager.instance.playerCount == 1)
         {
             Instantiate(playerSolo, transform);
@@ -19,7 +21,7 @@ public class PlayerScriptPicker : MonoBehaviour
             var soloParent = solo.parent;
             Destroy(solo.gameObject);
             Instantiate(player1, soloPosition, quaternion.identity, soloParent);
-            Instantiate(player2, transform);
+            Instantiate(player2, transform ); ; //non rien
         }
     }
 }
