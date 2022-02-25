@@ -72,14 +72,12 @@ GameObject:
   - component: {fileID: 2131876504964094929}
   - component: {fileID: 2131876504964094930}
   - component: {fileID: 2131876504964094931}
-  - component: {fileID: 2131876504964094940}
   - component: {fileID: 2131876504964094941}
   - component: {fileID: 2131876504964094942}
   - component: {fileID: 2131876504964094943}
   - component: {fileID: 2131876503984226351}
   - component: {fileID: 2131876504964094936}
   - component: {fileID: 2131876504964094937}
-  - component: {fileID: 2131876504964094938}
   - component: {fileID: 455419657891168401}
   - component: {fileID: 2131876504964094939}
   m_Layer: 0
@@ -200,7 +198,7 @@ MonoBehaviour:
     m_ActionName: player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2131876504964094940}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: arme, Assembly-CSharp
         m_MethodName: Shoot
         m_Mode: 1
@@ -238,9 +236,25 @@ MonoBehaviour:
         m_CallState: 0
     m_ActionId: 9d3ff345-3f0d-49fb-8338-cab3662c7b7f
     m_ActionName: player/shoot[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6f5218ab-d2c1-49c8-94a0-321441674c9d
+    m_ActionName: Player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b9effabf-65ec-4e72-bfb2-3ab6484cbee0
+    m_ActionName: Player1/PAUSE[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1ccfc8d6-dfce-44eb-9de2-b66585064075
+    m_ActionName: Player1/START[/Keyboard/o]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d428aad3-c43f-45c1-bba8-5d0fdc05af8e
+    m_ActionName: Player2/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: player
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &2131876504964094931
@@ -255,21 +269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 794b587704d896d4da6d0338da1a9daf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
---- !u!114 &2131876504964094940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131876504964094916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f2ea472d506c714698fc726d9caeb88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: {fileID: 2131876505190970588}
-  bulletPrefab: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
   speed: 5
 --- !u!114 &2131876504964094941
 MonoBehaviour:
@@ -334,10 +333,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698b01df336fe124dbee6da1f32c8abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gauche: {fileID: 0}
   maxHealth: 500
   health: 500
   healthBar: {fileID: 0}
+  GunLevelRequirement: 0
 --- !u!61 &2131876504964094936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -379,21 +378,9 @@ MonoBehaviour:
   startTime: 0.1
   bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
   point: {fileID: 2131876505190970588}
-  speed: 2
   damage: 40
---- !u!114 &2131876504964094938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131876504964094916}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af50d7a403a1ac1428eea5904de4c22d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textbox: {fileID: 0}
+  GunLevel: 0
+  direction: {x: 0, y: 0}
 --- !u!114 &455419657891168401
 MonoBehaviour:
   m_ObjectHideFlags: 0
