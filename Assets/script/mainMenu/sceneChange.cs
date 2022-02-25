@@ -6,6 +6,6 @@ public class sceneChange : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     { 
-        SceneManager.LoadScene("TBE");
+        SceneManager.LoadScene("SampleScene");
     }
 }
