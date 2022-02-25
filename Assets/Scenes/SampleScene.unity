@@ -5407,6 +5407,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1156157396944653483, guid: eab8a7bfafa1a034180a4dacffb7dc8a, type: 3}
+      propertyPath: m_SplitScreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3080292062861122800, guid: eab8a7bfafa1a034180a4dacffb7dc8a, type: 3}
       propertyPath: m_Name
       value: PlayerInputManager
