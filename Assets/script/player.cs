@@ -11,6 +11,7 @@ public class player : MonoBehaviour
 
     private void Start()
     {
+        GetComponentInParent<PlayerInput>().SwitchCurrentActionMap("Player1");
         Cplayer = transform.GetComponentsInChildren<continuPlayer>();
         foreach (continuPlayer point in Cplayer)
         {

@@ -694,7 +694,7 @@ GameObject:
   - component: {fileID: 4440610618405858249}
   - component: {fileID: 4440610618405858251}
   m_Layer: 0
-  m_Name: PlayerStr8 Complet
+  m_Name: PlayerStr8 CompletP1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -860,7 +860,7 @@ MonoBehaviour:
     m_ActionName: Player2/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Player1
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &4440610618405858252

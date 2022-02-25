@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerSolo : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PlayerSolo : MonoBehaviour
     continuPlayer[] Cplayer;
     private void Start()
     {
+        GetComponentInParent<PlayerInput>().SwitchCurrentActionMap("Player");
         Cplayer = transform.GetComponentsInChildren<continuPlayer>();
         foreach (continuPlayer point in Cplayer)
         {
