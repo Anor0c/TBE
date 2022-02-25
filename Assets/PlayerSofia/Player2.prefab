@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203332083037871365}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.04, y: -4.0299997, z: 0}
+  m_LocalPosition: {x: 1000, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 140644821721454198}
@@ -494,6 +494,34 @@ PrefabInstance:
     - target: {fileID: 5724478067849010459, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_Name
       value: HealthPlayer2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478069429836591, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478069429836591, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478069429836591, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -155
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478069429836591, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478069473284017, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478069473284017, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478069473284017, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 5724478069473284022, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: player
