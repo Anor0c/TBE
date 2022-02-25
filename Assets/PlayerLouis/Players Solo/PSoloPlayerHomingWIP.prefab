@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7887077717845314333}
   - component: {fileID: 7887077717845314330}
   - component: {fileID: 8552490463052304467}
+  - component: {fileID: -397347367862784529}
   m_Layer: 0
   m_Name: PSoloPlayerHomingWIP
   m_TagString: Player
@@ -178,7 +179,19 @@ MonoBehaviour:
     m_ActionId: 1ccfc8d6-dfce-44eb-9de2-b66585064075
     m_ActionName: player/START[/Keyboard/o]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7887077717845314310}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 6f5218ab-d2c1-49c8-94a0-321441674c9d
     m_ActionName: Player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/right]
   - m_PersistentCalls:
@@ -263,6 +276,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stop: {fileID: 0}
+--- !u!114 &-397347367862784529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7887077717845314310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb0c4ea2ca8b364e8f10534add2f5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunLevelRequirement: 0
 --- !u!1 &7887077718173148191
 GameObject:
   m_ObjectHideFlags: 0

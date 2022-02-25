@@ -65,6 +65,7 @@ GameObject:
   - component: {fileID: 7764718492607077795}
   - component: {fileID: 1893423886806152151}
   - component: {fileID: 8072097543489046250}
+  - component: {fileID: 7928874335878052122}
   m_Layer: 0
   m_Name: P2PlayerHomingWIP
   m_TagString: Player
@@ -312,11 +313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e13c1558299f24a9386dc238916b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gauche: {fileID: 0}
   maxHealth: 500
   health: 500
   healthBar: {fileID: 0}
-  GunLevelRequirement: 0
 --- !u!114 &8072097543489046250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,3 +329,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stop: {fileID: 0}
+--- !u!114 &7928874335878052122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7764718492607077823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb0c4ea2ca8b364e8f10534add2f5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunLevelRequirement: 0

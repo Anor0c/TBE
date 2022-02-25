@@ -65,6 +65,7 @@ GameObject:
   - component: {fileID: 6718365371102865590}
   - component: {fileID: 5113949610362582015}
   - component: {fileID: 4680419900611086623}
+  - component: {fileID: -8443866454114660354}
   m_Layer: 0
   m_Name: P1PlayerHomingWIP
   m_TagString: Player
@@ -326,6 +327,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 500
-  health: 0
+  health: 500
   healthBar: {fileID: 0}
+--- !u!114 &-8443866454114660354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718365371102865578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb0c4ea2ca8b364e8f10534add2f5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   GunLevelRequirement: 0

@@ -5,7 +5,8 @@ public class loot : MonoBehaviour
 {
     [SerializeField] float speed;
     Rigidbody2D rb;
- 
+    gunLevelUp joueur;
+
 
     void Start()
     {
@@ -15,12 +16,23 @@ public class loot : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        player joueur = hitInfo.GetComponent<player>();
+        Debug.Log("çatouche");
+        /*player joueur = hitInfo.GetComponent<player>();
+        joueur = hitInfo.tag == "Player";
         if (joueur != null)
         {
             joueur.GunLevelUp();
             Destroy(gameObject);
-        }
+        }*/
+
+
         
+        if (hitInfo.tag == "Player")
+        {
+            Debug.Log(hitInfo);
+            joueur = hitInfo.GetComponent<gunLevelUp>();
+            joueur.GunLevelUp();
+            Destroy(gameObject);
+        }
     }
 }

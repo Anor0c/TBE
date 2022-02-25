@@ -259,9 +259,10 @@ GameObject:
   - component: {fileID: 6680676740254447149}
   - component: {fileID: 4408679630005228019}
   - component: {fileID: 3488953023041606719}
+  - component: {fileID: 1570097505539996004}
   m_Layer: 0
   m_Name: PSoloPlayerSpread
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -397,11 +398,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2dc7e60d322ccc4f985fbd75fb36fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gauche: {fileID: 0}
   maxHealth: 500
   health: 500
   healthBar: {fileID: 0}
-  GunLevelRequirement: 0
 --- !u!114 &3488953023041606719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -415,6 +414,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &1570097505539996004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6834680455433618073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb0c4ea2ca8b364e8f10534add2f5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunLevelRequirement: 0
 --- !u!1 &7594365411003271556
 GameObject:
   m_ObjectHideFlags: 0

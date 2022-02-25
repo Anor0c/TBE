@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2258850079951800551}
   - component: {fileID: 2258850079951800544}
   - component: {fileID: 2258850079951800546}
+  - component: {fileID: -7978762598813975694}
   m_Layer: 0
   m_Name: P1PlayerStr8 Complet
   m_TagString: Player
@@ -235,7 +236,6 @@ MonoBehaviour:
   maxHealth: 500
   health: 500
   healthBar: {fileID: 0}
-  GunLevelRequirement: 0
 --- !u!61 &2258850079951800544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -275,6 +275,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stop: {fileID: 0}
+--- !u!114 &-7978762598813975694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2258850079951800547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb0c4ea2ca8b364e8f10534add2f5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunLevelRequirement: 0
 --- !u!1 &2258850080141255644
 GameObject:
   m_ObjectHideFlags: 0

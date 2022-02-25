@@ -6,21 +6,11 @@ public class player : MonoBehaviour
     public float maxHealth = 500;
     public float health;
     public HealthBar healthBar;
-    public int GunLevelRequirement;
-    continuPlayer[] Cplayer;
+
 
     private void Start()
     {
         GetComponentInParent<PlayerInput>().SwitchCurrentActionMap("Player1");
-        Cplayer = transform.GetComponentsInChildren<continuPlayer>();
-        foreach (continuPlayer point in Cplayer)
-        {
-            //point.isActive = true;
-            if (point.GunLevel != 0)
-            {
-                point.gameObject.SetActive(false);
-            }
-        }
     }
     public void TakeDamage(float damage)
     {
@@ -32,17 +22,5 @@ public class player : MonoBehaviour
         }
         else { return; }
         healthBar.UpdateHealthBar();
-    }
-    public void GunLevelUp()
-    {
-
-        GunLevelRequirement++;
-        foreach(continuPlayer point in Cplayer)
-        {
-            if (GunLevelRequirement >= point.GunLevel)
-            {
-                point.gameObject.SetActive(true);
-            }
-        }
     }
  }
