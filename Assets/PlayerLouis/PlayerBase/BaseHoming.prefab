@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3faadfdcaca18c140b7bf251a1aa95bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSolo: {fileID: 7887077717845314310, guid: fa9753a7f5791ff4794b68b65c831ecb, type: 3}
-  player1: {fileID: 6718365371102865578, guid: c7037b4dabb1b7c4f9541010bbe82c43, type: 3}
-  player2: {fileID: 7764718492607077823, guid: c4fb2854399ce2f4fa483407cadd763b, type: 3}
+  playerSolo: {fileID: 8427621424635332790, guid: fa9753a7f5791ff4794b68b65c831ecb, type: 3}
+  player1: {fileID: 2784321456745936429, guid: c7037b4dabb1b7c4f9541010bbe82c43, type: 3}
+  player2: {fileID: 6084165899805545820, guid: 6ba89e7dbf912b041aecf131dfccb413, type: 3}
+  P2pos: {x: 0, y: 0, z: 0}
