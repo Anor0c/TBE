@@ -6,7 +6,6 @@ public class continuPlayer : MonoBehaviour
     private float time; //début du compte a rebourmkfrsjg
     public GameObject bullet;
     public Transform point;
-    public int damage = 40;
     public int GunLevel=0;
     [HideInInspector] public Vector2 direction;
     
