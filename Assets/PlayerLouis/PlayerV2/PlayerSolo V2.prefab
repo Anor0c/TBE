@@ -1240,7 +1240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: {fileID: 2540534221376636379}
-  damage: 0
+  damage: 3
   lineRenderer: {fileID: 5987996737503576350}
 --- !u!1 &6913018147630004967
 GameObject:
@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: {fileID: 2667066145357850855}
-  damage: 0
+  damage: 3
   lineRenderer: {fileID: 1162424419294669659}
 --- !u!1 &8816544690157106021
 GameObject:

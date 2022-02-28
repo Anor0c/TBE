@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: {fileID: 2288605745321811238}
-  damage: 0
+  damage: 3
   lineRenderer: {fileID: 11350253278191228}
 --- !u!1 &396035424036483447
 GameObject:
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: {fileID: 770948932666164227}
-  damage: 0
+  damage: 3
   lineRenderer: {fileID: 5496536153122055662}
 --- !u!1 &2045399989667513370
 GameObject:
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97557ef92b48aab48882751cf75d41a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!114 &5173725359088725453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2022,7 +2022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9038818986101020781, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4696003bea33f5946abc96924271ff76, type: 3}
