@@ -12,7 +12,7 @@ public class gunLevelUp : MonoBehaviour
 
     public void Start()
     {
-        playerMode = GetComponent<PlayerMode>();
+        playerMode = GetComponentInParent<PlayerMode>();
         
         Cplayer = transform.GetComponentsInChildren<continuPlayer>();
         foreach (continuPlayer point in Cplayer)

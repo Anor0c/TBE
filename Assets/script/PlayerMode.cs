@@ -6,14 +6,17 @@ public class PlayerMode : MonoBehaviour
 {
     public int modeIndex;
     gunLevelUp[] playerMode;
-    // Start is called before the first frame update
-    void Start()
-    {
 
+    void Awake()
+    {
+        //Logique pour avoir le choix de perso qui influe playerMode. 
+        playerMode = transform.GetComponentsInChildren<gunLevelUp>();
         foreach (gunLevelUp mode in playerMode)
         {
+
             if (modeIndex != mode.modeIndex) 
             {
+                Debug.Log(this);
                 Destroy(mode.gameObject);
             }
         }
