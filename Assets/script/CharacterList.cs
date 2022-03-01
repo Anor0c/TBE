@@ -6,10 +6,25 @@ using UnityEngine.SceneManagement;
 public class CharacterList : MonoBehaviour
 {
     GameObject[] characterList;
-    private int index;
-    // Start is called before the first frame update
+    public int index;
+    private Scene gameplayScene;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        gameplayScene = SceneManager.GetSceneByName ("SampleScene");
+        if(gameplayScene .isLoaded == false)
+        {
+            return;
+        }
+        else
+        {
+            this.gameObject.SetActive(false);
+        }
+    }
     void Start()
     {
+
         characterList = new GameObject[transform.childCount];
         for (int i=0;i<transform.childCount; i++)
         {
@@ -23,6 +38,7 @@ public class CharacterList : MonoBehaviour
         {
             characterList[index].SetActive(true);
         }
+
     }
 
     public void ButtonLeft()
