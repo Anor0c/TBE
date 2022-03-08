@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1975192375905824166}
   - component: {fileID: 1975192375905824161}
   - component: {fileID: 1975192375905824160}
+  - component: {fileID: 9060632360939466099}
   m_Layer: 6
   m_Name: enemi
   m_TagString: enemi
@@ -182,11 +183,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c66ea0dd8b293b43af391bbe9c53cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 2
+  CurrentEnemyTempo: 0
+  firerate: 0
+  burstCount: 0
+  burstpause: 0
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
+  heal: {fileID: 0}
   point: {fileID: 1975192376043653014}
-  speed: 0
-  damage: 1
 --- !u!114 &1975192375905824160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,6 +202,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77df7192c0f92b64891f10b83b155e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &9060632360939466099
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975192375905824163}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f76477397c6ea747a198f8fe7ecff42, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1975192376043653009
 GameObject:
   m_ObjectHideFlags: 0
