@@ -6,33 +6,36 @@ public class loot : MonoBehaviour
     [SerializeField] float speed;
     Rigidbody2D rb;
     gunLevelUp joueur;
+    PlayerMode player;
 
 
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
         rb.velocity = transform.up * speed;
+        //player = GameObject.FindGameObjectWithTag("Player");
+        joueur.GetComponent<gunLevelUp>().GunLevelUp(); //add
+        player = GetComponent<PlayerMode>();
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        Debug.Log("çatouche");
-        /*player joueur = hitInfo.GetComponent<player>();
-        joueur = hitInfo.tag == "Player";
-        if (joueur != null)
+        //joueur = hitInfo.tag == "Player";
+        /*if (player != null)
         {
+            Debug.Log("çatouche");
             joueur.GunLevelUp();
-            Destroy(gameObject);
         }*/
 
+        Destroy(gameObject);
 
-        
         if (hitInfo.tag == "Player")
         {
-            Debug.Log(hitInfo);
-            joueur = hitInfo.GetComponent<gunLevelUp>();
+            Debug.Log("touche");
+            //Debug.Log(hitInfo);
+            //joueur = hitInfo.GetComponent<gunLevelUp>();
             joueur.GunLevelUp();
-            Destroy(gameObject);
         }
+        
     }
 }
