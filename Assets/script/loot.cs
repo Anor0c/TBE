@@ -5,7 +5,7 @@ public class Loot : MonoBehaviour
 {
     [SerializeField] float speed;
     Rigidbody2D rb;
-    public gunLevelUp joueur;
+    //public gunLevelUp joueur;
     PlayerMode player;
 
 
@@ -31,10 +31,14 @@ public class Loot : MonoBehaviour
 
         if (hitInfo.tag == "Player")
         {
+            var LevelUp = hitInfo.gameObject.GetComponent<gunLevelUp>();
+            var gun = hitInfo.gameObject.GetComponentInChildren<gunLevelUp>();
+            //LevelUp.GunLevelRequirement++;
+            gun.GunLevelUp();
             Debug.Log("touche");
             //Debug.Log(hitInfo);
             //joueur = hitInfo.GetComponent<gunLevelUp>();
-            joueur.GunLevelUp();
+            //joueur.GunLevelUp();
         }
 
     }
