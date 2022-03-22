@@ -22,7 +22,7 @@ public class mouvement : MonoBehaviour
     public void OnMove(InputValue context)
     {
         stickdirection = context.Get<Vector2>();
-        Debug.Log("hehe");
+        //Debug.Log("hehe");
     }
 }
 

@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 279507525011159320}
   - component: {fileID: 279507525011159317}
   - component: {fileID: 279507525011159322}
-  - component: {fileID: 279507525011159316}
   - component: {fileID: 81911270808747634}
+  - component: {fileID: 3877252450828817110}
   m_Layer: 8
   m_Name: carre
   m_TagString: Untagged
@@ -133,19 +133,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &279507525011159316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279507525011159321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b286816dc9cd3a74fb1924483e8cbdf0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
 --- !u!114 &81911270808747634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +148,17 @@ MonoBehaviour:
   point: {fileID: 0}
   bulletPrefab: {fileID: 0}
   speed: 0
+--- !u!114 &3877252450828817110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279507525011159321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae33d50fe099f4e4380cece4a3c91676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  joueur: {fileID: 0}
