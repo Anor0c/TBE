@@ -36,6 +36,7 @@ public class Loot : MonoBehaviour
             //joueur = hitInfo.GetComponent<gunLevelUp>();
             joueur.GunLevelUp();
         }
-        
+
     }
 }
+
