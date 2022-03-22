@@ -12,8 +12,14 @@ public class PlayerMode : MonoBehaviour
     void Awake()
     {
         //Logique pour avoir le choix de perso qui influe playerMode. 
-
+        CharaIndex = FindObjectOfType<CharacterList>();
+        if (CharaIndex == null)
+        {
+            modeIndex = 0;
+        }
+        else
         modeIndex = CharaIndex.index;
+
         ModeSwitch(modeIndex);
     }
     public void ModeSwitch(int index)
