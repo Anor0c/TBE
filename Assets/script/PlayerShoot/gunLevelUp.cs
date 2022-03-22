@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class gunLevelUp : MonoBehaviour
 {
@@ -9,6 +7,7 @@ public class gunLevelUp : MonoBehaviour
     public int GunLevelRequirement;
     continuPlayer[] Cplayer;
     private PlayerMode playerMode;
+    public List<GameObject> LootList; //added
 
     public void Start()
     {
@@ -29,12 +28,21 @@ public class gunLevelUp : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D hitInfo) //added
+    {
+        if (hitInfo.gameObject != null && LootList.Contains(hitInfo.gameObject))
+        {
+            GunLevelUp();
+        }
+    }
     public void GunLevelUp()
     {
         /*if (modeIndex != playerMode.modeIndex) 
         {
             return;
         }*/
+        
+        Debug.Log("gun level +1");
         GunLevelRequirement++;
         foreach (continuPlayer point in Cplayer)
         {

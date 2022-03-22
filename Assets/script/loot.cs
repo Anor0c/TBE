@@ -1,11 +1,11 @@
 using UnityEngine.InputSystem;
 using UnityEngine;
 
-public class loot : MonoBehaviour
+public class Loot : MonoBehaviour
 {
     [SerializeField] float speed;
     Rigidbody2D rb;
-    gunLevelUp joueur;
+    public gunLevelUp joueur;
     PlayerMode player;
 
 
@@ -14,7 +14,7 @@ public class loot : MonoBehaviour
         rb = this.GetComponent<Rigidbody2D>();
         rb.velocity = transform.up * speed;
         //player = GameObject.FindGameObjectWithTag("Player");
-        joueur.GetComponent<gunLevelUp>().GunLevelUp(); //add
+        //joueur.GetComponent<gunLevelUp>().GunLevelUp(); //add
         player = GetComponent<PlayerMode>();
     }
 
