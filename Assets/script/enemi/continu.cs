@@ -23,14 +23,13 @@ public class continu : MonoBehaviour
     public GameObject bullet;
     public GameObject heal;
     public Transform point;
-    private player playervar;
+    private HealthBehaviour playervar;
 
 
     public void Start()
     {
-        playervar = GameObject.FindObjectOfType<player>();
+        playervar = GameObject.FindObjectOfType<HealthBehaviour>();
         timeBeforeShoot = 1 / firerate; 
-       
     }
     void Update()
     {

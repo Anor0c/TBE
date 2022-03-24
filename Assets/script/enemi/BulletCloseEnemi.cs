@@ -21,7 +21,7 @@ public class BulletCloseEnemi : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        player enemi = hitInfo.GetComponent<player>();
+        HealthBehaviour enemi = hitInfo.GetComponent<HealthBehaviour>();
         if (enemi != null)
         {
             enemi.TakeDamage(damage);

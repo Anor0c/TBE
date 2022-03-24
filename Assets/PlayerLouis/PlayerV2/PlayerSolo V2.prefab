@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 701593191378333394}
   - component: {fileID: 826534033779162202}
-  - component: {fileID: 8864886209950072838}
   - component: {fileID: 7378962685697009741}
+  - component: {fileID: 6919064169345942066}
   - component: {fileID: 5990686951486922008}
   m_Layer: 0
   m_Name: CriticalHit
@@ -85,19 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8864886209950072838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345479318486474019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97557ef92b48aab48882751cf75d41a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
 --- !u!114 &7378962685697009741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,6 +102,19 @@ MonoBehaviour:
   point: {fileID: 701593191378333394}
   GunLevel: 5
   direction: {x: 0, y: 0}
+--- !u!114 &6919064169345942066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345479318486474019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a8ebfcf4c181c4faac6fa86d26d315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!61 &5990686951486922008
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -433,6 +433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 1
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &4087825815152305611
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,6 +486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 2
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &4087825815438909636
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,6 +540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 0
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &4087825816285745117
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +557,7 @@ GameObject:
   - component: {fileID: 756994226640083945}
   - component: {fileID: 4925068778913384741}
   - component: {fileID: 4894803130743781177}
+  - component: {fileID: -8639267076665385701}
   m_Layer: 0
   m_Name: PlayerSolo V2
   m_TagString: Player
@@ -702,9 +706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2dc7e60d322ccc4f985fbd75fb36fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
-  health: 500
-  healthBar: {fileID: 4087825815504581983}
 --- !u!20 &4925068778913384741
 Camera:
   m_ObjectHideFlags: 0
@@ -760,7 +761,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa2e521ce375f114b8db6d6022170642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharaIndex: {fileID: 0}
   modeIndex: 0
+--- !u!114 &-8639267076665385701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4087825816285745117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d620a7480eb180142a92a46018e8cb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 500
+  health: 500
+  healthBar: {fileID: 4087825815504581983}
 --- !u!1 &4430469236115529789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,7 +1750,7 @@ PrefabInstance:
     - target: {fileID: 9038818984467892928, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -8639267076665385701}
     - target: {fileID: 9038818986101020780, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_Pivot.x
       value: 0

@@ -372,6 +372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 2
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &2045399990009201504
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 1
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &2045399990260035084
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,6 +442,7 @@ GameObject:
   - component: {fileID: 2045399990260035088}
   - component: {fileID: 2045399989279061479}
   - component: {fileID: 3514212537477033524}
+  - component: {fileID: 8162353282292551516}
   m_Layer: 0
   m_Name: Player 1V2
   m_TagString: Player
@@ -727,9 +730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698b01df336fe124dbee6da1f32c8abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
-  health: 500
-  healthBar: {fileID: 2045399991093630094}
 --- !u!114 &3514212537477033524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,7 +742,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa2e521ce375f114b8db6d6022170642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharaIndex: {fileID: 0}
   modeIndex: 0
+--- !u!114 &8162353282292551516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045399990260035084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d620a7480eb180142a92a46018e8cb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 500
+  health: 500
+  healthBar: {fileID: 2045399991093630094}
 --- !u!1 &2045399991022977301
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 0
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &2283790138880285975
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2086916308364699791}
   - component: {fileID: 8879724301070714204}
-  - component: {fileID: 5897649767418543059}
+  - component: {fileID: 5934715499545790280}
   - component: {fileID: 5173725359088725453}
   - component: {fileID: 7344354866008827803}
   m_Layer: 0
@@ -1597,7 +1614,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5897649767418543059
+--- !u!114 &5934715499545790280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1606,10 +1623,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7618071996597477854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97557ef92b48aab48882751cf75d41a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 09a8ebfcf4c181c4faac6fa86d26d315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 1
 --- !u!114 &5173725359088725453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1915,7 +1932,7 @@ PrefabInstance:
     - target: {fileID: 9038818984467892928, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2045399989279061479}
+      objectReference: {fileID: 8162353282292551516}
     - target: {fileID: 9038818984467892935, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
