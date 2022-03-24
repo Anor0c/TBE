@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 2124140893526105058}
   - component: {fileID: 4429003147091129387}
   - component: {fileID: 2140165317344344166}
+  - component: {fileID: 3215009550990460303}
   m_Layer: 0
   m_Name: Player2 V2
   m_TagString: Player
@@ -344,9 +345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e13c1558299f24a9386dc238916b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
-  health: 500
-  healthBar: {fileID: 1311006427454662756}
 --- !u!114 &4429003147091129387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,7 +370,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa2e521ce375f114b8db6d6022170642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharaIndex: {fileID: 0}
   modeIndex: 0
+--- !u!114 &3215009550990460303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203332083037871365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d620a7480eb180142a92a46018e8cb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 500
+  health: 500
+  healthBar: {fileID: 1311006427454662756}
 --- !u!1 &1444588014679818635
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 1
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &2808609481435924835
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,6 +893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 0
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &4794470321710148935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modeIndex: 2
   GunLevelRequirement: 0
+  LootList: []
 --- !u!1 &7246873676081970640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,9 +1400,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6851272099858396021}
   - component: {fileID: 7106153842791494355}
-  - component: {fileID: 7309064428603839900}
   - component: {fileID: 8712079049076992985}
   - component: {fileID: 1311660845764501433}
+  - component: {fileID: 1862056402443758671}
   m_Layer: 0
   m_Name: CriticalHit
   m_TagString: Untagged
@@ -1458,19 +1475,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7309064428603839900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7591394377360742517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97557ef92b48aab48882751cf75d41a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
 --- !u!114 &8712079049076992985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1514,6 +1518,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.984375, y: 0.984375}
   m_EdgeRadius: 0
+--- !u!114 &1862056402443758671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7591394377360742517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a8ebfcf4c181c4faac6fa86d26d315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1 &8097215199546779656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,7 +1978,7 @@ PrefabInstance:
     - target: {fileID: 5724478069473284022, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3215009550990460303}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
 --- !u!224 &1311006426930346696 stripped

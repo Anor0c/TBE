@@ -57,7 +57,7 @@ public class EnemiLaser : MonoBehaviour
             }
             else
             {
-                player enemy = hitInfo.transform.GetComponent<player>();
+                HealthBehaviour enemy = hitInfo.transform.GetComponent<HealthBehaviour>();
 
                 if (enemy != null)
                 {
@@ -65,8 +65,6 @@ public class EnemiLaser : MonoBehaviour
                     Debug.Log("Player hit!!");
                 }
             }
-
-
         }
     }
 }

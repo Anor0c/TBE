@@ -7,26 +7,20 @@ public class EnemyAiming : MonoBehaviour
     public Transform cannon;
     private Vector2 cannonAim;
     private Vector2 playerPos;
-    private player _player;
+    private HealthBehaviour _player;
     public float lazerTrack;
-    // Start is called before the first frame update
-    void Start()
-    {
-        _player = GameObject.FindObjectOfType<player>();   
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
+        _player = GameObject.FindObjectOfType<HealthBehaviour>();
         if(_player == null)
         {
             return;
         }
         cannonAim = cannon.up;
-        var playerDir = _player.transform.position  - cannon .position ;
+        var playerDir = _player.transform.position - cannon.position;
         var aimLerp = Vector2.Lerp(cannonAim, playerDir, lazerTrack);
         cannon.up = aimLerp;
-
     }
 }
