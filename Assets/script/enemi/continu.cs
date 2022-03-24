@@ -28,11 +28,11 @@ public class continu : MonoBehaviour
 
     public void Start()
     {
-        playervar = GameObject.FindObjectOfType<HealthBehaviour>();
         timeBeforeShoot = 1 / firerate; 
     }
     void Update()
     {
+        playervar = GameObject.FindObjectOfType<HealthBehaviour>();
         if (playervar != null)
         {
             switch (CurrentEnemyTempo)
