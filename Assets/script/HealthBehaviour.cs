@@ -11,6 +11,8 @@ public class HealthBehaviour : MonoBehaviour
     {
         health -= damage;
 
+        healthBar.UpdateHealthBar();
+
         if (health <= 0)
         {
             Destroy(gameObject);
