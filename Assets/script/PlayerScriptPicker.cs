@@ -9,7 +9,9 @@ public class PlayerScriptPicker : MonoBehaviour
 
     private void Start()
     {
-        P2pos = new Vector3(100,0,0);
+
+        var health = gameObject.GetComponentInChildren<HealthBehaviour>(playerSolo);
+
         if (PlayerInputManager.instance.playerCount == 1)
         {
             Instantiate(playerSolo, transform);
