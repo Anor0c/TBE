@@ -10,7 +10,6 @@ public class PlayerScriptPicker : MonoBehaviour
     private void Start()
     {
 
-        var health = gameObject.GetComponentInChildren<HealthBehaviour>(playerSolo);
 
         if (PlayerInputManager.instance.playerCount == 1)
         {
@@ -19,11 +18,14 @@ public class PlayerScriptPicker : MonoBehaviour
         else
         {
             var solo = FindObjectOfType<PlayerSolo>().transform;
+            var soloHealth = solo.GetComponent<HealthBehaviour>();
+            var soloHealthValue = soloHealth.health;
             var soloPosition = solo.position;
             var soloParent = solo.parent;
             Destroy(solo.gameObject);
-            Instantiate(player1, soloPosition, quaternion.identity, soloParent);
-            Instantiate(player2, transform ); ; //non rien
+            var playerOneInstance = Instantiate(player1, soloPosition, quaternion.identity, soloParent);
+            playerOneInstance.GetComponent<HealthBehaviour>().health = soloHealthValue;
+            Instantiate(player2, transform); ; //non rien
         }
     }
 }
