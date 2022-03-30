@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e947a5dfd24283479b4226f028d3e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 0.1
+  startTime: 0.125
   bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
   point: {fileID: 1322915135757964696}
   GunLevel: 0
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e947a5dfd24283479b4226f028d3e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 0.1
+  startTime: 0.125
   bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
   point: {fileID: 3331412020098845133}
   GunLevel: 4
@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e947a5dfd24283479b4226f028d3e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 0.1
+  startTime: 0.125
   bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
   point: {fileID: 796544578391340924}
   GunLevel: 3
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e947a5dfd24283479b4226f028d3e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 0.1
+  startTime: 0.125
   bullet: {fileID: 0}
   point: {fileID: 2540534221376636379}
   GunLevel: 2
@@ -1628,7 +1628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e947a5dfd24283479b4226f028d3e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 0.1
+  startTime: 0.125
   bullet: {fileID: 0}
   point: {fileID: 2667066145357850855}
   GunLevel: 1
