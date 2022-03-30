@@ -1,13 +1,15 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 public class Wave : MonoBehaviour
 {
-    public ActWave2 actWave2;
+    public Wave[] wavesInScene;
+    [SerializeField] UnityEvent onPlayerJoined;
 
     public GameObject[] enList;
-    public GameObject[] enListP2;
     public GameObject boss;
-    GameObject[] enemyScene;
+    Transform[] enemyScene;
 
     private int EnemyCount;
     public int waveCount;
@@ -15,7 +17,15 @@ public class Wave : MonoBehaviour
 
     public void Start()
     {
-        waveCount = 0;
+        wavesInScene = FindObjectsOfType<Wave>();
+        if (wavesInScene.Length <= 1)
+            waveCount = 0;
+        else
+            waveCount = wavesInScene[0].waveCount;
+    }
+    public void OnPlayer2Joined()
+    {
+        onPlayerJoined.Invoke();
     }
 
     public void Boss()
@@ -27,16 +37,16 @@ public class Wave : MonoBehaviour
     }
     public void Spawn()
     {
-        Instantiate(enList [0]);
-        Instantiate(enList[1]);
+        Instantiate(enList[0], this.gameObject.transform);
+        Instantiate(enList[1], this.gameObject.transform);
         Boss();
         waveCount++;
     }
     void Update()
     {
-        enemyScene = GameObject.FindGameObjectsWithTag("enemi");
+        enemyScene = GetComponentsInChildren<Transform>();
         EnemyCount = enemyScene.Length;
-        if (EnemyCount == 0)
+        if (EnemyCount <= 1)
         {
             Spawn();
         }
