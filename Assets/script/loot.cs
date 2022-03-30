@@ -1,7 +1,7 @@
 using UnityEngine.InputSystem;
 using UnityEngine;
 
-public class Loot : MonoBehaviour
+public class loot : MonoBehaviour
 {
     [SerializeField] float speed;
     Rigidbody2D rb;

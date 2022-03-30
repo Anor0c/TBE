@@ -9,7 +9,8 @@ public class PlayerScriptPicker : MonoBehaviour
 
     private void Start()
     {
-        P2pos = new Vector3(100,0,0);
+
+
         if (PlayerInputManager.instance.playerCount == 1)
         {
             Instantiate(playerSolo, transform);
@@ -17,11 +18,14 @@ public class PlayerScriptPicker : MonoBehaviour
         else
         {
             var solo = FindObjectOfType<PlayerSolo>().transform;
+            var soloHealth = solo.GetComponent<HealthBehaviour>();
+            var soloHealthValue = soloHealth.health;
             var soloPosition = solo.position;
             var soloParent = solo.parent;
             Destroy(solo.gameObject);
-            Instantiate(player1, soloPosition, quaternion.identity, soloParent);
-            Instantiate(player2, transform ); ; //non rien
+            var playerOneInstance = Instantiate(player1, soloPosition, quaternion.identity, soloParent);
+            playerOneInstance.GetComponent<HealthBehaviour>().health = soloHealthValue;
+            Instantiate(player2, transform); ; //non rien
         }
     }
 }
