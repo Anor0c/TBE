@@ -125,4 +125,6 @@ MonoBehaviour:
   playerSolo: {fileID: 4087825816285745117, guid: ec07c869b0b302348be5f73a95579fb3, type: 3}
   player1: {fileID: 2045399990260035084, guid: 946c9592994617247aba98caede13383, type: 3}
   player2: {fileID: 1203332083037871365, guid: 5e7185bfc1d06f442b22e13d4ce2acb5, type: 3}
+  Cam1: {fileID: 6570698653188907352, guid: c44e4ea23a68a4245825910986ff9515, type: 3}
+  Cam2: {fileID: 8231669381736783025, guid: 8c367ee35f5b78a4fa793fb007fb30e5, type: 3}
   P2pos: {x: 0, y: 0, z: 0}
