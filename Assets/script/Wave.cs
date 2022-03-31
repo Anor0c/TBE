@@ -50,11 +50,10 @@ public class Wave : MonoBehaviour
         {
             Spawn();
         }
-        if (PlayerInputManager.instance.playerCount == 2) 
-        {
-            Debug.Log("player 2 in");
+        if (PlayerInputManager.instance.playerCount == 2)
+            OnPlayer2Joined();
             //il faudrait une facon de compter des ennemis seulement sur l'écran de P1, et de spawner des ennemis a P2 genre en faisant instanciate(en, en.position.xs+1000) 
             //apres on fait la meme update qu'avec P1 mais avec un tag différent
-        }
+        
     }
 }
