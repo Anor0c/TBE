@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c9a06b0229a65de4c86225e2899557dc, type: 3}
   m_Color: {r: 0.5776758, g: 0, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -130,7 +130,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 2, y: 1.7}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -166,7 +166,7 @@ Animator:
   m_GameObject: {fileID: 1975192375905824163}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b89742fd8a394f40adaff21724e4da5, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -243,9 +243,17 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 1ccfc8d6-dfce-44eb-9de2-b66585064075
     m_ActionName: player/START[/Keyboard/o]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6f5218ab-d2c1-49c8-94a0-321441674c9d
+    m_ActionName: Player/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d428aad3-c43f-45c1-bba8-5d0fdc05af8e
+    m_ActionName: Player2/move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: player
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &1975192375905824166
@@ -278,11 +286,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentEnemyTempo: 0
   firerate: 0
-  timesToShoot: 0
+  burstCount: 0
   burstpause: 0
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
+  heal: {fileID: 0}
   point: {fileID: 1975192376043653014}
-  damage: 1
 --- !u!114 &1975192375905824160
 MonoBehaviour:
   m_ObjectHideFlags: 0

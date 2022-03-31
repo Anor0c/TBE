@@ -161,10 +161,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824163, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_Name
-      value: enemiRafale Variant
+      value: enemiRafale
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824163, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824169, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824169, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: m_Size.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824169, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975192375905824169, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+      propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824169, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
