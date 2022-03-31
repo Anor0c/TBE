@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ScrollControl : MonoBehaviour
 {
+    public Wave enemiesInScenes;
     [SerializeField] float speed;
     [HideInInspector] public Rigidbody2D rb;
     GameObject[] enemy;
@@ -20,16 +18,12 @@ public class ScrollControl : MonoBehaviour
     }
     void Update()
     {
-        enemy = GameObject.FindGameObjectsWithTag("enemi");
-        EnemyCount = enemy.Length;
+        EnemyCount = enemiesInScenes.enList.Length;
         if (EnemyCount <= 0)
-        {
-            rb.velocity = transform.up *(-speed-10);
-        } 
-        else
-        {
-            rb.velocity = transform.up * (-speed+(SlowMultiplier*EnemyCount));
-        }
-        scrollVelocity = rb.velocity;
+                    rb.velocity = transform.up *(-speed-10);
+               else
+                    rb.velocity = transform.up * (-speed+(SlowMultiplier*EnemyCount));
+
+                scrollVelocity = rb.velocity;
     }
 }

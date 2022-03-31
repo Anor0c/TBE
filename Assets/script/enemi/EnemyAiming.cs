@@ -20,6 +20,7 @@ public class EnemyAiming : MonoBehaviour
         }
         cannonAim = cannon.up;
         var playerDir = _player.transform.position - cannon.position;
+        //Plus laserTrack est elevé, plus le lazer est précis. Il vise parfaitement a 1
         var aimLerp = Vector2.Lerp(cannonAim, playerDir, lazerTrack);
         cannon.up = aimLerp;
     }

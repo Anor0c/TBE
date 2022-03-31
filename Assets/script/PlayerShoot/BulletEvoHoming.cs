@@ -24,7 +24,7 @@ public class BulletEvoHoming : MonoBehaviour
     void Update()
     {
         if (enemy == null)
-        {
+        { 
             return;
         }
         // créer de la logique pour faire avancer la bullet a speedSlow pendant waitTime puis invoke(?) TargetEnemy
@@ -33,6 +33,10 @@ public class BulletEvoHoming : MonoBehaviour
     }
     private void TargetEnemy()
     {
+        if(enemy == null)
+        {
+            return;
+        }
         rb.velocity = Vector2.zero;
         cible = new Vector2(enemy.position.x, enemy.position.y);
         transform.position = Vector2.MoveTowards(transform.position, cible, speedFast * Time.deltaTime);

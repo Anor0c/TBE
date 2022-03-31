@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4531115569393730476}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 1.62, z: -25.742964}
+  m_LocalPosition: {x: -0.07, y: 1.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -43,8 +43,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe26f6f70a935a348ad51a97743a265d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  en: {fileID: 1590200419699603007, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
-  en2: {fileID: 1975192375905824163, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+  wavesInScene: []
+  onPlayerJoined:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3340768518986376568, guid: d15c366ca1676f54da38926fcbe3e3dc, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  enList: []
   boss: {fileID: 4193202514651319574, guid: 8b362233cfb7b2c40b71c6a2d2dade59, type: 3}
   waveCount: 0
   waveToBoss: 2

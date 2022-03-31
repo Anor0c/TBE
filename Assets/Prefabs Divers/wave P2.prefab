@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3340768518986376568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3340768518986376570}
+  - component: {fileID: 3340768518986376571}
+  m_Layer: 0
+  m_Name: wave P2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3340768518986376570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3340768518986376568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1000, y: 1.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3340768518986376571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3340768518986376568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe26f6f70a935a348ad51a97743a265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wavesInScene: []
+  onPlayerJoined:
+    m_PersistentCalls:
+      m_Calls: []
+  enList:
+  - {fileID: 1590200419699603007, guid: d555d8e2b8fdbdf4ab3e6d4a4cd3d303, type: 3}
+  - {fileID: 1975192375905824163, guid: 9b2c39b92551e9240be7cdbedf4189d3, type: 3}
+  - {fileID: 8687488516068259266, guid: cd1a3011fcaafc24c950a879aaaed2ac, type: 3}
+  boss: {fileID: 4193202514651319574, guid: 8b362233cfb7b2c40b71c6a2d2dade59, type: 3}
+  waveCount: 0
+  waveToBoss: 2

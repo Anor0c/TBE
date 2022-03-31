@@ -1,20 +1,31 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
+using UnityEngine.Events;
 public class Wave : MonoBehaviour
 {
-    public GameObject en;
-    public GameObject en2;
+    public Wave[] wavesInScene;
+    [SerializeField] UnityEvent onPlayerJoined;
+
+    public GameObject[] enList;
     public GameObject boss;
-    GameObject[] enemy;
+    Transform[] enemyScene;
+
     private int EnemyCount;
     public int waveCount;
     public int waveToBoss;
 
     public void Start()
     {
-        waveCount = 0;
+        wavesInScene = FindObjectsOfType<Wave>();
+        if (wavesInScene.Length <= 1)
+            waveCount = 0;
+        else
+            waveCount = wavesInScene[0].waveCount;
+    }
+    public void OnPlayer2Joined()
+    {
+        onPlayerJoined.Invoke();
     }
 
     public void Boss()
@@ -26,20 +37,23 @@ public class Wave : MonoBehaviour
     }
     public void Spawn()
     {
-        Instantiate(en);
-        Instantiate(en2);
+        Instantiate(enList[0], this.gameObject.transform);
+        Instantiate(enList[1], this.gameObject.transform);
         Boss();
         waveCount++;
     }
     void Update()
     {
-        enemy = GameObject.FindGameObjectsWithTag("enemi");
-        EnemyCount = enemy.Length;
-        if (EnemyCount == 0)
+        enemyScene = GetComponentsInChildren<Transform>();
+        EnemyCount = enemyScene.Length;
+        if (EnemyCount <= 1)
         {
             Spawn();
         }
-
+        if (PlayerInputManager.instance.playerCount == 2)
+            OnPlayer2Joined();
+            //il faudrait une facon de compter des ennemis seulement sur l'écran de P1, et de spawner des ennemis a P2 genre en faisant instanciate(en, en.position.xs+1000) 
+            //apres on fait la meme update qu'avec P1 mais avec un tag différent
         
     }
 }

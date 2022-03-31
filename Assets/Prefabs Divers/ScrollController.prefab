@@ -285,5 +285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c7239b24a0ed174eb768142fb10d49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemiesInScenes: {fileID: 4531115569393730479, guid: 5ce932ca4349050489ba592c89a38459, type: 3}
   speed: 5
+  rb: {fileID: 0}
   SlowMultiplier: 1
+  scrollVelocity: {x: 0, y: 0}
