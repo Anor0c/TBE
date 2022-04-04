@@ -27,6 +27,34 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+    public void ToTest()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void TestKappa()
+    {
+        SceneManager.LoadScene(6);
+    }
+    public void TestFuta()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void TestPoulpe()
+    {
+        SceneManager.LoadScene(8);
+    }
+    public void TestCyclope()
+    {
+        SceneManager.LoadScene(9);
+    }
+    public void TestLanterne()
+    {
+        SceneManager.LoadScene(10);
+    }
+    public void TestTengu()
+    {
+        SceneManager.LoadScene(11);
+    }
     public void ToExit()
     {
         Application.Quit();
