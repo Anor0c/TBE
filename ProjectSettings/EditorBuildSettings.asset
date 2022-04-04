@@ -23,4 +23,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 41d4ae92cc174124c8f6ab50ee285c94
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/MenuTest.unity
+    guid: 3019f0d5e36d96d4b8e60dc05f106fbc
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/TestKappa.unity
+    guid: 936de611be57c414f992ab25cd063d4b
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/TestFuta.unity
+    guid: 23508bef3f7455443a0403c355b9559c
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/TestPoulpe.unity
+    guid: eae7eda69b4f2de4da0b3f3ee922a0f0
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/TestCyclope.unity
+    guid: 75625c024f09c5d4698ee4a15d289709
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/TestLanterne.unity
+    guid: 0b86fe7c88107ef42ba0cc80d2f7c3ba
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/TestTengu.unity
+    guid: 1059772ca2b3af849a205da6fe20ec39
   m_configObjects: {}

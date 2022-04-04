@@ -288,7 +288,7 @@ MonoBehaviour:
   firerate: 5
   burstCount: 1
   burstpause: 3
-  bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
+  bullet: {fileID: 3957312250965898261, guid: 973236487523d794080e777ae66aecc0, type: 3}
   heal: {fileID: 0}
   point: {fileID: 1975192376043653014}
 --- !u!114 &1975192375905824160
