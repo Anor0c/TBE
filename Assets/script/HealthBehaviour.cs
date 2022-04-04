@@ -5,7 +5,7 @@ using UnityEngine;
 public class HealthBehaviour : MonoBehaviour
 {
     public float maxHealth = 500;
-    public float health;
+    [HideInInspector] public float health;
     public HealthBar healthBar;
 
 
@@ -16,9 +16,8 @@ public class HealthBehaviour : MonoBehaviour
         healthBar.UpdateHealthBar();
 
         if (health <= 0)
-        {
             Destroy(gameObject);
-        }
+        
         else { return; }
         healthBar.UpdateHealthBar();
     }

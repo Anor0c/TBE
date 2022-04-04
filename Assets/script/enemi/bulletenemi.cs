@@ -5,7 +5,7 @@ public class bulletenemi : MonoBehaviour
     [SerializeField] float speed;
     Rigidbody2D rb;
     public float damage = 40;
-    public PlayerMode player;
+    [HideInInspector] public PlayerMode player;
     Vector2 moveDirection;
     void Start()
     {
