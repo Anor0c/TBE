@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 4193202514651319572}
   - component: {fileID: 4193202514651319573}
   - component: {fileID: -4512884890522908353}
+  - component: {fileID: 8049611095655804246}
   m_Layer: 6
   m_Name: TenguBoss
   m_TagString: enemi
@@ -221,6 +222,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!95 &8049611095655804246
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193202514651319574}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 52ada07cd73b1eb48ba767a926dc0c62, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &3988968071810241101
 PrefabInstance:
   m_ObjectHideFlags: 0
