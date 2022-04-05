@@ -1,3 +1,3 @@
-public class IntGameEventListener : GameEvent<int>
+public class IntGameEventListener : GameEventListener<int>
 {
 }
