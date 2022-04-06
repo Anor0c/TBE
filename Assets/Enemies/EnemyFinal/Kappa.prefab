@@ -126,8 +126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   health: 100
-  enemyPrefab: {fileID: 0}
-  point: {fileID: 0}
   enemyhealthbar: {fileID: 5038126994906527184}
 --- !u!114 &4205586476706398721
 MonoBehaviour:
@@ -153,7 +151,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590200419699603007}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b84327add20855d449d166d157bd89d6, type: 2}
   m_CullingMode: 0

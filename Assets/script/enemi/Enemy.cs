@@ -6,24 +6,18 @@ public class Enemy : MonoBehaviour
 {
 
     public float maxHealth , health;
-    public GameObject enemyPrefab;
-    public Transform point;
+    //public GameObject enemyPrefab;
+    //public Transform point;
     public EnnemiHealthBar enemyhealthbar;
+    private EnemyCounter counter;
     private ItemDrop getItem;
 
     private void Start()
     {
-        //enemies = FindGameObjectWithTag("Enemy");
-        //enemies = FindGameObjectsWithTag("Enemy"); enemies[0],enemies[1]
         getItem = GetComponent<ItemDrop>();
-
+        counter = GetComponentInParent<EnemyCounter>();
     }
 
-
-    /*public void spawn()
-    {
-        Instantiate(enemyPrefab, point.position, Quaternion.identity);
-    }*/
 
 
     public void TakeDamage(float damage)
@@ -32,17 +26,22 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
-            if (getItem != null)
-            {
-                getItem.DropItem();
-                Debug.Log("Dropped an Item " + getItem);
-                
-            }
+            if (counter == null)
+                return;
+            Death();
+            counter.IncrementCountEnemy();
 
-            
-            Destroy(gameObject);
-            //spawn();
         }
         enemyhealthbar.UpdateEnemyHealthBar();
+    }
+    public void Death()
+    {
+        if (getItem != null)
+        {
+            getItem.DropItem();
+            Debug.Log("Dropped an Item " + getItem);
+            Destroy(this.gameObject);
+        }
+
     }
 }
