@@ -3,16 +3,18 @@ using UnityEngine.UI;
 
 public class ProgressBar : MonoBehaviour
 {
-    [HideInInspector] public Image _progresBar;
-    [SerializeField] private int totalEnemy;
+    public Image _progresBar;
+    [SerializeField] private int totalEnemy=5;
 
-    private void Start()
+    private void Awake()
     {
         _progresBar = this.GetComponent<Image>();
     }
 
     public void ProgressBarUpdate(int currentEnemyKilled)
     {
-        _progresBar.fillAmount = Mathf.Clamp(currentEnemyKilled / totalEnemy, 0, 1);
+        _progresBar.fillAmount = Mathf.Clamp(currentEnemyKilled / totalEnemy, 0f, 1f);
+        Debug.Log(currentEnemyKilled);
+        Debug.Log(_progresBar.fillAmount);
     }
 }
