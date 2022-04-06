@@ -58,8 +58,12 @@ public class Wave : MonoBehaviour
         EnemyCount = enemyScene.Length;
         if (EnemyCount == 0)
         {
-            if (spawnWait != null)
+            /*if (spawnWait != null)
+            {
                 StopCoroutine(SpawnWait());
+                Debug.Log("love when it wrks");
+            }*/
+
             spawnWait = StartCoroutine(SpawnWait());
             //Spawn();
             //il faudrait une coroutine qui s'invoque une seule fois pour lancer un wait de genre 2 secondes avant de lancer  
