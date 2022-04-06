@@ -9,12 +9,13 @@ public class Enemy : MonoBehaviour
     //public GameObject enemyPrefab;
     //public Transform point;
     public EnnemiHealthBar enemyhealthbar;
+    private EnemyCounter counter;
     private ItemDrop getItem;
 
     private void Start()
     {
         getItem = GetComponent<ItemDrop>();
-
+        counter = GetComponentInParent<EnemyCounter>();
     }
 
 
@@ -25,16 +26,22 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
-            if (getItem != null)
-            {
-                getItem.DropItem();
-                Debug.Log("Dropped an Item " + getItem);
-                
-            }
-            Destroy(gameObject);
-            var counter = GetComponent<EnemyCounter>();
+            if (counter == null)
+                return;
+            Death();
             counter.IncrementCountEnemy();
+
         }
         enemyhealthbar.UpdateEnemyHealthBar();
+    }
+    public void Death()
+    {
+        if (getItem != null)
+        {
+            getItem.DropItem();
+            Debug.Log("Dropped an Item " + getItem);
+            Destroy(this.gameObject);
+        }
+
     }
 }

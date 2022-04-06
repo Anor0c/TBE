@@ -9,6 +9,6 @@ public class EnemyCounter : MonoBehaviour
     public void IncrementCountEnemy()
     {
         enemyCount++;
-        onEnemyDied.Invoke(enemyCount);
+        onEnemyDied?.Invoke(enemyCount);
     }
 }

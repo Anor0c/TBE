@@ -9,7 +9,7 @@ public class Wave : MonoBehaviour
 
     public GameObject[] enList;
     public GameObject boss;
-    Transform[] enemyScene;
+    Enemy[] enemyScene;
 
     private int EnemyCount;
     public int waveCount;
@@ -22,6 +22,7 @@ public class Wave : MonoBehaviour
             waveCount = 0;
         else
             waveCount = wavesInScene[0].waveCount;
+        Spawn();
     }
     public void OnPlayer2Joined()
     {
@@ -44,9 +45,9 @@ public class Wave : MonoBehaviour
     }
     void Update()
     {
-        enemyScene = GetComponentsInChildren<Transform>();
+        enemyScene = GetComponentsInChildren<Enemy>();
         EnemyCount = enemyScene.Length;
-        if (EnemyCount <= 1)
+        if (EnemyCount == 0)
         {
             Spawn();
         }
