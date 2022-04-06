@@ -58,11 +58,11 @@ public class Wave : MonoBehaviour
         EnemyCount = enemyScene.Length;
         if (EnemyCount == 0)
         {
-            /*if (spawnWait != null)
+            if (spawnWait != null)
             {
                 StopCoroutine(SpawnWait());
                 Debug.Log("love when it wrks");
-            }*/
+            }
 
             spawnWait = StartCoroutine(SpawnWait());
             //Spawn();
