@@ -40,8 +40,9 @@ public class Enemy : MonoBehaviour
         {
             getItem.DropItem();
             Debug.Log("Dropped an Item " + getItem);
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
+        Destroy(this.gameObject);
 
     }
 }

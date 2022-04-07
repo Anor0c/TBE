@@ -314,6 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb3b7b4af7b41b4197d61d82778977e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Life: 0
+  lanternes: {fileID: 951210272141049416, guid: 810e2d1fd5afbac418f46bae3952a378, type: 3}
 --- !u!1 &1975192376043653009
 GameObject:
   m_ObjectHideFlags: 0

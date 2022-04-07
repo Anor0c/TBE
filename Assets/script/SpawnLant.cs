@@ -6,22 +6,24 @@ public class SpawnLant : MonoBehaviour
 {
     //public Enemy Alive;
     public float Life;
-    public GameObject lanterne1, lanterne2;
-    public GameObject Spawn1, Spawn2;
+    public GameObject lanternes;
+    //public GameObject Spawn1, Spawn2;
     void Start()
     {
 
     }
     void Update()
     {
-        var place = FindObjectOfType<SpawnLant>().transform;
+        //var place = FindObjectOfType<SpawnLant>().transform;
+        //var place2 = gameObject.find("Spawn1").transform;
         Life = GetComponent<Enemy>().health;
 
         if (Life <= 0)
         {
-            Instantiate(lanterne1, place);
-            Instantiate(lanterne2, Spawn2.transform);
-            Destroy(gameObject);
+            Instantiate(lanternes);
+            //Instantiate(lanterne1, place);
+
+            Destroy(this.gameObject);
         }
     }
 }
