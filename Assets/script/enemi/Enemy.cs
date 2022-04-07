@@ -6,9 +6,9 @@ public class Enemy : MonoBehaviour
 {
 
     public float maxHealth , health;
-    //public GameObject enemyPrefab;
-    //public Transform point;
+
     public EnnemiHealthBar enemyhealthbar;
+    public ScrollControl _scrollControl;
     private EnemyCounter counter;
     private ItemDrop getItem;
 
@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     {
         getItem = GetComponent<ItemDrop>();
         counter = GetComponentInParent<EnemyCounter>();
+        health = maxHealth;
     }
 
 

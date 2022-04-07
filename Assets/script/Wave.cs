@@ -12,12 +12,13 @@ public class Wave : MonoBehaviour
     public GameObject boss;
     Enemy[] enemyScene;
     public Wave[] wavesInScene;
+    [HideInInspector] public ScrollControl _scrollControl;
 
-    private int EnemyCount;
+    public int enemyCount;
     public int waveCount;
     public int waveToBoss;
     public int waitForSpawn;
-    public bool CoroutineIsRunning = false;
+    public bool coroutineIsRunning = false;
 
     public void Start()
     {
@@ -36,7 +37,7 @@ public class Wave : MonoBehaviour
     {
         if (waveToBoss < waveCount)
         {
-            Instantiate(boss);
+            Instantiate(boss, this.gameObject.transform);
         }
     }
     public void Spawn()
@@ -48,7 +49,7 @@ public class Wave : MonoBehaviour
     }
     private IEnumerator SpawnWait()
     {
-        CoroutineIsRunning = true;
+        coroutineIsRunning = true;
         yield return new WaitForSeconds(waitForSpawn);
         Spawn();
         yield return null;
@@ -56,10 +57,10 @@ public class Wave : MonoBehaviour
     void Update()
     {
         enemyScene = GetComponentsInChildren<Enemy>();
-        EnemyCount = enemyScene.Length;
-        if (EnemyCount == 0)
+        enemyCount = enemyScene.Length;
+        if (enemyCount == 0)
         {
-            if (CoroutineIsRunning == true) 
+            if (coroutineIsRunning) 
                 return;
 
             spawnWait=StartCoroutine(SpawnWait());
@@ -72,7 +73,7 @@ public class Wave : MonoBehaviour
             if (spawnWait != null)
             {
                 StopCoroutine(spawnWait);
-                CoroutineIsRunning = false;
+                coroutineIsRunning = false;
                 Debug.Log("pls stop");
             }
         }

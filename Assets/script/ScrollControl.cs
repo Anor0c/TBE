@@ -1,14 +1,16 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class ScrollControl : MonoBehaviour
 {
-    public Wave enemiesInScenes;
-    [SerializeField] float speed;
-    [HideInInspector] public Rigidbody2D rb;
-    GameObject[] enemy;
-    private int EnemyCount;
-    public float SlowMultiplier;
+    public Wave _wave;
     [HideInInspector] public Vector2 scrollVelocity;
+    [HideInInspector] public Rigidbody2D rb;
+
+    [SerializeField] float speed;
+    [SerializeField] int enemyCount;
+    public float SlowMultiplier;
+    public float fastMultiplier;
 
     void Start()
     {
@@ -18,12 +20,14 @@ public class ScrollControl : MonoBehaviour
     }
     void Update()
     {
-        EnemyCount = enemiesInScenes.enList.Length;
-        if (EnemyCount <= 0)
-                    rb.velocity = transform.up *(-speed-10);
+        enemyCount = _wave.enemyCount;
+        if (enemyCount <= 0)
+                    rb.velocity = transform.up *(-speed-fastMultiplier);
                else
-                    rb.velocity = transform.up * (-speed+(SlowMultiplier*EnemyCount));
+                    rb.velocity = transform.up * (-speed+(SlowMultiplier*enemyCount));
 
-                scrollVelocity = rb.velocity;
+        scrollVelocity = rb.velocity;
+        Debug.Log(scrollVelocity.y);
+
     }
 }
