@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7378962685697009741}
   - component: {fileID: 6919064169345942066}
   - component: {fileID: 5990686951486922008}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CriticalHit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
