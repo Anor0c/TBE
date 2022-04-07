@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 294015414234576746}
   - component: {fileID: 294015414234576745}
   - component: {fileID: 294015414234576744}
-  - component: {fileID: 294015414234576742}
+  - component: {fileID: 8762799484657531227}
   m_Layer: 8
   m_Name: Hexagon Flat-Top
   m_TagString: Untagged
@@ -132,7 +132,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &294015414234576742
+--- !u!114 &8762799484657531227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 294015414234576749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b286816dc9cd3a74fb1924483e8cbdf0, type: 3}
+  m_Script: {fileID: 11500000, guid: e055517f709eb1b4ca70668bc231b010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 5
