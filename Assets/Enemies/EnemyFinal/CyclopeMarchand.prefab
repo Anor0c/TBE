@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 1975192375905824166}
   - component: {fileID: 1975192375905824161}
   - component: {fileID: 1975192375905824160}
-  - component: {fileID: 8085457898978976904}
+  - component: {fileID: 122655273337139893}
   m_Layer: 6
   m_Name: CyclopeMarchand
   m_TagString: enemi
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77df7192c0f92b64891f10b83b155e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8085457898978976904
+--- !u!114 &122655273337139893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
