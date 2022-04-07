@@ -18,6 +18,7 @@ public class continu : MonoBehaviour
     private int shotCount;
     public int burstCount;
     public float burstpause;
+    public bool isMelee;
 
 
     public GameObject bullet;
@@ -28,7 +29,8 @@ public class continu : MonoBehaviour
 
     public void Start()
     {
-        timeBeforeShoot = 1 / firerate; 
+        timeBeforeShoot = 1 / firerate;
+        burstCount = burstCount - 1;
     }
     void Update()
     {
@@ -53,7 +55,10 @@ public class continu : MonoBehaviour
     }
     void Shoot(GameObject prefabToShoot)
     {
-        Instantiate(prefabToShoot, point.position, point.rotation);
+        if (!isMelee)
+            Instantiate(prefabToShoot, point.position, point.rotation);
+        else
+            Instantiate(prefabToShoot, point.position, point.rotation, this.gameObject.transform);
         shotCount++;
     }
     void Rafale()

@@ -286,7 +286,8 @@ MonoBehaviour:
   CurrentEnemyTempo: 1
   firerate: 5
   burstCount: 1
-  burstpause: 3
+  burstpause: 10
+  isMelee: 1
   bullet: {fileID: 3957312250965898261, guid: 973236487523d794080e777ae66aecc0, type: 3}
   heal: {fileID: 0}
   point: {fileID: 1975192376043653014}
@@ -326,7 +327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975192376043653009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.32, y: -1.84, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1975192375905824174}
