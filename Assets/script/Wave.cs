@@ -32,6 +32,13 @@ public class Wave : MonoBehaviour
     {
         onPlayerJoined.Invoke();
     }
+    public void DeactivateEnemyOnDeath()
+    {
+        foreach (Enemy en in enemyScene)
+        {
+            en.gameObject.SetActive(false);
+        }
+    }
 
     public void Boss()
     {
