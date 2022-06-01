@@ -52,6 +52,7 @@ public class Wave : MonoBehaviour
         waveCount++;
         Instantiate(enList[0], this.gameObject.transform);
         Instantiate(enList[1], this.gameObject.transform);
+        Instantiate(enList[2], this.gameObject.transform);
         Boss();
     }
     private IEnumerator SpawnWait()
