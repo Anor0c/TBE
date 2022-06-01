@@ -457,7 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  bullet: {fileID: 1138246210629765633, guid: f418b260e126e4548946d4903199c4d0, type: 3}
   point: {fileID: 4401260317060935901}
   GunLevel: 5
   direction: {x: 0, y: 0}
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  bullet: {fileID: 1138246210629765633, guid: f418b260e126e4548946d4903199c4d0, type: 3}
   point: {fileID: 7983827243861835801}
   GunLevel: 0
   direction: {x: 0, y: 0}
@@ -553,7 +553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  bullet: {fileID: 1138246210629765633, guid: f418b260e126e4548946d4903199c4d0, type: 3}
   point: {fileID: 5288454046346728342}
   GunLevel: 4
   direction: {x: 0, y: 0}
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  bullet: {fileID: 1138246210629765633, guid: f418b260e126e4548946d4903199c4d0, type: 3}
   point: {fileID: 1215792609423678024}
   GunLevel: 2
   direction: {x: 0, y: 0}
@@ -1290,7 +1290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  bullet: {fileID: 1138246210629765633, guid: f418b260e126e4548946d4903199c4d0, type: 3}
   point: {fileID: 3376558118291547155}
   GunLevel: 5
   direction: {x: 0, y: 0}
@@ -1527,7 +1527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  bullet: {fileID: 1138246210629765633, guid: f418b260e126e4548946d4903199c4d0, type: 3}
   point: {fileID: 3401397935052143532}
   GunLevel: 1
   direction: {x: 0, y: 0}
@@ -1800,7 +1800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0.1
-  bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
+  bullet: {fileID: 1138246210629765633, guid: f418b260e126e4548946d4903199c4d0, type: 3}
   point: {fileID: 5374027407808966695}
   GunLevel: 3
   direction: {x: 0, y: 0}
