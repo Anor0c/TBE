@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3550249184698905875}
   - component: {fileID: 3550249184698905874}
+  - component: {fileID: 552660846}
   m_Layer: 0
   m_Name: SceneController
   m_TagString: Untagged
@@ -43,3 +44,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af2378864d7c75a43895f19715e651d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &552660846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550249184698905873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da801cc4ecd66449bbeb6c81b4fbfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 510e1863323725b4dbaef309aaac9cf4, type: 2}
+  gameEventCallback:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3550249184698905874}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: ToGameOver
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

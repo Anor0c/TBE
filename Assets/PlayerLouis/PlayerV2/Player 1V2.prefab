@@ -758,6 +758,33 @@ MonoBehaviour:
   maxHealth: 500
   health: 500
   healthBar: {fileID: 2045399991093630094}
+  onPlayerDied:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8162353282292551516}
+        m_TargetAssemblyTypeName: HealthBehaviour, Assembly-CSharp
+        m_MethodName: DestroyPlayerOnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: a50de7a0593a90b449c0e65119d05a1d, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &2045399991022977301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,7 +1494,7 @@ GameObject:
   - component: {fileID: 5934715499545790280}
   - component: {fileID: 5173725359088725453}
   - component: {fileID: 7344354866008827803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CriticalHit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1874,6 +1901,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 9038818986101020776, guid: 4696003bea33f5946abc96924271ff76, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 9038818986101020780, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1960,7 +1991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9038818986101020781, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_Name
-      value: HealthPlayer
+      value: UIPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 9038818986101020781, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_IsActive

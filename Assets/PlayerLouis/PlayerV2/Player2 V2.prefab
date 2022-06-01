@@ -386,6 +386,33 @@ MonoBehaviour:
   maxHealth: 500
   health: 500
   healthBar: {fileID: 1311006427454662756}
+  onPlayerDied:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3215009550990460303}
+        m_TargetAssemblyTypeName: HealthBehaviour, Assembly-CSharp
+        m_MethodName: DestroyPlayerOnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: ed9392b129c37b44bb18ac2e821f52f9, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1444588014679818635
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,7 +1355,7 @@ GameObject:
   - component: {fileID: 8712079049076992985}
   - component: {fileID: 1311660845764501433}
   - component: {fileID: 1862056402443758671}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CriticalHit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1870,7 +1897,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5724478067849010459, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_Name
-      value: HealthPlayer2
+      value: UIPlayer2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478067849010462, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5724478069429836591, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_AnchorMax.x

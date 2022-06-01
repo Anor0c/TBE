@@ -127,6 +127,7 @@ MonoBehaviour:
   maxHealth: 150
   health: 150
   enemyhealthbar: {fileID: 5674544289074365315}
+  _scrollControl: {fileID: 0}
 --- !u!114 &1975192375905824166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,7 +183,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975192375905824163}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 5f76477397c6ea747a198f8fe7ecff42, type: 2}
   m_CullingMode: 0
