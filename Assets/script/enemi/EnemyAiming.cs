@@ -14,10 +14,8 @@ public class EnemyAiming : MonoBehaviour
     void Update()
     {
         _player = GameObject.FindObjectOfType<HealthBehaviour>();
-        if(_player == null)
-        {
+        if (_player == null)
             return;
-        }
         cannonAim = cannon.up;
         var playerDir = _player.transform.position - cannon.position;
         //Plus laserTrack est elevé, plus le lazer est précis. Il vise parfaitement a 1
