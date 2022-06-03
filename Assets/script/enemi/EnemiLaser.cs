@@ -1,70 +1,53 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemiLaser : MonoBehaviour
 {
     public Transform point;
-    public float damage;
     public LineRenderer lineRenderer;
+    public BoxCollider2D lazerHit;
 
+    public float damage;
     public float pauseTime;
     public float lazerTime;
-    private float currentLazerTime;
-    private float waitTime;
-    private bool isLazer=true; 
-    void Start()
+
+    private bool isLazer;
+    private void Start()
     {
-        currentLazerTime = lazerTime;
+        isLazer = true;
+        StartCoroutine(Lazer());
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+
+        HealthBehaviour enemi = collision.GetComponent<HealthBehaviour>();
+        if (enemi != null)
+        {
+            enemi.TakeDamage(damage);
+        }
 
     }
-    void Update()
+    private IEnumerator Lazer()
     {
-
-        currentLazerTime -= Time.deltaTime;
-        waitTime = currentLazerTime + pauseTime ;
-        if (currentLazerTime <= 0f) 
-        {
-            isLazer = false;
-            // il faudrait de  la logique pour mettre des pauses, utiliser booollean 
-        }
-        if(waitTime <= 0f)
-        {
-            currentLazerTime = lazerTime ;
-            isLazer = true;
-        }
-
-
-        if(isLazer == true)
-        {
-            Lazer();
-        }
+        var routineTime = isLazer ? lazerTime : pauseTime;
+        //verifie is issLazer est true, si il est true, routineTime=lazerTime, sinon, routineTime=pauseTime
+        yield return new WaitForSeconds(routineTime);
+        if (isLazer)
+            LazerAct();
         else
-        {
-            lineRenderer.SetPosition(0, point.position);
-            lineRenderer.SetPosition(1, point.position);
-        }
-    }
-    private void Lazer()
-    {
-        {
-            lineRenderer.SetPosition(0, point.position);
-            lineRenderer.SetPosition(1, point.position + point.TransformDirection(Vector2.up) * 20f);
-            RaycastHit2D hitInfo = Physics2D.Raycast(point.position, point.up, 100f, LayerMask.GetMask("Default"), 0);
-            if (hitInfo.transform == null)
-            {
-                return;
-            }
-            else
-            {
-                HealthBehaviour enemy = hitInfo.transform.GetComponent<HealthBehaviour>();
+            LazerDeac();
 
-                if (enemy != null)
-                {
-                    enemy.TakeDamage(damage);
-                    Debug.Log("Player hit!!");
-                }
-            }
-        }
+    }
+    private void LazerAct()
+    {
+        lineRenderer.enabled = true;
+        lazerHit.enabled = true;
+        isLazer = true;
+    }
+    private void LazerDeac()
+    {
+        lineRenderer.enabled = false;
+        lazerHit.enabled = false;
+        isLazer = false;
     }
 }
