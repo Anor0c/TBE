@@ -14,11 +14,10 @@ public class PlayerMode : MonoBehaviour
         //Logique pour avoir le choix de perso qui influe playerMode. 
         CharaIndex = FindObjectOfType<CharacterList>();
         if (CharaIndex == null)
-        {
             modeIndex = 0;
-        }
+
         else
-        modeIndex = CharaIndex.index;
+            modeIndex = CharaIndex.index;
 
         ModeSwitch(modeIndex);
     }

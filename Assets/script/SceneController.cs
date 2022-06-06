@@ -55,6 +55,10 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene(11);
     }
+    public void ToSkinSelect()
+    {
+        SceneManager.LoadScene(12);
+    }
     public void ToExit()
     {
         Application.Quit();
