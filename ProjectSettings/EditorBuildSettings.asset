@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScenes/TestTengu.unity
     guid: 1059772ca2b3af849a205da6fe20ec39
+  - enabled: 1
+    path: Assets/Scenes/SkinChoice.unity
+    guid: e24e6683cd304a0439c73c1d65a4b0b9
   m_configObjects: {}
