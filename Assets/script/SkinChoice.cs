@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class CharacterList : MonoBehaviour
+public class SkinChoice : MonoBehaviour
 {
     GameObject[] characterList;
     public int index;
@@ -16,7 +12,7 @@ public class CharacterList : MonoBehaviour
     {
 
         characterList = new GameObject[transform.childCount];
-        for (int i=0;i<transform.childCount; i++)
+        for (int i = 0; i < transform.childCount; i++)
         {
             characterList[i] = transform.GetChild(i).gameObject;
         }
@@ -45,7 +41,7 @@ public class CharacterList : MonoBehaviour
     {
         characterList[index].SetActive(false);
         index++;
-        if (index == characterList.Length) 
+        if (index == characterList.Length)
         {
             index = 0;
         }

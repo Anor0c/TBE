@@ -310,6 +310,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ButtonLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 3041195292041121758, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SkinChoice, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3041195292422161527, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -317,6 +321,10 @@ PrefabInstance:
     - target: {fileID: 3041195292422161527, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ButtonRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 3041195292422161527, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SkinChoice, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
@@ -683,7 +691,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1666960123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2fcfd9c509c4da45982741b6f1f8a85, type: 3}
+  m_Script: {fileID: 11500000, guid: d632edddb40270a4691b037c4913233d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
