@@ -50,6 +50,7 @@ public class Enemy : MonoBehaviour
             }
             Destroy(this.gameObject);
         }
-        bossWin.BossDied();
+        else
+            bossWin.BossDied();
     }
 }
