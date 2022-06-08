@@ -27,10 +27,10 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
-            if (counter == null)
-                return;
             Death();
             counter.IncrementCountEnemy();
+            if (counter == null)
+                return;
 
         }
         enemyhealthbar.UpdateEnemyHealthBar();
