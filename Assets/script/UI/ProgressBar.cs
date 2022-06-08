@@ -9,12 +9,13 @@ public class ProgressBar : MonoBehaviour
     private void Awake()
     {
         _progresBar = this.GetComponent<Image>();
+        _progresBar.fillAmount = 0;
     }
 
     public void ProgressBarUpdate(int currentEnemyKilled)
     {
-        _progresBar.fillAmount = Mathf.Clamp(currentEnemyKilled / totalEnemy, 0f, 1f);
-        Debug.Log(currentEnemyKilled);
-        Debug.Log(_progresBar.fillAmount);
+        _progresBar.fillAmount = Mathf.Clamp(currentEnemyKilled / totalEnemy, 0, 1f);
+        Debug.Log("Ennemis tués"+currentEnemyKilled);
+        Debug.Log("Fraction de Barre Remplies"+_progresBar.fillAmount);
     }
 }
