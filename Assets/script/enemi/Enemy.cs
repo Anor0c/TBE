@@ -9,13 +9,17 @@ public class Enemy : MonoBehaviour
 
     public EnnemiHealthBar enemyhealthbar;
     public ScrollControl _scrollControl;
+
+    [SerializeField] private bool isBoss;
     private EnemyCounter counter;
     private ItemDrop getItem;
+    private BossDeathWin bossWin;
 
     private void Start()
     {
         getItem = GetComponent<ItemDrop>();
         counter = GetComponentInParent<EnemyCounter>();
+        bossWin = GetComponentInParent<BossDeathWin>();
         health = maxHealth;
     }
 
@@ -37,13 +41,15 @@ public class Enemy : MonoBehaviour
     }
     public void Death()
     {
-        if (getItem != null)
+        if (!isBoss)
         {
-            getItem.DropItem();
-            Debug.Log("Dropped an Item " + getItem);
-            //Destroy(this.gameObject);
+            if (getItem != null)
+            {
+                getItem.DropItem();
+                Debug.Log("Dropped an Item " + getItem);
+            }
+            Destroy(this.gameObject);
         }
-        Destroy(this.gameObject);
-
+        bossWin.BossDied();
     }
 }
