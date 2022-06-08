@@ -284,13 +284,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c66ea0dd8b293b43af391bbe9c53cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentEnemyTempo: 1
+  CurrentEnemyTempo: 2
   firerate: 20
   burstCount: 5
   burstpause: 3
   isMelee: 0
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
-  heal: {fileID: 0}
+  heal: {fileID: 4290071516424980101, guid: 797f0b9257046804b80200596d22d46c, type: 3}
   point: {fileID: 1975192376043653014}
 --- !u!114 &1975192375905824160
 MonoBehaviour:

@@ -181,10 +181,22 @@ PrefabInstance:
     - target: {fileID: 4531115569393730479, guid: 5ce932ca4349050489ba592c89a38459, type: 3}
       propertyPath: boss
       value: 
-      objectReference: {fileID: 4193202514651319574, guid: 060d1b8c8d632814daca31cd43ee1ffb, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4531115569393730479, guid: 5ce932ca4349050489ba592c89a38459, type: 3}
       propertyPath: waveToBoss
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531115569393730479, guid: 5ce932ca4349050489ba592c89a38459, type: 3}
+      propertyPath: enList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531115569393730479, guid: 5ce932ca4349050489ba592c89a38459, type: 3}
+      propertyPath: enList.Array.data[0]
+      value: 
+      objectReference: {fileID: 4193202514651319574, guid: 060d1b8c8d632814daca31cd43ee1ffb, type: 3}
+    - target: {fileID: 4531115569393730479, guid: 5ce932ca4349050489ba592c89a38459, type: 3}
+      propertyPath: enList.Array.data[1]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce932ca4349050489ba592c89a38459, type: 3}

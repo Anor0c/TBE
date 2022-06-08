@@ -156,9 +156,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1000
   health: 1000
-  enemyPrefab: {fileID: 4193202514651319574}
-  point: {fileID: 5940462054036900975, guid: d28e243f0b6b4c74394ccd56c9a6cf3b, type: 3}
   enemyhealthbar: {fileID: 8041304192847176502}
+  _scrollControl: {fileID: 0}
 --- !u!114 &4193202514651319571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,6 +190,7 @@ MonoBehaviour:
   firerate: 0
   burstCount: 0
   burstpause: 0
+  isMelee: 0
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
   heal: {fileID: 0}
   point: {fileID: 4193202512902776611}
