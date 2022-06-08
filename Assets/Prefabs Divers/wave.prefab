@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4531115569393730479}
   - component: {fileID: 8960714686784412353}
   - component: {fileID: 122206342}
+  - component: {fileID: 2773137859748618042}
   m_Layer: 0
   m_Name: wave
   m_TagString: Untagged
@@ -174,4 +175,31 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &2773137859748618042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4531115569393730476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7517f3f8f650feb47b8267704b881356, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onBossDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: fd4394b7b987b7649876bc8b024db392, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
