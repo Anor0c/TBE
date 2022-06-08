@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -9,11 +7,16 @@ public class Enemy : MonoBehaviour
 
     public EnnemiHealthBar enemyhealthbar;
     public ScrollControl _scrollControl;
+    public Transform spawnPoint1, spawnPoint2;
 
     [SerializeField] private bool isBoss;
+    [SerializeField] private bool isCyclope;
+    [SerializeField] Enemy cyclopeLantSpawn;
+
     private EnemyCounter counter;
     private ItemDrop getItem;
     private BossDeathWin bossWin;
+    private Wave wave;
 
     private void Start()
     {
@@ -21,6 +24,8 @@ public class Enemy : MonoBehaviour
         counter = GetComponentInParent<EnemyCounter>();
         bossWin = GetComponentInParent<BossDeathWin>();
         health = maxHealth;
+        if (isCyclope)
+            wave = GetComponentInParent<Wave>();
     }
 
 
@@ -43,14 +48,27 @@ public class Enemy : MonoBehaviour
     {
         if (!isBoss)
         {
-            if (getItem != null)
+            if (!isCyclope)
             {
-                getItem.DropItem();
-                Debug.Log("Dropped an Item " + getItem);
+
+                if (getItem != null)
+                {
+                    getItem.DropItem();
+                    Debug.Log("Dropped an Item " + getItem);
+                }
+                Destroy(this.gameObject);
             }
-            Destroy(this.gameObject);
+            else
+                CyclopeDeath();
+            
         }
         else
             bossWin.BossDied();
+    }
+    private void CyclopeDeath()
+    {
+        Instantiate(cyclopeLantSpawn, spawnPoint2.position, Quaternion.identity, wave.gameObject.transform);
+        Instantiate(cyclopeLantSpawn, spawnPoint1.position, Quaternion.identity, wave.gameObject.transform);
+        isCyclope = false;
     }
 }
