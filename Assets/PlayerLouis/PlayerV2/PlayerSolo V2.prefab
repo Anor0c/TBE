@@ -1829,8 +1829,20 @@ PrefabInstance:
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 9038818986101020777, guid: 4696003bea33f5946abc96924271ff76, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9038818986101020777, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9038818986101020777, guid: 4696003bea33f5946abc96924271ff76, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 9038818986101020777, guid: 4696003bea33f5946abc96924271ff76, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 9038818986101020780, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_Pivot.x

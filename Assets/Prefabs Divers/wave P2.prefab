@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5646589924801247018
+--- !u!1 &94540843560979141
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5646589924801247016}
-  - component: {fileID: 5646589924801247017}
-  - component: {fileID: 929901568701918791}
-  - component: {fileID: 8123779066134252544}
+  - component: {fileID: 94540843560979143}
+  - component: {fileID: 94540843560979142}
+  - component: {fileID: 4896815183775290280}
+  - component: {fileID: 1860562583422211667}
+  - component: {fileID: 4588642449698320879}
+  - component: {fileID: 4531115568902950588}
   m_Layer: 0
   m_Name: wave P2
   m_TagString: Untagged
@@ -19,13 +21,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &5646589924801247016
+--- !u!4 &94540843560979143
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5646589924801247018}
+  m_GameObject: {fileID: 94540843560979141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1000, y: 1.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,13 +35,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5646589924801247017
+--- !u!114 &94540843560979142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5646589924801247018}
+  m_GameObject: {fileID: 94540843560979141}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe26f6f70a935a348ad51a97743a265d, type: 3}
@@ -59,13 +61,13 @@ MonoBehaviour:
   waveToBoss: 2
   waitForSpawn: 2
   coroutineIsRunning: 0
---- !u!114 &929901568701918791
+--- !u!114 &4896815183775290280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5646589924801247018}
+  m_GameObject: {fileID: 94540843560979141}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e463161e85f53e4da0f64d27d8bd8bb, type: 3}
@@ -75,7 +77,7 @@ MonoBehaviour:
   onEnemyDied:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c3525437a5870174e8542154a7380a85, type: 2}
+      - m_Target: {fileID: 11400000, guid: c0c2e67a484fa7247b43747c156e27db, type: 2}
         m_TargetAssemblyTypeName: GameEvent`1[[System.Int32, mscorlib
         m_MethodName: Raise
         m_Mode: 0
@@ -87,13 +89,80 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8123779066134252544
+--- !u!114 &1860562583422211667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5646589924801247018}
+  m_GameObject: {fileID: 94540843560979141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7517f3f8f650feb47b8267704b881356, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onBossDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: fd4394b7b987b7649876bc8b024db392, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4588642449698320879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94540843560979141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da801cc4ecd66449bbeb6c81b4fbfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: a50de7a0593a90b449c0e65119d05a1d, type: 2}
+  gameEventCallback:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &4531115568902950588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94540843560979141}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1da801cc4ecd66449bbeb6c81b4fbfa6, type: 3}
@@ -103,10 +172,10 @@ MonoBehaviour:
   gameEventCallback:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5646589924801247017}
-        m_TargetAssemblyTypeName: Wave, Assembly-CSharp
-        m_MethodName: DeactivateEnemyOnDeath
-        m_Mode: 1
+      - m_Target: {fileID: 94540843560979141}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
