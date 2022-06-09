@@ -14,7 +14,8 @@ public class ProgressBar : MonoBehaviour
 
     public void ProgressBarUpdate(int currentEnemyKilled)
     {
-        _progresBar.fillAmount = Mathf.Clamp(currentEnemyKilled / totalEnemy, 0, 1f);
+        float currentFloatEnemyKilled = (float)currentEnemyKilled;
+        _progresBar.fillAmount = Mathf.Clamp(currentFloatEnemyKilled / totalEnemy, 0, 1f);
         Debug.Log("Ennemis tués"+currentEnemyKilled);
         Debug.Log("Fraction de Barre Remplies"+_progresBar.fillAmount);
     }
