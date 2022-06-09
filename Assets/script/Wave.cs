@@ -27,6 +27,7 @@ public class Wave : MonoBehaviour
             waveCount = 0;
         else
             waveCount = wavesInScene[0].waveCount;
+
     }
     public void OnPlayer2Joined()
     {
