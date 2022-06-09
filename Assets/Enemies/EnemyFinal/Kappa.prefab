@@ -127,6 +127,11 @@ MonoBehaviour:
   health: 100
   enemyhealthbar: {fileID: 5038126994906527184}
   _scrollControl: {fileID: 0}
+  spawnPoint1: {fileID: 0}
+  spawnPoint2: {fileID: 0}
+  isBoss: 0
+  isCyclope: 0
+  cyclopeLantSpawn: {fileID: 0}
 --- !u!114 &4205586476706398721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,6 +247,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cannon: {fileID: 6117333205118263027}
   lazerTrack: 1
+  playerList:
+  - {fileID: 4894803130743781177, guid: ec07c869b0b302348be5f73a95579fb3, type: 3}
+  - {fileID: 3514212537477033524, guid: 946c9592994617247aba98caede13383, type: 3}
+  - {fileID: 2140165317344344166, guid: 5e7185bfc1d06f442b22e13d4ce2acb5, type: 3}
 --- !u!1 &8895474520605192207
 GameObject:
   m_ObjectHideFlags: 0
