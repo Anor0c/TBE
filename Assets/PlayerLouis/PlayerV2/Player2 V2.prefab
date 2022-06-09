@@ -122,7 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8535191707811876063}
   - component: {fileID: 6034524020866219314}
-  - component: {fileID: 3945487762263530240}
   - component: {fileID: 7936319379103361722}
   - component: {fileID: 3968772648093469274}
   - component: {fileID: 8612463761855151095}
@@ -207,19 +206,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3945487762263530240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203332083037871365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 794b587704d896d4da6d0338da1a9daf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
 --- !u!50 &7936319379103361722
 Rigidbody2D:
   serializedVersion: 4
@@ -310,7 +296,7 @@ MonoBehaviour:
     m_ActionName: player1/START[/Keyboard/o]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3945487762263530240}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: mouvement, Assembly-CSharp
         m_MethodName: OnStickMove
         m_Mode: 0
