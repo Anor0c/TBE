@@ -10,7 +10,7 @@ public class Wave : MonoBehaviour
 
     public GameObject[] enList;
     public GameObject boss;
-    Enemy[] enemyScene;
+    private Enemy[] enemyScene;
     public Wave[] wavesInScene;
     [HideInInspector] public ScrollControl _scrollControl;
 
