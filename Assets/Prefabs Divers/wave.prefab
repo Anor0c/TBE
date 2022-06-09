@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8960714686784412353}
   - component: {fileID: 2773137859748618042}
   - component: {fileID: 122206342}
+  - component: {fileID: 866703167}
   m_Layer: 0
   m_Name: wave
   m_TagString: Untagged
@@ -49,7 +50,7 @@ MonoBehaviour:
   onPlayerJoined:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4531115569393730476}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -175,14 +176,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1da801cc4ecd66449bbeb6c81b4fbfa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: ed9392b129c37b44bb18ac2e821f52f9, type: 2}
+  gameEventCallback:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &866703167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4531115569393730476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da801cc4ecd66449bbeb6c81b4fbfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   gameEvent: {fileID: 11400000, guid: a50de7a0593a90b449c0e65119d05a1d, type: 2}
   gameEventCallback:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4531115569393730479}
-        m_TargetAssemblyTypeName: Wave, Assembly-CSharp
-        m_MethodName: DeactivateEnemyOnDeath
-        m_Mode: 1
+      - m_Target: {fileID: 4531115569393730476}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
