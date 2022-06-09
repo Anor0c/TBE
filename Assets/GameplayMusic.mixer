@@ -33,6 +33,18 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!245 &-5939771736300690737
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MelDrum
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 74682818654d2f9439e04580cf6072e4
+  m_FloatValues:
+    01db76841d341a147be6adaf0ef5eb4c: -80
+  m_TransitionOverrides: {}
 --- !u!243 &-5591736932561885309
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -91,11 +103,19 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
-  m_StartSnapshot: {fileID: 24500006}
+  - {fileID: -5939771736300690737}
+  - {fileID: 5697396629760614191}
+  m_StartSnapshot: {fileID: 5697396629760614191}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 01db76841d341a147be6adaf0ef5eb4c
+    name: BassVolume
+  - guid: 00efe2481d232fc4295054c3be4d789a
+    name: DrumVolume
+  - guid: ce1c637639045ba4b8996e0baca3c439
+    name: MelVolume
   m_AudioMixerGroupViews:
   - guids:
     - 1b1858a8f76000d49bccbe34517327b6
@@ -105,7 +125,7 @@ AudioMixerController:
     - f4f4a35fdacbbd94eb289e0cedb5a96a
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24500006}
+  m_TargetSnapshot: {fileID: 5697396629760614191}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -146,7 +166,7 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Snapshot
+  m_Name: FullLevel
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 49576f9aa56c5a2419b417221fb19e2d
   m_FloatValues: {}
@@ -192,6 +212,19 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!245 &5697396629760614191
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OnlyMel
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: b96e597413aba0e4594e9196d66d5fa5
+  m_FloatValues:
+    01db76841d341a147be6adaf0ef5eb4c: -80
+    00efe2481d232fc4295054c3be4d789a: -80
+  m_TransitionOverrides: {}
 --- !u!244 &7010592328534369129
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
