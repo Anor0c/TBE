@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: d8921db77b03e10488cf74531d4a3a32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4630315484615861648
+    second: fukaku_0
+  - first:
+      213: 4024689180284985071
+    second: fukaku_1
+  - first:
+      213: -8983494966049087732
+    second: fukaku_2
+  - first:
+      213: 2621998879277532158
+    second: fukaku_3
+  - first:
+      213: -5064158373468666448
+    second: fukaku_4
+  - first:
+      213: 631963287736393981
+    second: fukaku_5
+  - first:
+      213: -7660652234757804499
+    second: fukaku_6
+  - first:
+      213: -53023746339480074
+    second: fukaku_7
+  - first:
+      213: -2099675382088430938
+    second: fukaku_8
+  - first:
+      213: 7989047005381332414
+    second: fukaku_9
+  - first:
+      213: -6316226843125055590
+    second: fukaku_10
+  - first:
+      213: -1072786011933434294
+    second: fukaku_11
+  - first:
+      213: -8739678255025260126
+    second: fukaku_12
+  - first:
+      213: 2661994125206790425
+    second: fukaku_13
+  - first:
+      213: -1243943444229569210
+    second: fukaku_14
+  - first:
+      213: 649952484114388455
+    second: fukaku_15
+  - first:
+      213: -2104570282911693211
+    second: fukaku_16
+  - first:
+      213: 7493041798909059198
+    second: fukaku_17
+  - first:
+      213: -6590936778029254193
+    second: fukaku_18
+  - first:
+      213: 1137518031317151
+    second: fukaku_19
+  - first:
+      213: 6959689083771564130
+    second: fukaku_20
+  - first:
+      213: 6571012323406232595
+    second: fukaku_21
+  - first:
+      213: -6265548476914614431
+    second: fukaku_22
+  - first:
+      213: -3544731847789626672
+    second: fukaku_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fukaku_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1493.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095e48a966f224040800000000000000
+      internalID: 4630315484615861648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1493.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee9e3a5c719ad730800000000000000
+      internalID: 4024689180284985071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_2
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1493.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f522bcce6345380800000000000000
+      internalID: -8983494966049087732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_3
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1493.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef34fc8b616336420800000000000000
+      internalID: 2621998879277532158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_4
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1493.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b584175ace78b9b0800000000000000
+      internalID: -5064158373468666448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_5
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 1493.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0ad9c034f25c800800000000000000
+      internalID: 631963287736393981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_6
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1493.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e657f5165efa590800000000000000
+      internalID: -7660652234757804499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 996.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd56c20f2f934ff0800000000000000
+      internalID: -53023746339480074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_8
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 996.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa8cf25d547cd2e0800000000000000
+      internalID: -2099675382088430938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_9
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 996.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd07a17cebcede60800000000000000
+      internalID: 7989047005381332414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_10
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 996.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7eb6a6214858a0800000000000000
+      internalID: -6316226843125055590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_11
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 996.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e13b65ec2bc11f0800000000000000
+      internalID: -1072786011933434294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_12
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 996.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9730e8eec66b680800000000000000
+      internalID: -8739678255025260126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_13
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 996.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911a0239d8d41f420800000000000000
+      internalID: 2661994125206790425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 499.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64545063700acbee0800000000000000
+      internalID: -1243943444229569210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_15
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 499.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e555883758150900800000000000000
+      internalID: 649952484114388455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_16
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 499.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566843a6a701bc2e0800000000000000
+      internalID: -2104570282911693211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_17
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 499.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70e027f0d1acf760800000000000000
+      internalID: 7493041798909059198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_18
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 499.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93280bbe94884a0800000000000000
+      internalID: -6590936778029254193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_19
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 499.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98ae2e019a040000800000000000000
+      internalID: 1137518031317151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_20
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 499.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2603e510958c59060800000000000000
+      internalID: 6959689083771564130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cb757b4ece03b50800000000000000
+      internalID: 6571012323406232595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_22
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fb3864bdc4c09a0800000000000000
+      internalID: -6265548476914614431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fukaku_23
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2.25
+        width: 501.14285
+        height: 497.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da3c7c4a259ecec0800000000000000
+      internalID: -3544731847789626672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

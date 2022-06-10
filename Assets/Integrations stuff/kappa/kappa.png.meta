@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: 68cb686a003631f4f8e7218564d66f6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3329011349922157093
+    second: kappa_0
+  - first:
+      213: 2584927060791490526
+    second: kappa_1
+  - first:
+      213: -8052165033431912702
+    second: kappa_2
+  - first:
+      213: 7528579176852756011
+    second: kappa_3
+  - first:
+      213: -2135889164660118365
+    second: kappa_4
+  - first:
+      213: -9154788074938205571
+    second: kappa_5
+  - first:
+      213: 9077792477726445013
+    second: kappa_6
+  - first:
+      213: 5939118408180197926
+    second: kappa_7
+  - first:
+      213: 1463347525276260555
+    second: kappa_8
+  - first:
+      213: -3685065491514938273
+    second: kappa_9
+  - first:
+      213: -804187368288233241
+    second: kappa_10
+  - first:
+      213: 4745463185572784836
+    second: kappa_11
+  - first:
+      213: -3142104818970851272
+    second: kappa_12
+  - first:
+      213: -480128728871090745
+    second: kappa_13
+  - first:
+      213: 1511252200683875052
+    second: kappa_14
+  - first:
+      213: -9211294453833573238
+    second: kappa_15
+  - first:
+      213: 7025190018035757978
+    second: kappa_16
+  - first:
+      213: 123369447125715324
+    second: kappa_17
+  - first:
+      213: -2101202342260039887
+    second: kappa_18
+  - first:
+      213: 5827870687319591449
+    second: kappa_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kappa_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 519
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd65aaa0d9fcc1d0800000000000000
+      internalID: -3329011349922157093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 498
+        width: 349
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed775cc57718fd320800000000000000
+      internalID: 2584927060791490526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 519
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f28757096f04090800000000000000
+      internalID: -8052165033431912702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 498
+        width: 349
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2616bb8fd2ea7860800000000000000
+      internalID: 7528579176852756011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_4
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 506
+        width: 348
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ace3d40f1ccb52e0800000000000000
+      internalID: -2135889164660118365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_5
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 506
+        width: 346
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a735fffb8a3f080800000000000000
+      internalID: -9154788074938205571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_6
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 505
+        width: 339
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd099b892ccafd70800000000000000
+      internalID: 9077792477726445013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 505
+        width: 339
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a6096b9bcfb6250800000000000000
+      internalID: 5939118408180197926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_8
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 503
+        width: 330
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8d90332dade4410800000000000000
+      internalID: 1463347525276260555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_9
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 520
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ca334b5740cdcc0800000000000000
+      internalID: -3685065491514938273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_10
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 498
+        width: 356
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8d25c69d3f6d4f0800000000000000
+      internalID: -804187368288233241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_11
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 520
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca62ceef954bd140800000000000000
+      internalID: 4745463185572784836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_12
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 520
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838033290500564d0800000000000000
+      internalID: -3142104818970851272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_13
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 498
+        width: 356
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5cd25077d3659f0800000000000000
+      internalID: -480128728871090745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_14
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 520
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea2acb9edb09f410800000000000000
+      internalID: 1511252200683875052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 362
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c59bd6f78ea2080800000000000000
+      internalID: -9211294453833573238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 19
+        width: 362
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9334a0b91d7e7160800000000000000
+      internalID: 7025190018035757978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_17
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 18
+        width: 365
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798018cbdb46b100800000000000000
+      internalID: 123369447125715324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_18
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 18
+        width: 365
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f1f543a9707d2e0800000000000000
+      internalID: -2101202342260039887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kappa_19
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 15
+        width: 318
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a88924381c0e050800000000000000
+      internalID: 5827870687319591449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

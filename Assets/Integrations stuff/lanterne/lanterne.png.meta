@@ -1,0 +1,2364 @@
+fileFormatVersion: 2
+guid: 89f15df20339e714b91e0b627a0079b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8573461945552784229
+    second: lanterne_0
+  - first:
+      213: -7010509276213072645
+    second: lanterne_1
+  - first:
+      213: -2523352205349749059
+    second: lanterne_2
+  - first:
+      213: 1745573121759140647
+    second: lanterne_3
+  - first:
+      213: -5032756711781041306
+    second: lanterne_4
+  - first:
+      213: 5730083096935962049
+    second: lanterne_5
+  - first:
+      213: -545404698687870457
+    second: lanterne_6
+  - first:
+      213: -5777784707375652300
+    second: lanterne_7
+  - first:
+      213: -6156546008326416385
+    second: lanterne_8
+  - first:
+      213: -6600589673171306547
+    second: lanterne_9
+  - first:
+      213: 9088265135864038967
+    second: lanterne_10
+  - first:
+      213: 5074786010865174475
+    second: lanterne_11
+  - first:
+      213: -4373096122619991687
+    second: lanterne_12
+  - first:
+      213: 2692531984846233632
+    second: lanterne_13
+  - first:
+      213: 4689370625671082908
+    second: lanterne_14
+  - first:
+      213: -6200525253060377566
+    second: lanterne_15
+  - first:
+      213: -7605542997112245503
+    second: lanterne_16
+  - first:
+      213: -4442630659937591041
+    second: lanterne_17
+  - first:
+      213: -4092743324078727471
+    second: lanterne_18
+  - first:
+      213: -3370652538679737589
+    second: lanterne_19
+  - first:
+      213: -1803379787721629904
+    second: lanterne_20
+  - first:
+      213: -4192036490366841590
+    second: lanterne_21
+  - first:
+      213: 5022801307159937546
+    second: lanterne_22
+  - first:
+      213: -5262320457831614175
+    second: lanterne_23
+  - first:
+      213: -2084105639890727684
+    second: lanterne_24
+  - first:
+      213: 362120862779786668
+    second: lanterne_25
+  - first:
+      213: -4806665769067063391
+    second: lanterne_26
+  - first:
+      213: -8008852817092172361
+    second: lanterne_27
+  - first:
+      213: 156750675889729052
+    second: lanterne_28
+  - first:
+      213: 5223418778738889310
+    second: lanterne_29
+  - first:
+      213: -5318778043330300613
+    second: lanterne_30
+  - first:
+      213: -7314750023012328949
+    second: lanterne_31
+  - first:
+      213: -4840304639923461092
+    second: lanterne_32
+  - first:
+      213: -5194123230225502484
+    second: lanterne_33
+  - first:
+      213: -616669630560140039
+    second: lanterne_34
+  - first:
+      213: -6556789298699481750
+    second: lanterne_35
+  - first:
+      213: 4439849033204547254
+    second: lanterne_36
+  - first:
+      213: 547421701140600010
+    second: lanterne_37
+  - first:
+      213: -691165254771893480
+    second: lanterne_38
+  - first:
+      213: -2348147221154166442
+    second: lanterne_39
+  - first:
+      213: -6651510832924584737
+    second: lanterne_40
+  - first:
+      213: 499135727047494627
+    second: lanterne_41
+  - first:
+      213: 4745836805250296192
+    second: lanterne_42
+  - first:
+      213: -7406281428730158300
+    second: lanterne_43
+  - first:
+      213: -3446900077641993140
+    second: lanterne_44
+  - first:
+      213: -2120792425913855318
+    second: lanterne_45
+  - first:
+      213: -9017104625165386598
+    second: lanterne_46
+  - first:
+      213: 14093377141682519
+    second: lanterne_47
+  - first:
+      213: -8518546557354215105
+    second: lanterne_48
+  - first:
+      213: 4792253081996181305
+    second: lanterne_49
+  - first:
+      213: -7647725494956749782
+    second: lanterne_50
+  - first:
+      213: 6738792444152613912
+    second: lanterne_51
+  - first:
+      213: -1284137727215880197
+    second: lanterne_52
+  - first:
+      213: -7339391691771797637
+    second: lanterne_53
+  - first:
+      213: 964118495253650955
+    second: lanterne_54
+  - first:
+      213: -1888416411482465710
+    second: lanterne_55
+  - first:
+      213: -364254876825061070
+    second: lanterne_56
+  - first:
+      213: 429079948349952085
+    second: lanterne_57
+  - first:
+      213: -3547701918105830613
+    second: lanterne_58
+  - first:
+      213: -1201206463422647695
+    second: lanterne_59
+  - first:
+      213: -3539645651100358463
+    second: lanterne_60
+  - first:
+      213: -4362501997147062502
+    second: lanterne_61
+  - first:
+      213: 577053046634170486
+    second: lanterne_62
+  - first:
+      213: -7163357554517073064
+    second: lanterne_63
+  - first:
+      213: 5028295474570981418
+    second: lanterne_64
+  - first:
+      213: -4563966569020390496
+    second: lanterne_65
+  - first:
+      213: 910593349706340678
+    second: lanterne_66
+  - first:
+      213: -5637590650705688614
+    second: lanterne_67
+  - first:
+      213: 7559487028864513775
+    second: lanterne_68
+  - first:
+      213: -4997552921182495835
+    second: lanterne_69
+  - first:
+      213: -4888038159616118861
+    second: lanterne_70
+  - first:
+      213: 483156224931099808
+    second: lanterne_71
+  - first:
+      213: 5215772041042971276
+    second: lanterne_72
+  - first:
+      213: -6287479145073335051
+    second: lanterne_73
+  - first:
+      213: 4605625937998672269
+    second: lanterne_74
+  - first:
+      213: -6075140072114471710
+    second: lanterne_75
+  - first:
+      213: 7112635585120691
+    second: lanterne_76
+  - first:
+      213: 9270038743444492
+    second: lanterne_77
+  - first:
+      213: 5383914239480739301
+    second: lanterne_78
+  - first:
+      213: 7358602483857882258
+    second: lanterne_79
+  - first:
+      213: -884371749410180248
+    second: lanterne_80
+  - first:
+      213: -6598026218491585272
+    second: lanterne_81
+  - first:
+      213: -7209174517203351964
+    second: lanterne_82
+  - first:
+      213: 8265535530897891847
+    second: lanterne_83
+  - first:
+      213: 1212608944864595117
+    second: lanterne_84
+  - first:
+      213: -3192725776784320147
+    second: lanterne_85
+  - first:
+      213: 9043769383727802008
+    second: lanterne_86
+  - first:
+      213: -1600922563383172480
+    second: lanterne_87
+  - first:
+      213: 4037649149104157578
+    second: lanterne_88
+  - first:
+      213: -2525309777266013502
+    second: lanterne_89
+  - first:
+      213: 463790631657157179
+    second: lanterne_90
+  - first:
+      213: -3856835034942200552
+    second: lanterne_91
+  - first:
+      213: 7428798427393917959
+    second: lanterne_92
+  - first:
+      213: 6272385693894549138
+    second: lanterne_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lanterne_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1453
+        width: 290
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b943fffd8c1f40980800000000000000
+      internalID: -8573461945552784229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1597
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc2db0e4faa5be90800000000000000
+      internalID: -7010509276213072645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1437
+        width: 260
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbefdecd9804bfcd0800000000000000
+      internalID: -2523352205349749059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_3
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1597
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b5ceb7185893810800000000000000
+      internalID: 1745573121759140647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_4
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1440
+        width: 266
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bf3517f6e082ab0800000000000000
+      internalID: -5032756711781041306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_5
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1597
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c59656a738558f40800000000000000
+      internalID: 5730083096935962049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_6
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1395
+        width: 267
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a61e3f0555e68f0800000000000000
+      internalID: -545404698687870457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_7
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1595
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432a030bb6f21dfa0800000000000000
+      internalID: -5777784707375652300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_8
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1554
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7da52360e8f8aa0800000000000000
+      internalID: -6156546008326416385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_9
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1398
+        width: 267
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc73386e9aef564a0800000000000000
+      internalID: -6600589673171306547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_10
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1595
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7364eb74df0002e70800000000000000
+      internalID: 9088265135864038967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_11
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 1557
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc78db05df24d6640800000000000000
+      internalID: 5074786010865174475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_12
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 1376
+        width: 264
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979e8920f34af43c0800000000000000
+      internalID: -4373096122619991687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_13
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 1595
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0202327139bcd5520800000000000000
+      internalID: 2692531984846233632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_14
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 1561
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93b64b1dbdf31140800000000000000
+      internalID: 4689370625671082908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_15
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 1377
+        width: 260
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2244f76522f43f9a0800000000000000
+      internalID: -6200525253060377566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_16
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1597
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1033a25a0fea37690800000000000000
+      internalID: -7605542997112245503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_17
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1563
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0292ee3fa9852c0800000000000000
+      internalID: -4442630659937591041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_18
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1377
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de9f6b81a7a337c0800000000000000
+      internalID: -4092743324078727471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_19
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1597
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03c9b2ef590931d0800000000000000
+      internalID: -3370652538679737589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_20
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 1607
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f9bb543ab19f6e0800000000000000
+      internalID: -1803379787721629904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_21
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 1566
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d853ab505e2d5c0800000000000000
+      internalID: -4192036490366841590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_22
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 1400
+        width: 294
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c2aa4d2394b540800000000000000
+      internalID: 5022801307159937546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_23
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 1595
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129fca0bc6b78f6b0800000000000000
+      internalID: -5262320457831614175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_24
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1544
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfccceb66f4c313e0800000000000000
+      internalID: -2084105639890727684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_25
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1546
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca54fbf8103860500800000000000000
+      internalID: 362120862779786668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1558
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a75ab823fa4b4db0800000000000000
+      internalID: -4806665769067063391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_27
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1549
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5a5daabc6dad090800000000000000
+      internalID: -8008852817092172361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_28
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1560
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ea5b2c8e3ec2200800000000000000
+      internalID: 156750675889729052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_29
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1563
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5216d354bf4d7840800000000000000
+      internalID: 5223418778738889310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b357628bc87ef26b0800000000000000
+      internalID: -5318778043330300613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_31
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1126
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ad199fb99cc7a90800000000000000
+      internalID: -7314750023012328949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 958
+        width: 297
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14efa43398c3dcb0800000000000000
+      internalID: -4840304639923461092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_33
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1150
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeedc61174cae7b0800000000000000
+      internalID: -5194123230225502484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_34
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1126
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f401befc362177f0800000000000000
+      internalID: -616669630560140039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_35
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 956
+        width: 297
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d4fe74fda9105a0800000000000000
+      internalID: -6556789298699481750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_36
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1146
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6beb4802c238d9d30800000000000000
+      internalID: 4439849033204547254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_37
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1126
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac453d60325d89700800000000000000
+      internalID: 547421701140600010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_38
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1006
+        width: 306
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b9a3cdcdc7866f0800000000000000
+      internalID: -691165254771893480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_39
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1145
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65909ca1b84b96fd0800000000000000
+      internalID: -2348147221154166442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_40
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1127
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd41edf732611b3a0800000000000000
+      internalID: -6651510832924584737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_41
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1004
+        width: 306
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb4f599c494de600800000000000000
+      internalID: 499135727047494627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_42
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1143
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0892bea0e699cd140800000000000000
+      internalID: 4745836805250296192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_43
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 1121
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42367fdd74a973990800000000000000
+      internalID: -7406281428730158300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_44
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 1119
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44f1ef44a62a20d0800000000000000
+      internalID: -3446900077641993140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_45
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 1117
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2d01b668e6192e0800000000000000
+      internalID: -2120792425913855318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_46
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 1117
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c3c7a3e1fccd280800000000000000
+      internalID: -9017104625165386598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_47
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1104
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75137321ad1123000800000000000000
+      internalID: 14093377141682519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_48
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 980
+        width: 304
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39764e0a0b08c980800000000000000
+      internalID: -8518546557354215105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_49
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1105
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3722a9c0818240800000000000000
+      internalID: 4792253081996181305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_50
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 990
+        width: 296
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c87658e22ddd590800000000000000
+      internalID: -7647725494956749782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_51
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1105
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c8dc83600058d50800000000000000
+      internalID: 6738792444152613912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_52
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 987
+        width: 297
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7be9e6a83dd2ee0800000000000000
+      internalID: -1284137727215880197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_53
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 1104
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f1d70642e352a90800000000000000
+      internalID: -7339391691771797637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_54
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 987
+        width: 296
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e5afec9ac316d00800000000000000
+      internalID: 964118495253650955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_55
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 678
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ad19d674ffac5e0800000000000000
+      internalID: -1888416411482465710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_56
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 569
+        width: 310
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23973239e18e1faf0800000000000000
+      internalID: -364254876825061070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_57
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 696
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55054ad80f564f500800000000000000
+      internalID: 429079948349952085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_58
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 680
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b745ae6e704cec0800000000000000
+      internalID: -3547701918105830613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_59
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 556
+        width: 276
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1723ac5f515745fe0800000000000000
+      internalID: -1201206463422647695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_60
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 699
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8286fb807a0eec0800000000000000
+      internalID: -3539645651100358463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_61
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 682
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ffd101c874573c0800000000000000
+      internalID: -4362501997147062502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_62
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 557
+        width: 273
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678cf2540ba120800800000000000000
+      internalID: 577053046634170486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_63
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 700
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85326ebd144a69c90800000000000000
+      internalID: -7163357554517073064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_64
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 686
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20f183d71818c540800000000000000
+      internalID: 5028295474570981418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_65
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 557
+        width: 262
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a308ce169889a0c0800000000000000
+      internalID: -4563966569020390496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_66
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 703
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6495418b3d313ac00800000000000000
+      internalID: 910593349706340678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_67
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 684
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7cf932c2143c1b0800000000000000
+      internalID: -5637590650705688614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_68
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 527
+        width: 268
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe674af9661b8e860800000000000000
+      internalID: 7559487028864513775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_69
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 705
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab93baa81025aab0800000000000000
+      internalID: -4997552921182495835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_70
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 684
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfe68711333a2cb0800000000000000
+      internalID: -4888038159616118861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_71
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 528
+        width: 261
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a47906d60484b600800000000000000
+      internalID: 483156224931099808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_72
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 708
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ac7c77905226840800000000000000
+      internalID: 5215772041042971276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_73
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 681
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f42a31b7036eb8a0800000000000000
+      internalID: -6287479145073335051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_74
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 504
+        width: 259
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d817cb293687aef30800000000000000
+      internalID: 4605625937998672269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_75
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 708
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec30e8ba44c0bba0800000000000000
+      internalID: -6075140072114471710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_76
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 679
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9c77587e4491000800000000000000
+      internalID: 7112635585120691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_77
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 504
+        width: 262
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c6b561d0fe02000800000000000000
+      internalID: 9270038743444492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_78
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 710
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5ba61c97187ba40800000000000000
+      internalID: 5383914239480739301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_79
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 679
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cf7a5b8f10f1660800000000000000
+      internalID: 7358602483857882258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_80
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 506
+        width: 261
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863f30b54941ab3f0800000000000000
+      internalID: -884371749410180248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_81
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 713
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d5814bc1a1f64a0800000000000000
+      internalID: -6598026218491585272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_82
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 702
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466cb42f8fdd3fb90800000000000000
+      internalID: -7209174517203351964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_83
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 247
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702e98dc5c415b270800000000000000
+      internalID: 8265535530897891847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_84
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 88
+        width: 261
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac8d12296d04d010800000000000000
+      internalID: 1212608944864595117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_85
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 285
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69998162d821b3d0800000000000000
+      internalID: -3192725776784320147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_86
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 246
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89626aba65ce18d70800000000000000
+      internalID: 9043769383727802008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_87
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 87
+        width: 261
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08263a0296168c9e0800000000000000
+      internalID: -1600922563383172480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_88
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 283
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83f20c328c980830800000000000000
+      internalID: 4037649149104157578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_89
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 240
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca0d32232c44fcd0800000000000000
+      internalID: -2525309777266013502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_90
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 83
+        width: 259
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32341a4f17bf6600800000000000000
+      internalID: 463790631657157179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_91
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 282
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152df858f4c97ac0800000000000000
+      internalID: -3856835034942200552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_92
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 119
+        width: 287
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7048bcc6fc4681760800000000000000
+      internalID: 7428798427393917959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lanterne_93
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 259
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e93da5e8dfb0750800000000000000
+      internalID: 6272385693894549138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
