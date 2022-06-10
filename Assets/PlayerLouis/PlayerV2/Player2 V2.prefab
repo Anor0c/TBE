@@ -414,9 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skinIndex: {fileID: 0}
-  skin:
-  - {fileID: 21300000, guid: c7e31911594af674696fb60fb46bff07, type: 3}
-  - {fileID: 21300000, guid: 075cacee325700645932306cb94e04e4, type: 3}
+  skin: []
   modeIndex: 0
 --- !u!1 &1444588014679818635
 GameObject:
