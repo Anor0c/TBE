@@ -1,0 +1,1116 @@
+fileFormatVersion: 2
+guid: 721e02a1846e96342a597dbdce66fc39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4610802405667146468
+    second: tengu_0
+  - first:
+      213: -8548237283257564293
+    second: tengu_1
+  - first:
+      213: -1475395953513489307
+    second: tengu_2
+  - first:
+      213: -6508390171679726112
+    second: tengu_3
+  - first:
+      213: -6312851491043688024
+    second: tengu_4
+  - first:
+      213: -4724928282243483481
+    second: tengu_5
+  - first:
+      213: 1347576028346754381
+    second: tengu_6
+  - first:
+      213: 841114498608411742
+    second: tengu_7
+  - first:
+      213: 3658605402862852188
+    second: tengu_8
+  - first:
+      213: -652130724980834849
+    second: tengu_9
+  - first:
+      213: -2039010972881989861
+    second: tengu_10
+  - first:
+      213: -8910738925644662434
+    second: tengu_11
+  - first:
+      213: -1349153874159673893
+    second: tengu_12
+  - first:
+      213: 8261720931740517555
+    second: tengu_13
+  - first:
+      213: -3989254078186359488
+    second: tengu_14
+  - first:
+      213: -2971038032384897085
+    second: tengu_15
+  - first:
+      213: 416214228306866129
+    second: tengu_16
+  - first:
+      213: 7930219442231967427
+    second: tengu_17
+  - first:
+      213: 9081612998444747167
+    second: tengu_18
+  - first:
+      213: -1588862155664651383
+    second: tengu_19
+  - first:
+      213: 8551958340136184583
+    second: tengu_20
+  - first:
+      213: 6472582524286081554
+    second: tengu_21
+  - first:
+      213: -5617426144743878979
+    second: tengu_22
+  - first:
+      213: 8442217306930386259
+    second: tengu_23
+  - first:
+      213: 1393560440183227441
+    second: tengu_24
+  - first:
+      213: 3257980826245077965
+    second: tengu_25
+  - first:
+      213: -5981574202334507349
+    second: tengu_26
+  - first:
+      213: -8257661681524921007
+    second: tengu_27
+  - first:
+      213: -3037757250029505485
+    second: tengu_28
+  - first:
+      213: -5604396882039190568
+    second: tengu_29
+  - first:
+      213: -3615210566768633295
+    second: tengu_30
+  - first:
+      213: -6971339974914526413
+    second: tengu_31
+  - first:
+      213: -3939199770481658842
+    second: tengu_32
+  - first:
+      213: 8755304914048878570
+    second: tengu_33
+  - first:
+      213: 3721220812696708054
+    second: tengu_34
+  - first:
+      213: 1387706877698698101
+    second: tengu_35
+  - first:
+      213: -8999364792489360099
+    second: tengu_36
+  - first:
+      213: 5794186329222408978
+    second: tengu_37
+  - first:
+      213: -130414020785225079
+    second: tengu_38
+  - first:
+      213: 8308059484615790199
+    second: tengu_39
+  - first:
+      213: -1492660854475042218
+    second: tengu_40
+  - first:
+      213: -7586922224744071017
+    second: tengu_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tengu_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2139
+        width: 503
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1571b024a32300c0800000000000000
+      internalID: -4610802405667146468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2139
+        width: 504
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73ceab3b7f8e5980800000000000000
+      internalID: -8548237283257564293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_2
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2139
+        width: 502
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c97cf7237568be0800000000000000
+      internalID: -1475395953513489307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2409
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5e26d2f9d8da5a0800000000000000
+      internalID: -6508390171679726112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_4
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 2141
+        width: 503
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1cb8c040f3468a0800000000000000
+      internalID: -6312851491043688024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_5
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 2141
+        width: 503
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a83ea3d2cead6eb0800000000000000
+      internalID: -4724928282243483481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_6
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 2141
+        width: 502
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45a07d024d83b210800000000000000
+      internalID: 1347576028346754381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_7
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 2410
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e543cf81e2d3cab00800000000000000
+      internalID: 841114498608411742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_8
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 2141
+        width: 503
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5817f2da3af5c230800000000000000
+      internalID: 3658605402862852188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1634
+        width: 501
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd366e8f8a23f6f0800000000000000
+      internalID: -652130724980834849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_10
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1634
+        width: 503
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fce34c25af3b3e0800000000000000
+      internalID: -2039010972881989861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_11
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1635
+        width: 501
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5934b28822b65480800000000000000
+      internalID: -8910738925644662434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_12
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1938
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddde5713b7d64de0800000000000000
+      internalID: -1349153874159673893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_13
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1636
+        width: 497
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b48dc93a6787a270800000000000000
+      internalID: 8261720931740517555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_14
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 1632
+        width: 515
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0457ce64d8253a8c0800000000000000
+      internalID: -3989254078186359488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_15
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 1632
+        width: 514
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfc58996a0c4c6d0800000000000000
+      internalID: -2971038032384897085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_16
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1631
+        width: 514
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfa1bca2a0b6c500800000000000000
+      internalID: 416214228306866129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1924
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cef12d019ccd0e60800000000000000
+      internalID: 7930219442231967427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_18
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1925
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f998ed7d7ee580e70800000000000000
+      internalID: 9081612998444747167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_19
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1926
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b0c8e994a33f9e0800000000000000
+      internalID: -1588862155664651383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_20
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1903
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba1c5dcc8aea670800000000000000
+      internalID: 8551958340136184583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_21
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1904
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a197b338b33d950800000000000000
+      internalID: 6472582524286081554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_22
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1905
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe8c8a0fa4ea02b0800000000000000
+      internalID: -5617426144743878979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_23
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1791
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3559d3079e7c82570800000000000000
+      internalID: 8442217306930386259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_24
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1780
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134882246dbe65310800000000000000
+      internalID: 1393560440183227441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1128
+        width: 510
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb1f59cc4ca63d20800000000000000
+      internalID: 3257980826245077965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_26
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1122
+        width: 510
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae063864fd2dfca0800000000000000
+      internalID: -5981574202334507349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_27
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1122
+        width: 508
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d2a5d9374e66d80800000000000000
+      internalID: -8257661681524921007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_28
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1122
+        width: 506
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334bf1630e7b7d5d0800000000000000
+      internalID: -3037757250029505485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_29
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 1122
+        width: 506
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db4fb9aabe2932b0800000000000000
+      internalID: -5604396882039190568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_30
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 1120
+        width: 504
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a548bc42134ddc0800000000000000
+      internalID: -3615210566768633295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_31
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 1124
+        width: 504
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3333db28a33d04f90800000000000000
+      internalID: -6971339974914526413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 610
+        width: 503
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624f325fda62559c0800000000000000
+      internalID: -3939199770481658842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_33
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 610
+        width: 503
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae78d168e67118970800000000000000
+      internalID: 8755304914048878570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_34
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 608
+        width: 502
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3e39ffc9e64a330800000000000000
+      internalID: 3721220812696708054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_35
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 608
+        width: 503
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57be8998d00224310800000000000000
+      internalID: 1387706877698698101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_36
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 616
+        width: 502
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15c383e665db1380800000000000000
+      internalID: -8999364792489360099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_37
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 610
+        width: 504
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21be9bb74c5196050800000000000000
+      internalID: 5794186329222408978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_38
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 610
+        width: 502
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982cd59932da03ef0800000000000000
+      internalID: -130414020785225079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_39
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 113
+        width: 502
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ec65155182c4370800000000000000
+      internalID: 8308059484615790199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_40
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 123
+        width: 502
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65252ee7cd0094be0800000000000000
+      internalID: -1492660854475042218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tengu_41
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 392
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7900d9f0f66d5b690800000000000000
+      internalID: -7586922224744071017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
