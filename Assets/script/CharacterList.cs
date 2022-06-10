@@ -7,20 +7,10 @@ public class CharacterList : MonoBehaviour
 {
     GameObject[] characterList;
     public int index;
-    private Scene gameplayScene;
 
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
-        gameplayScene = SceneManager.GetSceneByName ("SampleScene");
-        if(gameplayScene .isLoaded == false)
-        {
-            return;
-        }
-        else
-        {
-            this.gameObject.SetActive(false);
-        }
     }
     void Start()
     {
@@ -60,9 +50,5 @@ public class CharacterList : MonoBehaviour
             index = 0;
         }
         characterList[index].SetActive(true);
-    }
-    public void ConfirmButton()
-    {
-        SceneManager.LoadScene(2);
     }
 }
