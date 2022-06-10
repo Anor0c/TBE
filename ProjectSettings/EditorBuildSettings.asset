@@ -44,7 +44,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/SkinChoice.unity
     guid: e24e6683cd304a0439c73c1d65a4b0b9
-  - enabled: 1
-    path: Assets/Scenes/Win.unity
-    guid: 80dba6905628e944eaa28c246c958aa3
   m_configObjects: {}
