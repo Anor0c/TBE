@@ -71,7 +71,8 @@ Transform:
   m_Children:
   - {fileID: 1975192376043653014}
   - {fileID: 6884240285643741714}
-  - {fileID: 1320199739}
+  - {fileID: 7736048775558026510}
+  - {fileID: 7076569862552021025}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -189,6 +190,11 @@ MonoBehaviour:
   health: 150
   enemyhealthbar: {fileID: 3689871733539102010}
   _scrollControl: {fileID: 0}
+  spawnPoint1: {fileID: 7736048775558026510}
+  spawnPoint2: {fileID: 7076569862552021025}
+  isBoss: 0
+  isCyclope: 1
+  cyclopeLantSpawn: {fileID: 1975192375905824170, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
 --- !u!95 &1975192375905824165
 Animator:
   serializedVersion: 3
@@ -381,68 +387,66 @@ Transform:
   m_Father: {fileID: 1975192375905824174}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1065291459
-PrefabInstance:
+--- !u!1 &6195055540560506360
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1320199739}
-    m_Modifications:
-    - target: {fileID: 3787746895430527599, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_Name
-      value: cyclope walk_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cd75f010da94c0742bde514143593bfb, type: 3}
---- !u!4 &7750538812153124036 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7750538812806978055, guid: cd75f010da94c0742bde514143593bfb, type: 3}
-  m_PrefabInstance: {fileID: 1065291459}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7736048775558026510}
+  m_Layer: 0
+  m_Name: SpawnLanterne
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7736048775558026510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6195055540560506360}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1975192375905824174}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6949965016222697228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7076569862552021025}
+  m_Layer: 0
+  m_Name: SpawnLanterne (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7076569862552021025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6949965016222697228}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1975192375905824174}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7779638597774634049
 PrefabInstance:
   m_ObjectHideFlags: 0

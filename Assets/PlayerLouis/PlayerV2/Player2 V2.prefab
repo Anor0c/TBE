@@ -122,7 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8535191707811876063}
   - component: {fileID: 6034524020866219314}
-  - component: {fileID: 3945487762263530240}
   - component: {fileID: 7936319379103361722}
   - component: {fileID: 3968772648093469274}
   - component: {fileID: 8612463761855151095}
@@ -208,19 +207,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3945487762263530240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203332083037871365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 794b587704d896d4da6d0338da1a9daf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
 --- !u!50 &7936319379103361722
 Rigidbody2D:
   serializedVersion: 4
@@ -311,7 +297,7 @@ MonoBehaviour:
     m_ActionName: player1/START[/Keyboard/o]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3945487762263530240}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: mouvement, Assembly-CSharp
         m_MethodName: OnStickMove
         m_Mode: 0
@@ -2014,6 +2000,18 @@ PrefabInstance:
     - target: {fileID: 5724478067849010462, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478067849010463, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478067849010463, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724478067849010463, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 5724478069429836591, guid: af8e54324ca411c41a7e6a17ddf65eed, type: 3}
       propertyPath: m_AnchorMax.x

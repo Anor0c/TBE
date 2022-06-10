@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -58,6 +56,10 @@ public class SceneController : MonoBehaviour
     public void ToSkinSelect()
     {
         SceneManager.LoadScene(12);
+    }
+    public void ToWin()
+    {
+        SceneManager.LoadScene(13);
     }
     public void ToExit()
     {

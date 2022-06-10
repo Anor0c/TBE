@@ -158,6 +158,7 @@ MonoBehaviour:
   health: 1000
   enemyhealthbar: {fileID: 8041304192847176502}
   _scrollControl: {fileID: 0}
+  isBoss: 1
 --- !u!114 &4193202514651319571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,9 +188,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentEnemyTempo: 0
-  firerate: 10
-  burstCount: 10
-  burstpause: 10
+  firerate: 0
+  burstCount: 0
+  burstpause: 0
   isMelee: 0
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
   heal: {fileID: 0}

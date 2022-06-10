@@ -415,7 +415,6 @@ GameObject:
   - component: {fileID: 3241331689150948384}
   - component: {fileID: 3241331689150948385}
   - component: {fileID: 876363891853513975}
-  - component: {fileID: 876363891851285264}
   m_Layer: 5
   m_Name: UIGameOver
   m_TagString: Untagged
@@ -507,35 +506,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
 --- !u!114 &876363891853513975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3241331689150948390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94a2c339c712a884b86766352577aa45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onBothPlayersDied:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 510e1863323725b4dbaef309aaac9cf4, type: 2}
-        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  P1Death: {fileID: 876363893151765359}
-  P2Death: {fileID: 876363892052022781}
---- !u!114 &876363891851285264
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
