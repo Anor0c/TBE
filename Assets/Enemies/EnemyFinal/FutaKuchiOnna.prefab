@@ -128,7 +128,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.17796326, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -139,7 +139,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 2.933545, y: 2}
   m_EdgeRadius: 0
 --- !u!114 &1975192375905824170
 MonoBehaviour:
@@ -157,6 +157,11 @@ MonoBehaviour:
   health: 150
   enemyhealthbar: {fileID: 167096491561989603}
   _scrollControl: {fileID: 0}
+  spawnPoint1: {fileID: 0}
+  spawnPoint2: {fileID: 0}
+  isBoss: 0
+  isCyclope: 0
+  cyclopeLantSpawn: {fileID: 0}
 --- !u!95 &1975192375905824165
 Animator:
   serializedVersion: 3
