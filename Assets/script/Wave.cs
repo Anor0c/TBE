@@ -48,19 +48,28 @@ public class Wave : MonoBehaviour
             Instantiate(boss, this.gameObject.transform);
         }
     }
-    public void Spawn()
+    public void Spawn(int Count)
     {
         waveCount++;
-        Instantiate(enList[0], this.gameObject.transform);
-        Instantiate(enList[1], this.gameObject.transform);
-        Instantiate(enList[2], this.gameObject.transform);
+        if (Count == 0)
+        {
+            Instantiate(enList[0], this.gameObject.transform);
+            Instantiate(enList[1], this.gameObject.transform);
+        }
+        if (Count != 0 && Count < 3)
+        {
+            Instantiate(enList[0], this.gameObject.transform);
+            Instantiate(enList[1], this.gameObject.transform);
+            Instantiate(enList[2], this.gameObject.transform);
+        }
+
         Boss();
     }
     private IEnumerator SpawnWait()
     {
         coroutineIsRunning = true;
         yield return new WaitForSeconds(waitForSpawn);
-        Spawn();
+        Spawn(waveCount);
         yield return null;
     }
     void Update()
