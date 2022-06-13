@@ -21,6 +21,16 @@ public class HealthBehaviour : MonoBehaviour
 
         healthBar.UpdateHealthBar();
 
+        if (health <= 0)
+            PlayerDied();
+        // il faudrait un GameEvent ou un UnityEvent pour faire spawn un texte en mode "You Lose", une petite illustration, et pour despawn les enemis. 
+
+        else { return; }
+        healthBar.UpdateHealthBar();
+    }
+
+    public void Update()
+    {
         if (health < 500)
             spriteRenderer.sprite = high;
 
@@ -29,13 +39,6 @@ public class HealthBehaviour : MonoBehaviour
 
         if (health < 200)
             spriteRenderer.sprite = low;
-
-        if (health <= 0)
-            PlayerDied();
-        // il faudrait un GameEvent ou un UnityEvent pour faire spawn un texte en mode "You Lose", une petite illustration, et pour despawn les enemis. 
-
-        else { return; }
-        healthBar.UpdateHealthBar();
     }
     public void PlayerDied()
     {
