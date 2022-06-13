@@ -305,7 +305,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1361121981811593531}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: linesprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 3341151640412026478}
   - component: {fileID: 1765287296767668729}
   - component: {fileID: 2459689748101184552}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LineRenderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,6 +678,10 @@ PrefabInstance:
     - target: {fileID: 1135703147298519069, guid: e4b7a9eac26ee1046b97d8ed82a48fa8, type: 3}
       propertyPath: m_Name
       value: laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135703147298519069, guid: e4b7a9eac26ee1046b97d8ed82a48fa8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5600887911641378096, guid: e4b7a9eac26ee1046b97d8ed82a48fa8, type: 3}
       propertyPath: m_Sprite
