@@ -20,14 +20,19 @@ public class ScrollControl : MonoBehaviour
     }
     void Update()
     {
-        enemyCount = _wave.enemyCount;
-        if (enemyCount <= 0)
-                    rb.velocity = transform.up *(-speed-fastMultiplier);
-               else
-                    rb.velocity = transform.up * (-speed+(SlowMultiplier*enemyCount));
+        if (!_wave.isBoss)
+        {
+            enemyCount = _wave.enemyCount;
+            if (enemyCount <= 0)
+                rb.velocity = transform.up * (-speed - fastMultiplier);
+            else
+                rb.velocity = transform.up * (-speed + (SlowMultiplier * enemyCount));
 
-        scrollVelocity = rb.velocity;
-        Debug.Log(scrollVelocity.y);
-
+            scrollVelocity = rb.velocity;
+            Debug.Log(scrollVelocity.y);
+        }
+        /*la logique pour avoir un tag sur le dernier BG Boss, et arreter le scroll quand il est a l'écran
+         */
+        return;
     }
 }
