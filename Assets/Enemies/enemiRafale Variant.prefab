@@ -161,7 +161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824163, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_Name
-      value: enemiRafale
+      value: enemiRafale Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1975192375905824163, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_IsActive
@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2485060300254938283, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7187856768797781872, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
       propertyPath: m_RootOrder

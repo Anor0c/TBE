@@ -139,7 +139,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -381,10 +381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698b01df336fe124dbee6da1f32c8abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
-  health: 500
-  healthBar: {fileID: 2045399991093630094}
-  GunLevelRequirement: 0
 --- !u!114 &2045399990260035089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,7 +396,6 @@ MonoBehaviour:
   startTime: 0.1
   bullet: {fileID: 6992144040391520225, guid: ca65fc88db5513842bbb798f0b47f3c7, type: 3}
   point: {fileID: 2045399991022977300}
-  damage: 40
   GunLevel: 0
   direction: {x: 0, y: 0}
 --- !u!1 &2045399991022977301
@@ -529,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 9038818984467892928, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2045399989279061479}
+      objectReference: {fileID: 0}
     - target: {fileID: 9038818984467892935, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -641,14 +636,3 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 9038818986101020780, guid: 4696003bea33f5946abc96924271ff76, type: 3}
   m_PrefabInstance: {fileID: 6994914367330131534}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2045399991093630094 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9038818984467892928, guid: 4696003bea33f5946abc96924271ff76, type: 3}
-  m_PrefabInstance: {fileID: 6994914367330131534}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 764a05e2779d4334a90985015c0f273e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
