@@ -3734,7 +3734,7 @@ PrefabInstance:
     - target: {fileID: 9038818984461147736, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 075800146eaba214292e60c5de2080d3, type: 3}
+      objectReference: {fileID: 21300000, guid: 4698c41c778cbb44881348eac7ed0a75, type: 3}
     - target: {fileID: 9038818984461147736, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -3757,19 +3757,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9038818984461147737, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9875
+      value: 1.701183
       objectReference: {fileID: 0}
     - target: {fileID: 9038818984461147737, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.9550781
+      value: 15.782753
+      objectReference: {fileID: 0}
+    - target: {fileID: 9038818984461147737, guid: 4696003bea33f5946abc96924271ff76, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4603653
       objectReference: {fileID: 0}
     - target: {fileID: 9038818984461147737, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 75
+      value: -29.599976
       objectReference: {fileID: 0}
     - target: {fileID: 9038818984461147737, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 21
+      value: -103.50006
       objectReference: {fileID: 0}
     - target: {fileID: 9038818984467892928, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: player
@@ -3785,11 +3789,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9038818984467892935, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 75
+      value: -29.5
       objectReference: {fileID: 0}
     - target: {fileID: 9038818984467892935, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 5
+      value: -109.9
       objectReference: {fileID: 0}
     - target: {fileID: 9038818986101020776, guid: 4696003bea33f5946abc96924271ff76, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
