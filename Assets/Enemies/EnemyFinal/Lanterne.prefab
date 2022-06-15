@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentEnemyTempo: 0
-  firerate: 3.5
+  firerate: 2.5
   burstCount: 0
   burstpause: 0
   isMelee: 0

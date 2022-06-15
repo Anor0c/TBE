@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cannon: {fileID: 6117333205118263027}
-  lazerTrack: 1
+  lazerTrack: 0.0033
   playerList:
   - {fileID: 4894803130743781177, guid: ec07c869b0b302348be5f73a95579fb3, type: 3}
   - {fileID: 3514212537477033524, guid: 946c9592994617247aba98caede13383, type: 3}
@@ -305,7 +305,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1361121981811593531}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: linesprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 3341151640412026478}
   - component: {fileID: 1765287296767668729}
   - component: {fileID: 2459689748101184552}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LineRenderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +367,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8895474520605192207}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -678,6 +678,10 @@ PrefabInstance:
     - target: {fileID: 1135703147298519069, guid: e4b7a9eac26ee1046b97d8ed82a48fa8, type: 3}
       propertyPath: m_Name
       value: laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135703147298519069, guid: e4b7a9eac26ee1046b97d8ed82a48fa8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5600887911641378096, guid: e4b7a9eac26ee1046b97d8ed82a48fa8, type: 3}
       propertyPath: m_Sprite

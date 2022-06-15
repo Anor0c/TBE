@@ -98,9 +98,24 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   enList:
   - {fileID: 1590200419699603007, guid: d985a50c468005a45b66c7b8bb077a62, type: 3}
   - {fileID: 1975192375905824163, guid: 4fde4c476093c474b8d8894c02a22ef7, type: 3}
+  - {fileID: 1975192375905824163, guid: 982c74db6ecdc8e4bb9e3e0522ce9ce9, type: 3}
+  - {fileID: 1975192375905824163, guid: faf37cc798d407a44b3c863a51670ce8, type: 3}
+  - {fileID: 1975192375905824163, guid: a6ea80c52a572d441b3df6f6d10345db, type: 3}
   boss: {fileID: 4193202514651319574, guid: 060d1b8c8d632814daca31cd43ee1ffb, type: 3}
   wavesInScene: []
   _scrollControl: {fileID: 0}
@@ -204,6 +219,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MultiplayerGameOver, Assembly-CSharp
+        m_MethodName: MultiPlayerDeathEvents
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &866703167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +263,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MultiplayerGameOver, Assembly-CSharp
+        m_MethodName: MultiPlayerDeathEvents
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
