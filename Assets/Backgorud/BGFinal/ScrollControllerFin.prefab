@@ -618,12 +618,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _wave: {fileID: 0}
+  cam: {fileID: 0}
   scrollVelocity: {x: 0, y: 0}
   rb: {fileID: 0}
   speed: 15
   enemyCount: 0
   SlowMultiplier: 2.5
   fastMultiplier: 5
+  slowTime: 2
 --- !u!1 &6996170751127650870
 GameObject:
   m_ObjectHideFlags: 0

@@ -291,12 +291,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _wave: {fileID: 0}
+  cam: {fileID: 0}
   scrollVelocity: {x: 0, y: 0}
   rb: {fileID: 0}
   speed: 15
   enemyCount: 0
   SlowMultiplier: 2.5
   fastMultiplier: 5
+  slowTime: 0.5
 --- !u!1 &5589498088638550003
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7590894365033875688
 Transform:
   m_ObjectHideFlags: 0
@@ -641,7 +643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &927150799163557206
 Transform:
   m_ObjectHideFlags: 0

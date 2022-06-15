@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class ScrollControl : MonoBehaviour
 {
     public Wave _wave;
+    public CameraBehave cam;
     [HideInInspector] public Vector2 scrollVelocity;
     [HideInInspector] public Rigidbody2D rb;
 
@@ -11,6 +12,9 @@ public class ScrollControl : MonoBehaviour
     [SerializeField] int enemyCount;
     public float SlowMultiplier;
     public float fastMultiplier;
+    public float slowTime;
+
+    private float lastVelocity, currentSlowTime;
 
     void Start()
     {
@@ -20,8 +24,7 @@ public class ScrollControl : MonoBehaviour
     }
     void Update()
     {
-        if (!_wave.isBoss)
-        {
+
             enemyCount = _wave.enemyCount;
             if (enemyCount <= 0)
                 rb.velocity = transform.up * (-speed - fastMultiplier);
@@ -29,10 +32,14 @@ public class ScrollControl : MonoBehaviour
                 rb.velocity = transform.up * (-speed + (SlowMultiplier * enemyCount));
 
             scrollVelocity = rb.velocity;
+            lastVelocity = rb.velocity.y;
             Debug.Log(scrollVelocity.y);
-        }
-        /*la logique pour avoir un tag sur le dernier BG Boss, et arreter le scroll quand il est a l'écran
-         */
+        
         return;
+
+    }
+    public void StopBGBoss()
+    {
+        rb.velocity = transform.up * 0;
     }
 }
