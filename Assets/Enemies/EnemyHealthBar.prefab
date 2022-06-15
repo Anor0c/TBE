@@ -27,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 3782856590613811801}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.115, y: 1.79, z: 0.1}
   m_Children: []
   m_Father: {fileID: 3782856590675998291}
   m_RootOrder: 0
@@ -58,14 +58,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ef39b4897783cd14eb326de28d064d64, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -101,7 +101,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3782856590675998290}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -220,6 +220,14 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7835334103229808188, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.123749994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7835334103229808188, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6425
+      objectReference: {fileID: 0}
+    - target: {fileID: 7835334103229808188, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -249,11 +257,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7835334103229808188, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -209.23999
+      value: -209.224
       objectReference: {fileID: 0}
     - target: {fileID: 7835334103229808188, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -231.548
+      value: -231.55205
       objectReference: {fileID: 0}
     - target: {fileID: 7835334103229808188, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -270,6 +278,18 @@ PrefabInstance:
     - target: {fileID: 7835334103229808189, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
       propertyPath: m_Name
       value: HealthBarInner
+      objectReference: {fileID: 0}
+    - target: {fileID: 7835334103229808190, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d62b8654aa5d1b4f8191684ee501d6a, type: 3}
+    - target: {fileID: 7835334103229808190, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7835334103229808190, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7835334103229808190, guid: 6fe6d233e7e32cc4ea31825c459e8b2a, type: 3}
       propertyPath: m_FillAmount
