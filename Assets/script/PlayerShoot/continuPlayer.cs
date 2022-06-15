@@ -8,10 +8,16 @@ public class continuPlayer : MonoBehaviour
     public Transform point;
     public int GunLevel=0;
     [HideInInspector] public Vector2 direction;
+
+    public GameObject TourelleOn;
+    public GameObject TourelleOff;
     
     void Start()
     {
         time = startTime;
+        TourelleOn.SetActive(true);
+        TourelleOff.SetActive(false);
+
     }
 
     void Update()

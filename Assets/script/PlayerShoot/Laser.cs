@@ -7,9 +7,13 @@ public class Laser : MonoBehaviour
     public Transform point;
     public float damage;
     public LineRenderer lineRenderer;
+    public GameObject TourelleOn;
+    public GameObject TourelleOff;
     void Start()
     {
         var gunCrit = GetComponent<player>();
+        TourelleOn.SetActive(true);
+        TourelleOff.SetActive(false);
     }
     void Update()
     {
