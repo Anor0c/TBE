@@ -29,14 +29,14 @@ RectTransform:
   m_GameObject: {fileID: 2097658059735502031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 28.48125, y: 1.08733, z: 1}
   m_Children: []
   m_Father: {fileID: 4453670024211588148}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 0}
+  m_AnchoredPosition: {x: 8, y: 0}
   m_SizeDelta: {x: 10, y: 960}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2097658059735502024
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _progresBar: {fileID: 2097658059735502026}
-  totalEnemy: 5
+  totalEnemy: 50
 --- !u!114 &2097658059735502026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,19 +74,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.61519045, g: 0.16353686, b: 0.7075472, a: 1}
+  m_Color: {r: 1, g: 1, b: 0.56078434, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7482667652216324306, guid: affbfb2e53087b54ea4b3c5ff32b105f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cd97516863f5c604da08266c86dcb2bf, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 0.266
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e47743876e435e43b3835abc5216133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: c3525437a5870174e8542154a7380a85, type: 2}
+  gameEvent: {fileID: 11400000, guid: c0c2e67a484fa7247b43747c156e27db, type: 2}
   gameEventCallback:
     m_PersistentCalls:
       m_Calls:
@@ -146,7 +146,7 @@ RectTransform:
   m_GameObject: {fileID: 4453670022853962475}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 18.727, y: 1.075, z: 1}
   m_Children: []
   m_Father: {fileID: 4453670024211588148}
   m_RootOrder: 0
@@ -177,14 +177,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b4e0496e05395264e9b7cdcced317cae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -223,14 +223,14 @@ RectTransform:
   m_GameObject: {fileID: 4453670023616107862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 28.481249, y: 1.0873301, z: 1}
   m_Children: []
   m_Father: {fileID: 4453670024211588148}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: 0}
+  m_AnchoredPosition: {x: -8, y: 0}
   m_SizeDelta: {x: 10, y: 960}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4453670023616107867
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _progresBar: {fileID: 4453670023616107860}
-  totalEnemy: 5
+  totalEnemy: 50
 --- !u!114 &4453670023616107860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,19 +268,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.84431344, b: 0.244304, a: 1}
+  m_Color: {r: 1, g: 0.4627451, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7482667652216324306, guid: affbfb2e53087b54ea4b3c5ff32b105f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cd97516863f5c604da08266c86dcb2bf, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 0.266
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
