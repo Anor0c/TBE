@@ -1508,9 +1508,9 @@ MonoBehaviour:
   maxHealth: 500
   health: 500
   spriteRenderer: {fileID: 9082855617550013824}
-  high: {fileID: 21300000, guid: ea41041cb0d20a145ac367981ed6c64d, type: 3}
-  mid: {fileID: 21300000, guid: 2e2499c5737d7a4458a42c23b015aee0, type: 3}
-  low: {fileID: 21300000, guid: ce576ec4f16193e4e9faba6ebc6fa767, type: 3}
+  high: {fileID: 21300000, guid: 476683b7c9373d844bbf324e79858ba1, type: 3}
+  mid: {fileID: 21300000, guid: 5f3a0d8813e038040a4265d1a1dd7d6c, type: 3}
+  low: {fileID: 21300000, guid: bafcd27c8521c9045a16dbc0c77caa30, type: 3}
   healthBar: {fileID: 4087825815504581983}
   onPlayerDied:
     m_PersistentCalls:
