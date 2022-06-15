@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.Events;
 public class Wave : MonoBehaviour
 {
-    [SerializeField] UnityEvent onPlayerJoined;
+    [SerializeField] UnityEvent onPlayerJoined, onBossSpawned;
     private Coroutine spawnWait;
 
     public GameObject[] enList;
@@ -13,6 +13,7 @@ public class Wave : MonoBehaviour
     private Enemy[] enemyScene;
     public Wave[] wavesInScene;
     [HideInInspector] public ScrollControl _scrollControl;
+    [HideInInspector] public bool isBoss;
 
     public int enemyCount;
     public int waveCount;
@@ -27,7 +28,7 @@ public class Wave : MonoBehaviour
             waveCount = 0;
         else
             waveCount = wavesInScene[0].waveCount;
-
+        isBoss = false;
     }
     public void OnPlayer2Joined()
     {
@@ -46,6 +47,8 @@ public class Wave : MonoBehaviour
         if (waveToBoss < waveCount)
         {
             Instantiate(boss, this.gameObject.transform);
+            isBoss = true;
+            onBossSpawned?.Invoke();
         }
     }
     public void Spawn(int Count)
