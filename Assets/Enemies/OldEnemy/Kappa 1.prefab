@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,9 +125,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   health: 100
-  enemyPrefab: {fileID: 0}
-  point: {fileID: 0}
   enemyhealthbar: {fileID: 5038126994906527184}
+  _scrollControl: {fileID: 0}
+  spawnPoint1: {fileID: 0}
+  spawnPoint2: {fileID: 0}
+  isBoss: 0
+  isCyclope: 0
+  cyclopeLantSpawn: {fileID: 0}
 --- !u!114 &4205586476706398721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +164,7 @@ MonoBehaviour:
   firerate: 0
   burstCount: 0
   burstpause: 0
+  isMelee: 0
   bullet: {fileID: 6542384564453565610, guid: 7cf6df5205fd3c74c8d7e22b91258734, type: 3}
   heal: {fileID: 0}
   point: {fileID: 6117333205118263027}
