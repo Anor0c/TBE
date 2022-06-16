@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameplay.unity
     guid: 99d4d9b0ac7486e44a79f9ed94e5db9d
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
+    path: Assets/Scenes/Menus/GameOver.unity
     guid: e24a6333e537ebf4eb4b2bd0bd6f854a
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
+    path: Assets/Scenes/Menus/Credits.unity
     guid: 41d4ae92cc174124c8f6ab50ee285c94
   - enabled: 1
     path: Assets/Scenes/TestScenes/MenuTest.unity
@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/SkinChoice.unity
     guid: e24e6683cd304a0439c73c1d65a4b0b9
+  - enabled: 1
+    path: Assets/Scenes/Menus/Win.unity
+    guid: 404c3711a5549874ea739fb09942e372
   m_configObjects: {}

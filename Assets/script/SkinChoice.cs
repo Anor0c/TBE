@@ -30,21 +30,23 @@ public class SkinChoice : MonoBehaviour
     public void ButtonLeft()
     {
         characterList[index].SetActive(false);
-        index--;
+        /*index--;
         if (index < 0)
         {
             index = characterList.Length - 1;
-        }
+        }*/
+        index = 0;
         characterList[index].SetActive(true);
     }
     public void ButtonRight()
     {
         characterList[index].SetActive(false);
-        index++;
+        /*index++;
         if (index == characterList.Length)
         {
             index = 0;
-        }
+        }*/
+        index = 1;
         characterList[index].SetActive(true);
     }
 }
