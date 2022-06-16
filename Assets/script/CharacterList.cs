@@ -34,21 +34,20 @@ public class CharacterList : MonoBehaviour
     public void ButtonLeft()
     {
         characterList[index].SetActive(false);
-        index--;
-        if (index < 0)
-        {
-            index = characterList.Length - 1;
-        }
+
+        index = 0;
         characterList[index].SetActive(true);
     }
     public void ButtonRight()
     {
         characterList[index].SetActive(false);
-        index++;
-        if (index == characterList.Length) 
-        {
-            index = 0;
-        }
+        index = 2;
+        characterList[index].SetActive(true);
+    }
+    public void ButtonMiddle()
+    {
+        characterList[index].SetActive(false);
+        index = 1;
         characterList[index].SetActive(true);
     }
 }
