@@ -67,11 +67,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c7239b24a0ed174eb768142fb10d49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemiesInScenes: {fileID: 3340768518986376571, guid: d15c366ca1676f54da38926fcbe3e3dc, type: 3}
-  speed: 5
-  rb: {fileID: 0}
-  SlowMultiplier: 1
+  _wave: {fileID: 0}
+  cam: {fileID: 0}
   scrollVelocity: {x: 0, y: 0}
+  rb: {fileID: 0}
+  speed: 5
+  enemyCount: 0
+  SlowMultiplier: 1
+  fastMultiplier: 0
+  slowTime: 0.5
 --- !u!1 &8810522371655779446
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,7 +127,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -232,7 +236,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
