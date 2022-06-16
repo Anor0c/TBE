@@ -1162,11 +1162,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3041195292041121758, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
+      value: Stop
       objectReference: {fileID: 0}
     - target: {fileID: 3041195292041121758, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Stop
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 3041195292041121758, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -1254,11 +1254,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3041195292422161527, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
+      value: Stop
       objectReference: {fileID: 0}
     - target: {fileID: 3041195292422161527, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Stop
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 3041195292422161527, guid: 8f5683b7c73c0ea40ad3537894e3a713, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName

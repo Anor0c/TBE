@@ -10,16 +10,16 @@ public class AudioLevelUp : MonoBehaviour
 
     private void Update()
     {
-        if (gunLevel.GunLevelRequirement >= 5)
+        if (gunLevel.GunLevelRequirement >= 4)
             snapShots[2].TransitionTo(transitionTime);
 
 
-        if (3 <= gunLevel.GunLevelRequirement && gunLevel.GunLevelRequirement < 5)
+        if (2 <= gunLevel.GunLevelRequirement && gunLevel.GunLevelRequirement < 4)
             snapShots[1].TransitionTo(transitionTime);
         
 
 
-        if (gunLevel.GunLevelRequirement < 3)
+        if (gunLevel.GunLevelRequirement < 2)
             return;
     }
 }
