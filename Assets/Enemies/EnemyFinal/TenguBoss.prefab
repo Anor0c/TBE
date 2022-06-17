@@ -79,6 +79,7 @@ GameObject:
   - component: {fileID: -4512884890522908353}
   - component: {fileID: 8049611095655804246}
   - component: {fileID: 4838625875974149012}
+  - component: {fileID: 5007033856621743995}
   m_Layer: 6
   m_Name: TenguBoss
   m_TagString: enemi
@@ -224,10 +225,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c66ea0dd8b293b43af391bbe9c53cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentEnemyTempo: 0
-  firerate: 0
-  burstCount: 0
-  burstpause: 0
+  CurrentEnemyTempo: 1
+  firerate: 10
+  burstCount: 3
+  burstpause: 3.5
   isMelee: 0
   bullet: {fileID: 640849507791672403, guid: ff2cc09da4d5ae5469af029a591698aa, type: 3}
   heal: {fileID: 0}
@@ -297,6 +298,33 @@ MonoBehaviour:
       - m_Target: {fileID: 3550249184698905874, guid: f36ccfcba627c8249913c29432f67d29, type: 3}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: ToWin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5007033856621743995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193202514651319574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce03d5f821c195c4590ecf008ebdb7a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onSwitch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4193202514651319572}
+        m_TargetAssemblyTypeName: continu, Assembly-CSharp
+        m_MethodName: SwitchBoss
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -136,6 +136,10 @@ public class continu : MonoBehaviour
             Debug.Log("shotCount=" + shotCount);
         }
     }
-    
+  public void SwitchBoss()
+    {
+        CurrentEnemyTempo = FireTempo.Auto;
+        firerate = 3;
+    }  
 }
 
