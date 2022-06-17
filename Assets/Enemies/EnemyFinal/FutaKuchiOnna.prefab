@@ -82,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 8
   m_Sprite: {fileID: 0}
   m_Color: {r: 0.5776758, g: 0, b: 1, a: 1}
   m_FlipX: 0
@@ -434,6 +434,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8855998543635809142, guid: 834834bd7bce06340b6c1ee351852a0a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8855998543635809143, guid: 834834bd7bce06340b6c1ee351852a0a, type: 3}
       propertyPath: m_Name
       value: fukaku_0
@@ -452,6 +456,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1975192375905824174}
     m_Modifications:
+    - target: {fileID: 3782856590613811802, guid: 615f0b1445dd90d45861f974d97ad9ba, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -230.9
+      objectReference: {fileID: 0}
     - target: {fileID: 3782856590675998290, guid: 615f0b1445dd90d45861f974d97ad9ba, type: 3}
       propertyPath: m_Name
       value: EnemyHealthBar
@@ -539,6 +547,10 @@ PrefabInstance:
     - target: {fileID: 3782856590675998291, guid: 615f0b1445dd90d45861f974d97ad9ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396196536993984888, guid: 615f0b1445dd90d45861f974d97ad9ba, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -230.90204
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 615f0b1445dd90d45861f974d97ad9ba, type: 3}

@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c66ea0dd8b293b43af391bbe9c53cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentEnemyTempo: 2
+  CurrentEnemyTempo: 1
   firerate: 10
   burstCount: 3
   burstpause: 2

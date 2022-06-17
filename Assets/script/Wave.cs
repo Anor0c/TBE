@@ -65,6 +65,16 @@ public class Wave : MonoBehaviour
             Instantiate(enList[1], this.gameObject.transform);
             Instantiate(enList[2], this.gameObject.transform);
         }
+        if (3 <= Count && Count < 5) 
+        {
+            Instantiate(enList[3], this.gameObject.transform);
+            Instantiate(enList[2], this.gameObject.transform);
+        }
+        if (5 <= Count && Count < 7)
+        {
+            Instantiate(enList[4], this.transform);
+            Instantiate(enList[0], this.transform);
+        }
 
         Boss();
     }

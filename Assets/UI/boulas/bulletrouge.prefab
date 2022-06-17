@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 40
+  damage: 8
   direction: {x: 0, y: 0}
 --- !u!50 &-8086561152468104394
 Rigidbody2D:
