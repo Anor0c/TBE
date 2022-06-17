@@ -1583,8 +1583,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d620a7480eb180142a92a46018e8cb08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
-  health: 500
+  maxHealth: 1500
+  health: 1500
   spriteRenderer: {fileID: 9082855617550013824}
   high: {fileID: 21300000, guid: 476683b7c9373d844bbf324e79858ba1, type: 3}
   mid: {fileID: 21300000, guid: 5f3a0d8813e038040a4265d1a1dd7d6c, type: 3}
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   - {x: 0.26174426, y: -0.35724157, z: 0}
   m_ShapePathHash: 719469859
   m_Mesh: {fileID: 0}
-  m_InstanceId: 261668
+  m_InstanceId: 752376
 --- !u!1 &4321310966247153408
 GameObject:
   m_ObjectHideFlags: 0

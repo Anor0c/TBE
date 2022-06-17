@@ -510,6 +510,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 135765404, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2677082470355735057, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -608,17 +612,27 @@ PrefabInstance:
       objectReference: {fileID: 1891528521}
     - target: {fileID: 2677082471207795800, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 800
+      value: 1220
       objectReference: {fileID: 0}
     - target: {fileID: 2677082471207795800, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
       propertyPath: m_SizeDelta.y
       value: 250
       objectReference: {fileID: 0}
+    - target: {fileID: 2677082471207795800, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 92
+      objectReference: {fileID: 0}
     - target: {fileID: 2677082471207795803, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
       propertyPath: m_text
-      value: 'Game Over  Dumbass
-
-'
+      value: GameOver Dumbass
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677082471207795803, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
+      propertyPath: m_fontSize
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677082471207795803, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2677082471581828240, guid: acee982116114f644a81fa0f7f6967f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
